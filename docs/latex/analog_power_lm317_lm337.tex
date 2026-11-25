@@ -1,0 +1,247 @@
+% Сборка из каталога проекта:
+% latexmk -xelatex -interaction=nonstopmode -halt-on-error analog_power_lm317_lm337.tex
+\documentclass[a4paper,landscape,10pt]{article}
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\input{preamble.tex}
+\usepackage[margin=12mm]{geometry}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\ctikzset{resistors/fill=white,diodes/fill=white,grounds/scale=0.65,
+  bipoles/length=1.05cm}
+\newcommand{\uF}{\,\text{мкФ}}
+\newcommand{\nF}{\,\text{нФ}}
+\newcommand{\Ohm}{\,\text{Ом}}
+\newcommand{\kOhm}{\,\text{кОм}}
+\newcommand{\gnd}{\textnormal{GND}}
+
+% Знак у плоского символа C показывает положительную обкладку электролита.
+% #1: 1 = LM317D2T, 0 = LM337D2T. D2PAK, по даташитам onsemi.
+% Топология одинакова; полярности и номера силовых выводов различаются.
+\newcommand{\regulator}[1]{%
+\begingroup
+\ifnum#1=1
+  \def\ic{LM317D2T}\def\uid{U1}\def\innum{3}\def\outnum{2}
+  \def\inputnet{+V_{\!F}}\def\outputnet{+12}
+  \def\ci{5}\def\cb{6}\def\co{9}\def\cc{11}\def\ca{13}
+  \def\ra{3}\def\rb{4}\def\rv{1}\def\da{5}\def\db{6}\def\dc{9}
+\else
+  \def\ic{LM337D2T}\def\uid{U2}\def\innum{2}\def\outnum{3}
+  \def\inputnet{-V_{\!F}}\def\outputnet{-12}
+  \def\ci{7}\def\cb{8}\def\co{10}\def\cc{12}\def\ca{14}
+  \def\ra{5}\def\rb{6}\def\rv{2}\def\da{7}\def\db{8}\def\dc{10}
+\fi
+\begin{circuitikz}[y=0.8cm,font=\small,line width=0.6pt]
+  \path[use as bounding box] (-0.8,-4.9) rectangle (25,2.3);
+  \draw[fill=cyan!6] (6.5,-0.7) rectangle (9.5,0.7);
+  \node at (8,0.15) {\uid\quad\ic};
+  \node[font=\scriptsize,anchor=west] at (6.65,-0.3) {IN};
+  \node[font=\scriptsize,anchor=east] at (9.35,-0.3) {OUT};
+  \node[font=\scriptsize,anchor=south] at (8,-0.7) {ADJ};
+  \draw (0,0) node[ocirc] {} node[above right] {$\inputnet$}
+    -- (6.5,0) node[above left,font=\footnotesize] {\innum};
+  \draw (9.5,0) node[above right,font=\footnotesize] {\outnum}
+    -- (24,0) node[ocirc] {} node[above] {$\outputnet$ В};
+  \draw (8,-0.7) node[below left,font=\footnotesize] {1}
+    -- (8,-1.65) -- (15.7,-1.65);
+  \draw (11,0) to[R,*-*] (11,-1.65)
+    to[R,l_=$R_{\rb}\;820\Ohm$] (11,-3.1)
+    to[vR,l_=$RV_{\rv}\;200\Ohm$] (11,-4.6) node[ground] {};
+  \node[anchor=east] at (10.75,-1.1) {$R_{\ra}\;110\Ohm$};
+  \draw (1.5,0) to[C,l_=$C_{\cb}\;100\nF$,*-]
+    (1.5,-2.6) node[ground] {};
+  \draw (4.7,0) to[C,l_=$C_{\ci}\;10\uF/50\text{ В}$,*-]
+    (4.7,-2.6) node[ground] {};
+  \draw (15.7,-1.65) to[C,l_=$C_{\ca}\;10\uF/25\text{ В}$]
+    (15.7,-4.3) node[ground] {};
+  \draw (18.2,0) to[C,l_=$C_{\co}\;10\uF/25\text{ В}$,*-]
+    (18.2,-2.6) node[ground] {};
+  \draw (21,0) to[C,l_=$C_{\cc}\;100\nF$,*-]
+    (21,-2.6) node[ground] {};
+  \draw (24,-2.6) node[ocirc] {} -- (23.6,-2.6) node[ground] {};
+  \node[above] at (24,-2.6) {GND};
+  \ifnum#1=1
+    % VD5: OUT -> IN; VD6: ADJ -> OUT.
+    \draw (11,0) -- (11,1.6) to[D,l_=$VD_{\da}$] (5.5,1.6)
+      to[short,-*] (5.5,0);
+    \draw (13.4,-1.65) to[D,l_=$VD_{\db}$,*-*] (13.4,0);
+    % VD9 ограничивает отрицательный выброс на положительной шине.
+    \draw (22.6,-2.6) node[ground] {}
+      to[D,l_=$VD_{\dc}$] (22.6,0) node[circ] {};
+    \node at (4.3,-0.8) {$+$};
+    \node at (15.3,-2.25) {$+$};
+    \node at (17.8,-0.8) {$+$};
+  \else
+    % VD7: IN -> OUT; VD8: OUT -> ADJ.
+    \draw (5.5,0) to[short,*-] (5.5,1.6)
+      to[D,l=$VD_{\da}$] (11,1.6) -- (11,0);
+    \draw (13.4,0) to[D,l=$VD_{\db}$,*-*] (13.4,-1.65);
+    % VD10 ограничивает положительный выброс на отрицательной шине.
+    \draw (22.6,0) to[D,l=$VD_{\dc}$,*-]
+      (22.6,-2.6) node[ground] {};
+    \node at (4.3,-1.85) {$+$};
+    \node at (15.3,-3.7) {$+$};
+    \node at (17.8,-1.85) {$+$};
+  \fi
+\end{circuitikz}%
+\endgroup}
+
+\begin{document}
+{\LARGE\bfseries Аналоговое питание ±12 В для фонокорректора}\par
+\vspace{2mm}
+\textbf{Лист 1. Вторичные обмотки, двухполупериодный выпрямитель и CRC-фильтры.}
+Нагрузка: до 60 мА на плечо, сверх тока задающих делителей стабилизаторов.
+
+\begin{center}
+\resizebox{0.96\linewidth}{!}{%
+\begin{circuitikz}[y=0.85cm,font=\small,line width=0.6pt]
+  \path[use as bounding box] (-2.8,-5.3) rectangle (23.5,5.3);
+  % Две вторичные секции; первичная цепь не входит в эту схему.
+  \node[align=center,font=\bfseries] at (-0.3,4.8)
+    {T1 — штатный трансформатор\\«Мелодия-103М»};
+  \draw (-1.1,3.4) to[L] (-1.1,1.1);
+  \draw (-1.1,-1.1) to[L] (-1.1,-3.4);
+  \draw (-1.75,-3.5) -- (-1.75,3.5);
+  \draw (-1.9,-3.5) -- (-1.9,3.5);
+  \draw (-1.1,3.4) -- (0.3,3.4) node[above] {5}
+    to[fuse,l=$F1$] (2.7,3.4) -- (7,3.4) -- (7,2);
+  \draw (-1.1,1.1) -- (0.3,1.1) node[above] {6} -- (1.4,1.1);
+  \draw (-1.1,-1.1) -- (0.3,-1.1) node[below] {$6'$} -- (1.4,-1.1);
+  \draw (1.4,1.1) -- (1.4,-1.1);
+  \draw (1.4,0) node[circ] {} -- (2.4,0) node[ground] {};
+  \node[above right] at (1.4,0) {CT / GND};
+  \node[font=\footnotesize,anchor=west] at (-0.7,2.15) {$14\text{–}15$ В$\sim$};
+  \node[font=\footnotesize,anchor=west] at (-0.7,-2.15) {$14\text{–}15$ В$\sim$};
+  \fill (-1.35,3.1) circle (1.5pt);
+  \fill (-1.35,-1.4) circle (1.5pt);
+  % Нижний AC-провод пересекает отрицательный DC-провод без соединения.
+  \node[jump crossing,/tikz/circuitikz/bipoles/crossing/size=0.4]
+    (X) at (3.9,-3.4) {};
+  \draw (-1.1,-3.4) -- (0.3,-3.4) node[below] {$5'$}
+    to[fuse,l_=$F2$] (2.7,-3.4) -- (X.west);
+  \draw (X.east) -- (7,-3.4) -- (7,-2);
+  % Один мост из четырёх диодов. Верх/низ = AC, право = +, лево = -.
+  \draw (7,2) to[D,l=$VD1$] (9,0);
+  \draw (7,-2) to[D,l_=$VD2$] (9,0);
+  \draw (5,0) to[D,l=$VD3$] (7,2);
+  \draw (5,0) to[D,l_=$VD4$] (7,-2);
+  \node[circ] at (7,2) {};
+  \node[circ] at (7,-2) {};
+  \node[above right] at (7,2) {$\sim$};
+  \node[below right] at (7,-2) {$\sim$};
+  \node[above right] at (9,0) {$+$};
+  \node[above left] at (5,0) {$-$};
+  \draw (9,0) node[circ] {} -- (10.3,0) -- (10.3,4.0)
+    -- (14,4.0) to[R,l=$R1\;22\Ohm/1\text{ Вт}$,*-*]
+    (18.1,4.0) -- (23,4.0) node[ocirc] {} node[above] {$+V_{\!F}$};
+  \draw (5,0) node[circ] {} -- (3.9,0) -- (X.north);
+  \draw (X.south) -- (3.9,-4.0)
+    -- (14,-4.0) to[R,l_=$R2\;22\Ohm/1\text{ Вт}$,*-*]
+    (18.1,-4.0) -- (23,-4.0) node[ocirc] {} node[below] {$-V_{\!F}$};
+  \draw (14,4.0) to[C,l_=$C1\;1000\uF/50\text{ В}$] (14,0);
+  \draw (14,0) to[C,l_=$C2\;1000\uF/50\text{ В}$] (14,-4.0);
+  \draw (18.1,4.0) to[C,l_=$C3\;470\uF/50\text{ В}$] (18.1,0);
+  \draw (18.1,0) to[C,l_=$C4\;470\uF/50\text{ В}$] (18.1,-4.0);
+  \draw (13,0) -- (23,0) node[ocirc] {} node[above] {GND};
+  \node[circ] at (14,0) {};
+  \node[circ] at (18.1,0) {};
+  \node[ground] at (13,0) {};
+  \node at (13.6,2.8) {$+$};
+  \node at (13.6,-1.1) {$+$};
+  \node at (17.7,2.8) {$+$};
+  \node at (17.7,-1.1) {$+$};
+  \node[font=\footnotesize,align=center] at (7,-4.9)
+    {VD1–VD4: 1N4007\\F1, F2: T250 мА};
+  \node[font=\footnotesize,align=center] at (13.8,4.9)
+    {До фильтров: около $+19\text{–}21$ В / $-19\text{–}21$ В};
+  \node[font=\footnotesize,align=center] at (21,2.1)
+    {На вход U1\\(лист 2)};
+  \node[font=\footnotesize,align=center] at (21,-2.1)
+    {На вход U2\\(лист 2)};
+\end{circuitikz}}
+\end{center}
+
+\begin{minipage}[t]{0.48\linewidth}
+\textbf{Обмотки и фазировка}\par\small
+Номера взяты из \texttt{docs/POWER.md}; указанные там напряжения — предварительные.
+Для этого варианта измерить $14\text{–}15$ В между 5–6 и между $5'\text{–}6'$.
+При соединении $6\text{–}6'$ между 5 и $5'$ должно быть $28\text{–}30$ В.
+Точки у секций показывают \textbf{требуемую} фазировку; заводская маркировка не подтверждена.
+Если напряжения вычитаются, соединение концов нужно изменить по результатам проверки.
+Общий провод всегда берётся с фактической средней точки двух секций.
+\par\vspace{1mm}
+Секции сначала отсоединить от неисправного выпрямителя У5 и его перемычек.
+Первичная обмотка, сетевые цепи, двигатель и прочие вторичные секции здесь не показаны.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\linewidth}
+\textbf{Принятые номиналы}\par\small
+$C1$, $C2$: алюминиевые электролиты 1000 мкФ, 50 В, 105\,°C;
+$C3$, $C4$: 470 мкФ, 50 В. Знаки «+» показывают положительные обкладки.
+$R1$, $R2$: 22 Ом, 1 Вт, огнестойкие. F1 и F2 — плавкие предохранители
+250 мА с задержкой; проверить запуск с выбранными конденсаторами.
+\par\vspace{1mm}
+При токе нагрузки 60 мА плюс около 11.4 мА делителя падение на каждом $22\Ohm$
+составляет около 1.57 В. Частота пульсаций — 100 Гц при сети 50 Гц;
+постоянная времени CRC-фильтра около 10.3 мс.
+Если секции дают только $10\text{–}10.5$ В, для LM317/LM337 на ±12 В запаса недостаточно.
+Выбор других секций требует сверки напряжений и нагрева.
+\end{minipage}
+
+\newpage
+{\LARGE\bfseries Стабилизаторы LM317D2T/LM337D2T на ±12 В}\par
+\vspace{2mm}
+\textbf{Лист 2.} $+V_F$, GND и $-V_F$ приходят с листа 1.
+Все одноимённые точки GND электрически соединены.
+\begin{center}
+\resizebox{0.90\linewidth}{!}{\regulator{1}}\par
+\vspace{1mm}
+\resizebox{0.90\linewidth}{!}{\regulator{0}}
+\end{center}
+
+\begin{minipage}[t]{0.48\linewidth}
+\small
+\textbf{Регулировка и обвязка}\par
+$R3$, $R5$: 110 Ом, 1\%, 0.25 Вт; $R4$, $R6$: 820 Ом, 1\%, 0.25 Вт.
+$RV1$, $RV2$: многооборотные подстроечники 200 Ом, включённые реостатами;
+ползунок соединить с используемым крайним выводом.
+До подключения фонокорректора выставить $+12.0$ и $-12.0$ В с контрольными
+нагрузками по 1 кОм / 0.25 Вт от каждой выходной шины к GND; проверить и холостой ход.
+Делители потребляют около $1.25/110=11.4$ мА и обеспечивают минимальную нагрузку 10 мА.
+\par\vspace{1mm}
+$C5$, $C7$: 10 мкФ / 50 В; $C9$, $C10$, $C13$, $C14$: 10 мкФ / 25 В —
+алюминиевые электролиты. $C6$, $C8$, $C11$, $C12$: 100 нФ, от 50 В, керамика.
+Входные и выходные конденсаторы устанавливать у стабилизаторов.
+Выходной электролит $C10$ необходим для устойчивости LM337;
+для него использовать обычный алюминиевый электролит, не сверхнизкоомный.
+\par\vspace{1mm}
+Распиновка D²PAK: U1 — ADJ 1, OUT 2, IN 3; U2 — ADJ 1, IN 2, OUT 3.
+Теплоотводящая площадка каждого корпуса соединена с выводом 2:
+у U1 это $+12$ В, у U2 — $-V_F$.
+Полигоны теплоотвода раздельные, с GND не соединять; держать вдали от входа головки.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\linewidth}
+\small
+\textbf{Защита, монтаж и проверка}\par
+VD5–VD10: 1N4007. VD5/VD7 дают путь разряда выходных конденсаторов при падении входа;
+VD6/VD8 — конденсаторов ADJ; VD9/VD10 ограничивают обратную полярность выходных шин.
+\par\vspace{1mm}
+Под нагрузкой минимальное $|V_F|$ желательно не ниже 15.5 В.
+При 60 мА нагрузки суммарный ток каждого стабилизатора — около 71.4 мА.
+Нагрев считать \textbf{вместе с делителем}: при $|V_F|=19$ В это около 0.50 Вт,
+при 21 В — около 0.64 Вт на корпус.
+По табличному $\theta_{JA}=70$ °C/Вт для D²PAK подъём температуры кристалла
+оценивается в $35\text{–}45$ °C.
+Результат зависит от платы: предусмотреть медь для теплоотвода на площадках корпусов
+и проверить нагрев в корпусе при максимальной нагрузке и напряжении сети.
+\par\vspace{1mm}
+Возвраты выпрямителя вести к общей точке C1/C2;
+возвраты нагрузки и делителей — отдельно от импульсов зарядки этих конденсаторов.
+\end{minipage}
+\vfill
+\footnotesize
+Выходы подключаются к шинам ±12 В фонокорректора; развязка непосредственно у NE5532 сохраняется.
+Расчётный проект, без испытания макета.\par
+Документация onsemi:
+\href{https://www.onsemi.com/pdf/datasheet/lm317-d.pdf}{LM317/D},
+\href{https://www.onsemi.com/pdf/datasheet/lm337-d.pdf}{LM337/D}
+(локально: \texttt{docs/datasheet/ldo/LM337-D.PDF}).
+\end{document}

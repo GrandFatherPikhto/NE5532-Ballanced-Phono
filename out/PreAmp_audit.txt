@@ -1,0 +1,74 @@
+Цепей (без unconnected): 43
+
+[Default ] prio=2147483647 track=0.20 clr=0.20 via=0.60/0.30 diffpair=0.20/0.25mm   43: +12V, -12V, /CH_L.IN_N, /CH_L.IN_P, /CH_L.X_N, /CH_L.X_P, /CH_R.IN_N, /CH_R.IN_P, /CH_R.X_N, /CH_R.X_P, /ChannelA/A_N, /ChannelA/B_N, /ChannelB/A_N, /ChannelB/B_N, /LEFT.OUT, /LEFT.X_N, /LEFT.X_P, /RIGHT.OUT, /RIGHT.X_N, /RIGHT.X_P, GND, Net-(C12-Pad2), Net-(C13-Pad1), Net-(C13-Pad2), Net-(C18-Pad2), Net-(C22-Pad2), Net-(C23-Pad1), Net-(C23-Pad2), Net-(C26-Pad2), Net-(C27-Pad1), Net-(C29-Pad2), Net-(C30-Pad1), Net-(C8-Pad2), Net-(D1-A), Net-(D2-K), Net-(U1A-+), Net-(U1A--), Net-(U1B-+), Net-(U1B--), Net-(U2A-+), Net-(U2B-+), Net-(U3A-+), Net-(U3B-+)
+
+[Default] 43 цепей — мимо всех паттернов:
+    +12V
+    -12V
+    /CH_L.IN_N
+    /CH_L.IN_P
+    /CH_L.X_N
+    /CH_L.X_P
+    /CH_R.IN_N
+    /CH_R.IN_P
+    /CH_R.X_N
+    /CH_R.X_P
+    /ChannelA/A_N
+    /ChannelA/B_N
+    /ChannelB/A_N
+    /ChannelB/B_N
+    /LEFT.OUT
+    /LEFT.X_N
+    /LEFT.X_P
+    /RIGHT.OUT
+    /RIGHT.X_N
+    /RIGHT.X_P
+    GND
+    Net-(C12-Pad2)
+    Net-(C13-Pad1)
+    Net-(C13-Pad2)
+    Net-(C18-Pad2)
+    Net-(C22-Pad2)
+    Net-(C23-Pad1)
+    Net-(C23-Pad2)
+    Net-(C26-Pad2)
+    Net-(C27-Pad1)
+    Net-(C29-Pad2)
+    Net-(C30-Pad1)
+    Net-(C8-Pad2)
+    Net-(D1-A)
+    Net-(D2-K)
+    Net-(U1A-+)
+    Net-(U1A--)
+    Net-(U1B-+)
+    Net-(U1B--)
+    Net-(U2A-+)
+    Net-(U2B-+)
+    Net-(U3A-+)
+    Net-(U3B-+)
+
+!! Подозрительные в Default (24) — проверь руками:
+    +12V
+    -12V
+    Net-(C8-Pad2)
+    Net-(C12-Pad2)
+    Net-(C13-Pad1)
+    Net-(C13-Pad2)
+    Net-(C18-Pad2)
+    Net-(C22-Pad2)
+    Net-(C23-Pad1)
+    Net-(C23-Pad2)
+    Net-(C26-Pad2)
+    Net-(C27-Pad1)
+    Net-(C29-Pad2)
+    Net-(C30-Pad1)
+    Net-(D1-A)
+    Net-(D2-K)
+    Net-(U1A-+)
+    Net-(U1A--)
+    Net-(U1B-+)
+    Net-(U1B--)
+    Net-(U2A-+)
+    Net-(U2B-+)
+    Net-(U3A-+)
+    Net-(U3B-+)

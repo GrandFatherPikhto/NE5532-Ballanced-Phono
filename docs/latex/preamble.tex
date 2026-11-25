@@ -1,0 +1,84 @@
+\usepackage{iftex}
+
+\ifTUTeX
+\usepackage{xltxtra}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage[babelshorthands=true]{russian}
+\setotherlanguage{english}
+
+\setmainfont{Times New Roman}
+\setromanfont{Times New Roman} 
+\setsansfont{Arial} 
+\setmonofont{Courier New} 
+
+\newfontfamily{\cyrillicfont}{Times New Roman} 
+\newfontfamily{\cyrillicfontrm}{Times New Roman}
+\newfontfamily{\cyrillicfonttt}{Courier New}
+\newfontfamily{\cyrillicfontsf}{Arial}
+
+% \usepackage{unicode-math}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+\else
+% For pdfTeX we must use old
+% 8-bit font technologies
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+
+%\usepackage{newtxmath}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+%\usepackage{mathtext}
+\fi
+
+%Hyphenation rules
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать ото-бра-жа-ют-ся сге-не-ри-ро-ван-ном сим-во-лы}
+% \usepackage[english, russian]{babel}
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\usepackage{tikz}
+\usepackage{pgfplots} % для построения графиков
+\usepackage{tkz-euclide}
+\pgfplotsset{compat=1.18} % версия для совместимости
+\usepackage{empheq}
+\usetikzlibrary{positioning, calc, intersections}
+
+\usepackage{float}
+
+% \usepackage{comment}
+
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Теорема}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\addto\captionsrussian{%
+  \renewcommand{\figurename}{Рис.}%
+  \renewcommand{\tablename}{Табл.}%
+}
+
+\usepackage{verbatim}
+
+\newcommand{\cg}{\textnormal{\textsl{g}}}
+
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage[siunitx, RPvoltages, american]{circuitikzgit}
+\ctikzset{
+    amplifiers/fill=cyan,
+    sources/fill=green!20,
+    diodes/fill=white,
+    resistors/fill=violet,
+    grounds/scale=1.2,
+}

@@ -1,0 +1,57 @@
+# Все R — в омах, C — в фарадах, частоты — в герцах, напряжения — в вольтах.
+# Изменение этого файла меняет расчёт, но НЕ переписывает номиналы в TeX.
+# Запуск из каталога проекта:
+# scripts/.venv/bin/python scripts/calculate_balanced_riaa.py
+# scripts/.venv/bin/python scripts/calculate_unbalanced_riaa.py
+
+[analysis]
+frequency_min_hz = 20.0
+frequency_max_hz = 20000.0
+points = 1001
+reference_frequency_hz = 1000.0
+input_rms_v = 0.004              # Дифференциальное напряжение катушки.
+external_load_ohm = 47000.0      # Вход AUX/LINE, отдельно от выходного 100 кОм.
+output_directory = "build/balanced_riaa"
+
+[opamp]
+# Учебная однополюсная модель: A(s) = A0 / (1 + s*A0/(2*pi*GBW)).
+# Типовые значения TI NE5532; это НЕ макромодель производителя.
+open_loop_gain = 100000.0
+gain_bandwidth_hz = 12000000.0
+
+[riaa]
+low_frequency_pole_s = 0.003180
+zero_s = 0.000318
+high_frequency_pole_s = 0.000075
+
+[balanced]
+input_bias_resistor_ohm = 23500.0  # R_A1/A2/B1/B2; 47 кОм || 47 кОм на плечо.
+input_coupling_cap_f = 4.7e-6    # C_A1/A2/B1/B2, плёнка.
+feedback_resistor_ohm = 90900.0  # R_A4/A5/B4/B5.
+feedback_series_resistor_ohm = 10000.0  # R_A6/A7/B6/B7.
+feedback_cap_f = 31.5e-9        # C_A4/A5/B4/B5; 30 нФ + 1.5 нФ параллельно.
+gain_bridge_resistor_ohm = 182.0 # R_A3/B3 между инвертирующими входами.
+gain_bridge_cap_a_f = 1000e-6  # C_A3a/B3a, обычный алюминиевый электролит 25 В.
+gain_bridge_cap_b_f = 1000e-6  # C_A3b/B3b; минусы пары вместе, середина плавающая.
+# Последовательная пара даёт 1/(1/Ca + 1/Cb) = 500 мкФ.
+receiver_resistor_ohm = 10000.0 # R_A8...A11/B8...B11, все одинаковые.
+receiver_cap_f = 7.5e-9         # C_A6/A7/B6/B7; обе RC-пары согласованы.
+output_series_resistor_ohm = 100.0 # R_A12/B12, после обратной связи U3.
+output_coupling_cap_f = 4.7e-6  # C_A8/B8, плёнка.
+output_bleed_resistor_ohm = 100000.0 # R_A13/B13.
+# C_A9/B9 — дополнительная нагрузочная ёмкость головки, DNP.
+# Ёмкость кабеля и импеданс катушки в этой модели НЕ учитываются.
+
+[unbalanced]
+# Без изменения номиналов исходной ne5532_at3600l.tex.
+input_bias_resistor_ohm = 47000.0 # R_A1/B1.
+input_coupling_cap_f = 2.2e-6  # C_A1/B1.
+feedback_resistor_ohm = 90900.0 # R_A2/B2.
+feedback_series_resistor_ohm = 10000.0 # R_A3/B3.
+feedback_cap_f = 31.5e-9       # C_A2/B2.
+gain_ground_resistor_ohm = 91.0 # R_A4/B4.
+gain_ground_cap_f = 1000e-6   # C_A3/B3, BP.
+output_series_resistor_ohm = 750.0 # R_A5/B5, пассивная ВЧ-коррекция.
+output_shunt_cap_f = 100e-9   # C_A4/B4, пассивная ВЧ-коррекция.
+output_coupling_cap_f = 4.7e-6 # C_A5/B5.
+output_bleed_resistor_ohm = 100000.0 # R_A6/B6.

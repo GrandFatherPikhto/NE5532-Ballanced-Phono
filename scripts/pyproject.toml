@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "player-riaa-calculations"
+version = "0.1.0"
+description = "Расчёт балансного и небалансного фонокорректоров AT-3600L / NE5532"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0,<3", "matplotlib>=3.8,<4"]
+
+[tool.setuptools]
+packages = []

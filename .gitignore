@@ -1,0 +1,48 @@
+# Local Python environment and generated package metadata
+/scripts/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Reproducible calculation and document build output
+/build/
+
+# Local reference material and internal project notes
+/docs/datasheet/
+/docs/handoff/
+
+# Keep LaTeX sources, support files and published PDFs only.
+# Subdirectories such as docs/latex/build/ remain ignored.
+/docs/latex/*
+!/docs/latex/*.tex
+!/docs/latex/*.sty
+!/docs/latex/*.cls
+!/docs/latex/*.bib
+!/docs/latex/*.bst
+!/docs/latex/*.pdf
+
+# LaTeX intermediates, including builds next to docs/PHONO_GUIDE.tex
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.xdv
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.bbl
+*.blg
+*.run.xml
+/docs/**/*.out
+
+# KiCad local state, locks and automatic history
+/.history/
+*.kicad_prl
+~*.lck
+*-backups/
+*.bak

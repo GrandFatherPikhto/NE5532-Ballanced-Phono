@@ -1,0 +1,1624 @@
+{
+  "source_file": "PreAmp.net",
+  "total_nets": 43,
+  "connected_nets": 43,
+  "nets": [
+    {
+      "name": "+12V",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C1",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C16",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C19",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C3",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C6",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C9",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J2",
+          "value": "Power PN12V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R1",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "8"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "8"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "-12V",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C10",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C17",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C2",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C20",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C4",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C7",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J2",
+          "value": "Power PN12V",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "R2",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/CH_L.IN_N",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C11",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "Signal In",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/CH_L.IN_P",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C5",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "Signal In",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/CH_L.X_N",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "NT2",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R7",
+          "value": "90K9",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R8",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/CH_L.X_P",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "NT1",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R4",
+          "value": "90K9",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R5",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/CH_R.IN_N",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C21",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "Signal In",
+          "missing_footprint": false,
+          "pins": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/CH_R.IN_P",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C15",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "Signal In",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/CH_R.X_N",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "NT4",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R14",
+          "value": "90K9",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R15",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/CH_R.X_P",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "NT3",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R11",
+          "value": "90K9",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R12",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/ChannelA/A_N",
+      "sheet_path": [
+        "ChannelA"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C8",
+          "value": "31.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R4",
+          "value": "90K9",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R9",
+          "value": "182",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/ChannelA/B_N",
+      "sheet_path": [
+        "ChannelA"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C12",
+          "value": "31.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C14",
+          "value": "1000 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R7",
+          "value": "90K9",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/ChannelB/A_N",
+      "sheet_path": [
+        "ChannelB"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C18",
+          "value": "31.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R11",
+          "value": "90K9",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R16",
+          "value": "182",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/ChannelB/B_N",
+      "sheet_path": [
+        "ChannelB"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C22",
+          "value": "31.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C24",
+          "value": "1000 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R14",
+          "value": "90K9",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/LEFT.OUT",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C27",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J3",
+          "value": "Signal Out",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R22",
+          "value": "100K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/LEFT.X_N",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "NT2",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R19",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/LEFT.X_P",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "NT1",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R17",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/RIGHT.OUT",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C30",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J3",
+          "value": "Signal Out",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "R28",
+          "value": "100K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/RIGHT.X_N",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "NT4",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R25",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/RIGHT.X_P",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "NT3",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R23",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GND",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C1",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C10",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C16",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C17",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C19",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C2",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C20",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C25",
+          "value": "7.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C28",
+          "value": "7.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C3",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C4",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C6",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C7",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C9",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "D1",
+          "value": "LED",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "D2",
+          "value": "LED",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "Signal In",
+          "missing_footprint": false,
+          "pins": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ]
+        },
+        {
+          "ref": "J2",
+          "value": "Power PN12V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J3",
+          "value": "Signal Out",
+          "missing_footprint": false,
+          "pins": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "ref": "R10",
+          "value": "23K5",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R13",
+          "value": "23K5",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R18",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R22",
+          "value": "100K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R24",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R28",
+          "value": "100K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R3",
+          "value": "23K5",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R6",
+          "value": "23K5",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C12-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C12",
+          "value": "31.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R8",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C13-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C13",
+          "value": "1000 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R9",
+          "value": "182",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C13-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C13",
+          "value": "1000 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C14",
+          "value": "1000 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C18-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C18",
+          "value": "31.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R12",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C22-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C22",
+          "value": "31.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R15",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C23-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C23",
+          "value": "1000 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R16",
+          "value": "182",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C23-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C23",
+          "value": "1000 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C24",
+          "value": "1000 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C26-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C26",
+          "value": "7.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R20",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R21",
+          "value": "100",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C27-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C27",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R21",
+          "value": "100",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C29-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C29",
+          "value": "7.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R26",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R27",
+          "value": "100",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C30-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C30",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R27",
+          "value": "100",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C8-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C8",
+          "value": "31.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R5",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(D1-A)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "D1",
+          "value": "LED",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R1",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(D2-K)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "D2",
+          "value": "LED",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R2",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1A-+)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C25",
+          "value": "7.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R17",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R18",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1A--)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C26",
+          "value": "7.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R19",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R20",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1B-+)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C28",
+          "value": "7.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R23",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R24",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U1B--)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C29",
+          "value": "7.5 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R25",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R26",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U2A-+)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C5",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R3",
+          "value": "23K5",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U2B-+)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C11",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R6",
+          "value": "23K5",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U3A-+)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C15",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R10",
+          "value": "23K5",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U3B-+)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C21",
+          "value": "4.7 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R13",
+          "value": "23K5",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "NE5532",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        }
+      ]
+    }
+  ]
+}

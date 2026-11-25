@@ -1,0 +1,422 @@
+[
+  {
+    "ref": "C1",
+    "value": "10 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C2",
+    "value": "10 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C3",
+    "value": "100 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C4",
+    "value": "100 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C5",
+    "value": "4.7 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C6",
+    "value": "10 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C7",
+    "value": "10 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C8",
+    "value": "31.5 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C9",
+    "value": "100 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C10",
+    "value": "100 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C11",
+    "value": "4.7 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C12",
+    "value": "31.5 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C13",
+    "value": "1000 uF",
+    "footprint": "CP_Radial_D10.0mm_P5.00mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C14",
+    "value": "1000 uF",
+    "footprint": "CP_Radial_D10.0mm_P5.00mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C15",
+    "value": "4.7 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C16",
+    "value": "10 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C17",
+    "value": "10 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C18",
+    "value": "31.5 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C19",
+    "value": "100 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C20",
+    "value": "100 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C21",
+    "value": "4.7 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C22",
+    "value": "31.5 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C23",
+    "value": "1000 uF",
+    "footprint": "CP_Radial_D10.0mm_P5.00mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C24",
+    "value": "1000 uF",
+    "footprint": "CP_Radial_D10.0mm_P5.00mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C25",
+    "value": "7.5 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C26",
+    "value": "7.5 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C27",
+    "value": "4.7 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C28",
+    "value": "7.5 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C29",
+    "value": "7.5 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C30",
+    "value": "4.7 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "D1",
+    "value": "LED",
+    "footprint": "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "D2",
+    "value": "LED",
+    "footprint": "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "J1",
+    "value": "Signal In",
+    "footprint": "IDC-Header_2x04_P2.54mm_Vertical",
+    "missing_footprint": false
+  },
+  {
+    "ref": "J2",
+    "value": "Power PN12V",
+    "footprint": "JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+    "missing_footprint": false
+  },
+  {
+    "ref": "J3",
+    "value": "Signal Out",
+    "footprint": "JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "missing_footprint": false
+  },
+  {
+    "ref": "NT1",
+    "value": "NetTie_2",
+    "footprint": "NetTie-2_SMD_Pad0.5mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "NT2",
+    "value": "NetTie_2",
+    "footprint": "NetTie-2_SMD_Pad0.5mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "NT3",
+    "value": "NetTie_2",
+    "footprint": "NetTie-2_SMD_Pad0.5mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "NT4",
+    "value": "NetTie_2",
+    "footprint": "NetTie-2_SMD_Pad0.5mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R1",
+    "value": "1K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R2",
+    "value": "1K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R3",
+    "value": "23K5",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R4",
+    "value": "90K9",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R5",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R6",
+    "value": "23K5",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R7",
+    "value": "90K9",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R8",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R9",
+    "value": "182",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R10",
+    "value": "23K5",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R11",
+    "value": "90K9",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R12",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R13",
+    "value": "23K5",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R14",
+    "value": "90K9",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R15",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R16",
+    "value": "182",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R17",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R18",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R19",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R20",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R21",
+    "value": "100",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R22",
+    "value": "100K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R23",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R24",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R25",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R26",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R27",
+    "value": "100",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R28",
+    "value": "100K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "U1",
+    "value": "NE5532",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "U2",
+    "value": "NE5532",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "U3",
+    "value": "NE5532",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+    "missing_footprint": false
+  }
+]
