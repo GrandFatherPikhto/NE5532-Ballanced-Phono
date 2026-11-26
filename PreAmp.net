@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/denis/Projects/KiCad/Player/PreAmp/PreAmp.kicad_sch")
-		(date "2026-11-26T14:53:33")
+		(date "2026-11-26T16:00:34")
 		(tool "Eeschema 10.0.8-10.0.8~ubuntu26.04.1")
 		(sheet
 			(number "1")
@@ -524,6 +524,142 @@
 				(tstamps "/")
 			)
 			(tstamps "e60d2555-30a6-462c-973b-16ed33dbb8b6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C43")
+			(value "220 pF")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "PreAmp")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PreAmp.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3195920b-49eb-439a-a9ec-dadf09ce9172")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C44")
+			(value "220 pF")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "PreAmp")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PreAmp.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ebb189fa-7cb2-4a4d-8808-044d2bb6e0f5")
 			(units
 				(unit
 					(name "A")
@@ -1299,8 +1435,8 @@
 		)
 		(comp
 			(ref "R1")
-			(value "1K")
-			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(value "4K7")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
 				(field
@@ -1310,7 +1446,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -1367,8 +1503,8 @@
 		)
 		(comp
 			(ref "R2")
-			(value "1K")
-			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(value "4K7")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
 				(field
@@ -1378,7 +1514,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -1951,8 +2087,8 @@
 		)
 		(comp
 			(ref "C31")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -1962,7 +2098,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -2002,7 +2138,75 @@
 				(names "/ChannelA/")
 				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
 			)
-			(tstamps "6bdb856f-de3a-4435-babf-09eecab4e467")
+			(tstamps "8ec76cd2-00eb-42a2-9955-6f843a48fe96")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C32")
+			(value "33 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ChannelA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "channel.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/ChannelA/")
+				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
+			)
+			(tstamps "820b1022-c23e-4181-aca9-68f12a808530")
 			(units
 				(unit
 					(name "A")
@@ -2019,8 +2223,8 @@
 		)
 		(comp
 			(ref "C33")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(value "33 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -2030,7 +2234,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -2070,7 +2274,7 @@
 				(names "/ChannelA/")
 				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
 			)
-			(tstamps "4c268ade-cfe4-43d0-b3d7-dcfdc9aba254")
+			(tstamps "14e7a4df-ca39-4d2f-8612-1eb6489ba891")
 			(units
 				(unit
 					(name "A")
@@ -2086,9 +2290,9 @@
 			)
 		)
 		(comp
-			(ref "C35")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C45")
+			(value "33 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -2098,7 +2302,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -2138,7 +2342,7 @@
 				(names "/ChannelA/")
 				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
 			)
-			(tstamps "6eb68184-1023-4897-814a-3a86b67062b2")
+			(tstamps "e2f035b7-3a79-404b-83c8-94f61aac89e9")
 			(units
 				(unit
 					(name "A")
@@ -2154,9 +2358,9 @@
 			)
 		)
 		(comp
-			(ref "C37")
-			(value "100V152JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C46")
+			(value "33 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -2166,7 +2370,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -2206,7 +2410,7 @@
 				(names "/ChannelA/")
 				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
 			)
-			(tstamps "bd6d4c7e-615b-4e61-a621-2f4e262af8a8")
+			(tstamps "1316ff88-4ff4-4250-a4df-8c0759f65433")
 			(units
 				(unit
 					(name "A")
@@ -2222,9 +2426,9 @@
 			)
 		)
 		(comp
-			(ref "C39")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C47")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -2234,7 +2438,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -2274,211 +2478,7 @@
 				(names "/ChannelA/")
 				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
 			)
-			(tstamps "4e9dd0c7-2bde-43e0-beaf-a17cb4439ab7")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C40")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Cluster")
-				)
-				(field
-					(name "Role")
-				)
-				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Cluster")
-				(value "")
-			)
-			(property
-				(name "Role")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ChannelA")
-			)
-			(property
-				(name "Sheetfile")
-				(value "channel.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/ChannelA/")
-				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
-			)
-			(tstamps "113d68de-a6fc-430e-a02f-48f2a4ee3f8a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C41")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Cluster")
-				)
-				(field
-					(name "Role")
-				)
-				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Cluster")
-				(value "")
-			)
-			(property
-				(name "Role")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ChannelA")
-			)
-			(property
-				(name "Sheetfile")
-				(value "channel.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/ChannelA/")
-				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
-			)
-			(tstamps "002bfb15-fe6e-47b7-adad-508dc07475e8")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C42")
-			(value "100V152JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Cluster")
-				)
-				(field
-					(name "Role")
-				)
-				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Cluster")
-				(value "")
-			)
-			(property
-				(name "Role")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ChannelA")
-			)
-			(property
-				(name "Sheetfile")
-				(value "channel.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/ChannelA/")
-				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
-			)
-			(tstamps "b1e94463-c2c5-455c-a287-5c24ab024fe9")
+			(tstamps "ca2b041e-bccb-40aa-b798-71809bcd3486")
 			(units
 				(unit
 					(name "A")
@@ -2615,74 +2615,6 @@
 				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
 			)
 			(tstamps "156aa40c-4af4-4c50-b9c6-09f378d5fe4e")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R5")
-			(value "10K")
-			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Cluster")
-				)
-				(field
-					(name "Role")
-				)
-				(field
-					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Cluster")
-				(value "")
-			)
-			(property
-				(name "Role")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ChannelA")
-			)
-			(property
-				(name "Sheetfile")
-				(value "channel.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/ChannelA/")
-				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
-			)
-			(tstamps "ec65568c-b708-42c3-91c1-32dcc3d9f622")
 			(units
 				(unit
 					(name "A")
@@ -2887,6 +2819,74 @@
 				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
 			)
 			(tstamps "4b42d487-06f8-48be-bdd6-d5889393745c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ChannelA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "channel.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/ChannelA/")
+				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
+			)
+			(tstamps "e4e6b6bb-387f-4afd-92f8-2774a1850b8a")
 			(units
 				(unit
 					(name "A")
@@ -3620,7 +3620,7 @@
 				(names "/ChannelA/")
 				(tstamps "/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/")
 			)
-			(tstamps "c9458074-a2e5-4b67-83aa-79ea9d9523ac" "71d80dd1-1c30-4b25-b5de-3a911cd04d2e"
+			(tstamps "71d80dd1-1c30-4b25-b5de-3a911cd04d2e" "c9458074-a2e5-4b67-83aa-79ea9d9523ac"
 				"0f19d40c-7d0a-4819-9be6-4e573e27e9bb"
 			)
 			(units
@@ -4182,9 +4182,9 @@
 			)
 		)
 		(comp
-			(ref "C32")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C34")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -4194,7 +4194,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4234,7 +4234,7 @@
 				(names "/ChannelB/")
 				(tstamps "/2eb76137-3def-43f1-8031-fa4efdeb3631/")
 			)
-			(tstamps "6bdb856f-de3a-4435-babf-09eecab4e467")
+			(tstamps "8ec76cd2-00eb-42a2-9955-6f843a48fe96")
 			(units
 				(unit
 					(name "A")
@@ -4250,9 +4250,9 @@
 			)
 		)
 		(comp
-			(ref "C34")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C35")
+			(value "33 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -4262,7 +4262,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4302,7 +4302,7 @@
 				(names "/ChannelB/")
 				(tstamps "/2eb76137-3def-43f1-8031-fa4efdeb3631/")
 			)
-			(tstamps "4c268ade-cfe4-43d0-b3d7-dcfdc9aba254")
+			(tstamps "820b1022-c23e-4181-aca9-68f12a808530")
 			(units
 				(unit
 					(name "A")
@@ -4319,8 +4319,8 @@
 		)
 		(comp
 			(ref "C36")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(value "33 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -4330,7 +4330,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4370,7 +4370,7 @@
 				(names "/ChannelB/")
 				(tstamps "/2eb76137-3def-43f1-8031-fa4efdeb3631/")
 			)
-			(tstamps "6eb68184-1023-4897-814a-3a86b67062b2")
+			(tstamps "14e7a4df-ca39-4d2f-8612-1eb6489ba891")
 			(units
 				(unit
 					(name "A")
@@ -4386,9 +4386,9 @@
 			)
 		)
 		(comp
-			(ref "C38")
-			(value "100V152JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C48")
+			(value "33 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -4398,7 +4398,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4438,7 +4438,7 @@
 				(names "/ChannelB/")
 				(tstamps "/2eb76137-3def-43f1-8031-fa4efdeb3631/")
 			)
-			(tstamps "bd6d4c7e-615b-4e61-a621-2f4e262af8a8")
+			(tstamps "e2f035b7-3a79-404b-83c8-94f61aac89e9")
 			(units
 				(unit
 					(name "A")
@@ -4454,9 +4454,9 @@
 			)
 		)
 		(comp
-			(ref "C43")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C49")
+			(value "33 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -4466,7 +4466,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4506,7 +4506,7 @@
 				(names "/ChannelB/")
 				(tstamps "/2eb76137-3def-43f1-8031-fa4efdeb3631/")
 			)
-			(tstamps "4e9dd0c7-2bde-43e0-beaf-a17cb4439ab7")
+			(tstamps "1316ff88-4ff4-4250-a4df-8c0759f65433")
 			(units
 				(unit
 					(name "A")
@@ -4522,9 +4522,9 @@
 			)
 		)
 		(comp
-			(ref "C44")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C50")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -4534,7 +4534,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4574,143 +4574,7 @@
 				(names "/ChannelB/")
 				(tstamps "/2eb76137-3def-43f1-8031-fa4efdeb3631/")
 			)
-			(tstamps "113d68de-a6fc-430e-a02f-48f2a4ee3f8a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C45")
-			(value "100V103JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Cluster")
-				)
-				(field
-					(name "Role")
-				)
-				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Cluster")
-				(value "")
-			)
-			(property
-				(name "Role")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ChannelB")
-			)
-			(property
-				(name "Sheetfile")
-				(value "channel.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/ChannelB/")
-				(tstamps "/2eb76137-3def-43f1-8031-fa4efdeb3631/")
-			)
-			(tstamps "002bfb15-fe6e-47b7-adad-508dc07475e8")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C46")
-			(value "100V152JP")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Cluster")
-				)
-				(field
-					(name "Role")
-				)
-				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Cluster")
-				(value "")
-			)
-			(property
-				(name "Role")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ChannelB")
-			)
-			(property
-				(name "Sheetfile")
-				(value "channel.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/ChannelB/")
-				(tstamps "/2eb76137-3def-43f1-8031-fa4efdeb3631/")
-			)
-			(tstamps "b1e94463-c2c5-455c-a287-5c24ab024fe9")
+			(tstamps "ca2b041e-bccb-40aa-b798-71809bcd3486")
 			(units
 				(unit
 					(name "A")
@@ -4862,7 +4726,7 @@
 			)
 		)
 		(comp
-			(ref "R12")
+			(ref "R13")
 			(value "10K")
 			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 			(description "Resistor")
@@ -4914,7 +4778,7 @@
 				(names "/ChannelB/")
 				(tstamps "/2eb76137-3def-43f1-8031-fa4efdeb3631/")
 			)
-			(tstamps "ec65568c-b708-42c3-91c1-32dcc3d9f622")
+			(tstamps "e4e6b6bb-387f-4afd-92f8-2774a1850b8a")
 			(units
 				(unit
 					(name "A")
@@ -5852,7 +5716,7 @@
 				(names "/ChannelB/")
 				(tstamps "/2eb76137-3def-43f1-8031-fa4efdeb3631/")
 			)
-			(tstamps "c9458074-a2e5-4b67-83aa-79ea9d9523ac" "71d80dd1-1c30-4b25-b5de-3a911cd04d2e"
+			(tstamps "71d80dd1-1c30-4b25-b5de-3a911cd04d2e" "c9458074-a2e5-4b67-83aa-79ea9d9523ac"
 				"0f19d40c-7d0a-4819-9be6-4e573e27e9bb"
 			)
 			(units
@@ -5899,8 +5763,8 @@
 		)
 		(comp
 			(ref "C25")
-			(value "100V682J")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -5910,7 +5774,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -5950,7 +5814,7 @@
 				(names "/DiffAmpA/")
 				(tstamps "/7b285b4c-d8e3-4012-bad7-8e22718d27ed/")
 			)
-			(tstamps "c60ca6d8-045a-439d-92dd-ecd16bb5d96a")
+			(tstamps "42e38a48-1f2c-4b67-a657-dc575eab079d")
 			(units
 				(unit
 					(name "A")
@@ -6034,9 +5898,9 @@
 			)
 		)
 		(comp
-			(ref "C47")
-			(value "100V683J")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C37")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -6046,7 +5910,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6086,7 +5950,7 @@
 				(names "/DiffAmpA/")
 				(tstamps "/7b285b4c-d8e3-4012-bad7-8e22718d27ed/")
 			)
-			(tstamps "7c498138-4fea-40fd-902e-e33369ab8ade")
+			(tstamps "9d0819fa-0c68-4afd-8a02-2717bff44e9d")
 			(units
 				(unit
 					(name "A")
@@ -6102,9 +5966,9 @@
 			)
 		)
 		(comp
-			(ref "C49")
-			(value "100V682J")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C39")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -6114,7 +5978,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6154,7 +6018,7 @@
 				(names "/DiffAmpA/")
 				(tstamps "/7b285b4c-d8e3-4012-bad7-8e22718d27ed/")
 			)
-			(tstamps "5039c3b6-a202-4b8a-be0f-c864a50356b5")
+			(tstamps "77764bba-2d5f-4e2c-9768-6df9ab02d55c")
 			(units
 				(unit
 					(name "A")
@@ -6170,9 +6034,9 @@
 			)
 		)
 		(comp
-			(ref "C50")
-			(value "100V683J")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C40")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -6182,7 +6046,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6222,7 +6086,7 @@
 				(names "/DiffAmpA/")
 				(tstamps "/7b285b4c-d8e3-4012-bad7-8e22718d27ed/")
 			)
-			(tstamps "ec1b4293-3ad3-4920-afb0-c905eacb0101")
+			(tstamps "1f73ad92-2cf5-4f70-9898-357a3b195734")
 			(units
 				(unit
 					(name "A")
@@ -6647,8 +6511,8 @@
 		)
 		(comp
 			(ref "C28")
-			(value "100V682J")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -6658,7 +6522,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6698,7 +6562,7 @@
 				(names "/DiffAmpB/")
 				(tstamps "/cc975fbf-60a5-41a8-b2fb-1426d7d91343/")
 			)
-			(tstamps "c60ca6d8-045a-439d-92dd-ecd16bb5d96a")
+			(tstamps "42e38a48-1f2c-4b67-a657-dc575eab079d")
 			(units
 				(unit
 					(name "A")
@@ -6782,9 +6646,9 @@
 			)
 		)
 		(comp
-			(ref "C48")
-			(value "100V683J")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C38")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -6794,7 +6658,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6834,7 +6698,7 @@
 				(names "/DiffAmpB/")
 				(tstamps "/cc975fbf-60a5-41a8-b2fb-1426d7d91343/")
 			)
-			(tstamps "7c498138-4fea-40fd-902e-e33369ab8ade")
+			(tstamps "9d0819fa-0c68-4afd-8a02-2717bff44e9d")
 			(units
 				(unit
 					(name "A")
@@ -6850,9 +6714,9 @@
 			)
 		)
 		(comp
-			(ref "C51")
-			(value "100V682J")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C41")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -6862,7 +6726,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6902,7 +6766,7 @@
 				(names "/DiffAmpB/")
 				(tstamps "/cc975fbf-60a5-41a8-b2fb-1426d7d91343/")
 			)
-			(tstamps "5039c3b6-a202-4b8a-be0f-c864a50356b5")
+			(tstamps "77764bba-2d5f-4e2c-9768-6df9ab02d55c")
 			(units
 				(unit
 					(name "A")
@@ -6918,9 +6782,9 @@
 			)
 		)
 		(comp
-			(ref "C52")
-			(value "100V683J")
-			(footprint "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+			(ref "C42")
+			(value "15 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
@@ -6930,7 +6794,7 @@
 					(name "Role")
 				)
 				(field
-					(name "Footprint") "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6970,7 +6834,7 @@
 				(names "/DiffAmpB/")
 				(tstamps "/cc975fbf-60a5-41a8-b2fb-1426d7d91343/")
 			)
-			(tstamps "ec1b4293-3ad3-4920-afb0-c905eacb0101")
+			(tstamps "1f73ad92-2cf5-4f70-9898-357a3b195734")
 			(units
 				(unit
 					(name "A")
@@ -7946,6 +7810,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C43")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "J1")
 				(pin "3")
 				(pinfunction "Pin_3_3")
@@ -7956,6 +7825,11 @@
 			(code "4")
 			(name "/CH_L.IN_P")
 			(class "Default")
+			(node
+				(ref "C43")
+				(pin "1")
+				(pintype "passive")
+			)
 			(node
 				(ref "C5")
 				(pin "1")
@@ -8005,13 +7879,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R4")
-				(pin "1")
+				(ref "R12")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R5")
-				(pin "2")
+				(ref "R4")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -8030,6 +7904,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C44")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "J1")
 				(pin "7")
 				(pinfunction "Pin_7_7")
@@ -8042,6 +7921,11 @@
 			(class "Default")
 			(node
 				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C44")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8094,7 +7978,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R12")
+				(ref "R13")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -8109,7 +7993,12 @@
 			(name "/ChannelA/A_N")
 			(class "Default")
 			(node
-				(ref "C35")
+				(ref "C31")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C32")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8140,7 +8029,12 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C39")
+				(ref "C45")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C47")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8161,7 +8055,12 @@
 			(name "/ChannelB/A_N")
 			(class "Default")
 			(node
-				(ref "C36")
+				(ref "C34")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C35")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8192,7 +8091,12 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C43")
+				(ref "C48")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C50")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8359,18 +8263,18 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C4")
+				(ref "C37")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "C47")
-				(pin "1")
+				(ref "C38")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "C48")
-				(pin "1")
+				(ref "C4")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -8545,16 +8449,16 @@
 		)
 		(net
 			(code "30")
-			(name "Net-(C25-Pad1)")
+			(name "Net-(C25-Pad2)")
 			(class "Default")
 			(node
 				(ref "C25")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "C47")
-				(pin "2")
+				(ref "C37")
+				(pin "1")
 				(pintype "passive")
 			)
 		)
@@ -8575,16 +8479,16 @@
 		)
 		(net
 			(code "32")
-			(name "Net-(C28-Pad1)")
+			(name "Net-(C28-Pad2)")
 			(class "Default")
 			(node
 				(ref "C28")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "C48")
-				(pin "2")
+				(ref "C38")
+				(pin "1")
 				(pintype "passive")
 			)
 		)
@@ -8605,21 +8509,6 @@
 		)
 		(net
 			(code "34")
-			(name "Net-(C31-Pad1)")
-			(class "Default")
-			(node
-				(ref "C31")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C33")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "35")
 			(name "Net-(C31-Pad2)")
 			(class "Default")
 			(node
@@ -8628,92 +8517,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C37")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "36")
-			(name "Net-(C32-Pad1)")
-			(class "Default")
-			(node
-				(ref "C32")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C34")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "37")
-			(name "Net-(C32-Pad2)")
-			(class "Default")
-			(node
-				(ref "C32")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C38")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "38")
-			(name "Net-(C33-Pad1)")
-			(class "Default")
-			(node
 				(ref "C33")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C35")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "39")
-			(name "Net-(C34-Pad1)")
-			(class "Default")
-			(node
-				(ref "C34")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C36")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "40")
-			(name "Net-(C37-Pad2)")
-			(class "Default")
-			(node
-				(ref "C37")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R5")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "41")
-			(name "Net-(C38-Pad2)")
-			(class "Default")
-			(node
-				(ref "C38")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -8724,146 +8528,76 @@
 			)
 		)
 		(net
-			(code "42")
-			(name "Net-(C39-Pad2)")
+			(code "35")
+			(name "Net-(C32-Pad2)")
+			(class "Default")
+			(node
+				(ref "C32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C33")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "Net-(C34-Pad2)")
+			(class "Default")
+			(node
+				(ref "C34")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C36")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "Net-(C35-Pad2)")
+			(class "Default")
+			(node
+				(ref "C35")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C36")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(C39-Pad1)")
 			(class "Default")
 			(node
 				(ref "C39")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C40")
 				(pin "1")
 				(pintype "passive")
 			)
-		)
-		(net
-			(code "43")
-			(name "Net-(C40-Pad2)")
-			(class "Default")
 			(node
 				(ref "C40")
 				(pin "2")
 				(pintype "passive")
 			)
-			(node
-				(ref "C41")
-				(pin "1")
-				(pintype "passive")
-			)
 		)
 		(net
-			(code "44")
-			(name "Net-(C41-Pad2)")
+			(code "39")
+			(name "Net-(C40-Pad1)")
 			(class "Default")
 			(node
-				(ref "C41")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C42")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "45")
-			(name "Net-(C42-Pad2)")
-			(class "Default")
-			(node
-				(ref "C42")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R8")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "46")
-			(name "Net-(C43-Pad2)")
-			(class "Default")
-			(node
-				(ref "C43")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C44")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "47")
-			(name "Net-(C44-Pad2)")
-			(class "Default")
-			(node
-				(ref "C44")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C45")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "48")
-			(name "Net-(C45-Pad2)")
-			(class "Default")
-			(node
-				(ref "C45")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C46")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "49")
-			(name "Net-(C46-Pad2)")
-			(class "Default")
-			(node
-				(ref "C46")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R15")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "50")
-			(name "Net-(C49-Pad1)")
-			(class "Default")
-			(node
-				(ref "C49")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C50")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "51")
-			(name "Net-(C50-Pad1)")
-			(class "Default")
-			(node
-				(ref "C50")
+				(ref "C40")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8884,26 +8618,26 @@
 			)
 		)
 		(net
-			(code "52")
-			(name "Net-(C51-Pad1)")
+			(code "40")
+			(name "Net-(C41-Pad1)")
 			(class "Default")
 			(node
-				(ref "C51")
+				(ref "C41")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "C52")
+				(ref "C42")
 				(pin "2")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "53")
-			(name "Net-(C52-Pad1)")
+			(code "41")
+			(name "Net-(C42-Pad1)")
 			(class "Default")
 			(node
-				(ref "C52")
+				(ref "C42")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8924,7 +8658,77 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "42")
+			(name "Net-(C45-Pad2)")
+			(class "Default")
+			(node
+				(ref "C45")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C46")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "Net-(C46-Pad2)")
+			(class "Default")
+			(node
+				(ref "C46")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C47")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "44")
+			(name "Net-(C48-Pad2)")
+			(class "Default")
+			(node
+				(ref "C48")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C49")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "Net-(C49-Pad2)")
+			(class "Default")
+			(node
+				(ref "C49")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C50")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
 			(name "Net-(D1-A)")
 			(class "Default")
 			(node
@@ -8940,7 +8744,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "47")
 			(name "Net-(D2-K)")
 			(class "Default")
 			(node
@@ -8956,7 +8760,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "48")
 			(name "Net-(R3-Pad2)")
 			(class "Default")
 			(node
@@ -8971,7 +8775,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "49")
 			(name "Net-(R10-Pad2)")
 			(class "Default")
 			(node
@@ -8986,7 +8790,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "50")
 			(name "Net-(R11-Pad2)")
 			(class "Default")
 			(node
@@ -9001,7 +8805,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "51")
 			(name "Net-(R14-Pad2)")
 			(class "Default")
 			(node
@@ -9016,7 +8820,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "52")
 			(name "Net-(R16-Pad2)")
 			(class "Default")
 			(node
@@ -9031,7 +8835,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "53")
 			(name "Net-(R29-Pad1)")
 			(class "Default")
 			(node
@@ -9046,7 +8850,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "54")
 			(name "Net-(R31-Pad1)")
 			(class "Default")
 			(node
@@ -9061,7 +8865,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "55")
 			(name "Net-(R31-Pad2)")
 			(class "Default")
 			(node
@@ -9076,7 +8880,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "56")
 			(name "Net-(R32-Pad2)")
 			(class "Default")
 			(node
@@ -9091,7 +8895,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "57")
 			(name "Net-(R35-Pad1)")
 			(class "Default")
 			(node
@@ -9106,7 +8910,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "58")
 			(name "Net-(R36-Pad1)")
 			(class "Default")
 			(node
@@ -9121,7 +8925,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "59")
 			(name "Net-(R38-Pad1)")
 			(class "Default")
 			(node
@@ -9136,7 +8940,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "60")
 			(name "Net-(R39-Pad1)")
 			(class "Default")
 			(node
@@ -9151,7 +8955,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "61")
 			(name "Net-(R41-Pad1)")
 			(class "Default")
 			(node
@@ -9166,7 +8970,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "62")
 			(name "Net-(R43-Pad2)")
 			(class "Default")
 			(node
@@ -9181,7 +8985,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "63")
 			(name "Net-(R44-Pad2)")
 			(class "Default")
 			(node
@@ -9196,7 +9000,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "64")
 			(name "Net-(R46-Pad2)")
 			(class "Default")
 			(node
@@ -9211,7 +9015,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "65")
 			(name "Net-(R47-Pad2)")
 			(class "Default")
 			(node
@@ -9226,12 +9030,12 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "66")
 			(name "Net-(U1A-+)")
 			(class "Default")
 			(node
 				(ref "C25")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -9252,11 +9056,11 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "67")
 			(name "Net-(U1A--)")
 			(class "Default")
 			(node
-				(ref "C49")
+				(ref "C39")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -9278,12 +9082,12 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "68")
 			(name "Net-(U1B-+)")
 			(class "Default")
 			(node
 				(ref "C28")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -9304,11 +9108,11 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "69")
 			(name "Net-(U1B--)")
 			(class "Default")
 			(node
-				(ref "C51")
+				(ref "C41")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -9330,7 +9134,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "70")
 			(name "Net-(U2A-+)")
 			(class "Default")
 			(node
@@ -9351,7 +9155,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "71")
 			(name "Net-(U2B-+)")
 			(class "Default")
 			(node
@@ -9372,7 +9176,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "72")
 			(name "Net-(U3A-+)")
 			(class "Default")
 			(node
@@ -9393,7 +9197,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "73")
 			(name "Net-(U3B-+)")
 			(class "Default")
 			(node

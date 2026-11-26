@@ -121,8 +121,8 @@
   },
   {
     "ref": "C25",
-    "value": "100V682J",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
@@ -133,8 +133,8 @@
   },
   {
     "ref": "C28",
-    "value": "100V682J",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
@@ -145,134 +145,122 @@
   },
   {
     "ref": "C31",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C32",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "33 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C33",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "33 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C34",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C35",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "33 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C36",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "33 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C37",
-    "value": "100V152JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C38",
-    "value": "100V152JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C39",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C40",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C41",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C42",
-    "value": "100V152JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C43",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "220 pF",
+    "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C44",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "220 pF",
+    "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C45",
-    "value": "100V103JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "33 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C46",
-    "value": "100V152JP",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "33 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C47",
-    "value": "100V683J",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C48",
-    "value": "100V683J",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "33 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C49",
-    "value": "100V682J",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "33 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "C50",
-    "value": "100V683J",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
-    "missing_footprint": false
-  },
-  {
-    "ref": "C51",
-    "value": "100V682J",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
-    "missing_footprint": false
-  },
-  {
-    "ref": "C52",
-    "value": "100V683J",
-    "footprint": "C_Rect_L7.0mm_W3.5mm_P5.00mm",
+    "value": "15 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
@@ -331,14 +319,14 @@
   },
   {
     "ref": "R1",
-    "value": "1K",
-    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "value": "4K7",
+    "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "R2",
-    "value": "1K",
-    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "value": "4K7",
+    "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
     "missing_footprint": false
   },
   {
@@ -350,12 +338,6 @@
   {
     "ref": "R4",
     "value": "47K",
-    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
-    "missing_footprint": false
-  },
-  {
-    "ref": "R5",
-    "value": "10K",
     "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
     "missing_footprint": false
   },
@@ -391,6 +373,12 @@
   },
   {
     "ref": "R12",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R13",
     "value": "10K",
     "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
     "missing_footprint": false

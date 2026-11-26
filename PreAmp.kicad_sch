@@ -1754,6 +1754,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 156.21) (xy 44.45 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332d54f6-0780-4981-89d0-cb1134a34286")
+	)
+	(wire
+		(pts
 			(xy 58.42 44.45) (xy 72.39 44.45)
 		)
 		(stroke
@@ -2022,6 +2032,16 @@
 		)
 		(uuid "ff47560b-7081-4b4a-8eb7-6d2f7a9af57d")
 	)
+	(label "CH_R.IN_N"
+		(at 68.58 154.94 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "004f3fe8-07c2-4359-bfe2-8dc127906058")
+	)
 	(label "CH_R.X_N"
 		(at 128.27 171.45 180)
 		(effects
@@ -2051,6 +2071,16 @@
 			(justify right bottom)
 		)
 		(uuid "0e44cfd8-ff9d-467d-8225-0de4cb15ffab")
+	)
+	(label "CH_R.IN_P"
+		(at 68.58 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12f13bc0-998d-4980-beeb-a6050f706da0")
 	)
 	(label "CH_R.IN_P"
 		(at 118.11 128.27 0)
@@ -2322,6 +2352,16 @@
 		)
 		(uuid "c9caa0a5-67d1-4b00-9420-82a3c80c1b33")
 	)
+	(label "CH_L.IN_N"
+		(at 44.45 156.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd6bac03-399f-403a-94f1-445b91eeb224")
+	)
 	(label "LEFT.X_N"
 		(at 138.43 115.57 0)
 		(effects
@@ -2331,6 +2371,16 @@
 			(justify left bottom)
 		)
 		(uuid "daf69be8-d79d-430d-be4a-03c645f770c2")
+	)
+	(label "CH_L.IN_P"
+		(at 44.45 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0a01d2b-0602-4076-abaf-a7ea741040f0")
 	)
 	(label "CH_L.IN_P"
 		(at 46.99 115.57 180)
@@ -2741,6 +2791,110 @@
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a"
 					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 44.45 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3195920b-49eb-439a-a9ec-dadf09ce9172")
+		(property "Reference" "C43"
+			(at 48.26 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220 pF"
+			(at 48.26 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 45.4152 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 44.45 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 44.45 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 44.45 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9ee8dd2-65b2-438f-8b81-555f64b0a98b")
+		)
+		(pin "2"
+			(uuid "a42b57b2-3812-4d7b-bb2e-5d13f7b0edac")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -3977,6 +4131,110 @@
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 68.58 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb189fa-7cb2-4a4d-8808-044d2bb6e0f5")
+		(property "Reference" "C44"
+			(at 72.39 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220 pF"
+			(at 72.39 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 69.5452 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 68.58 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 68.58 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba990108-af57-4a1d-b356-64838d3ca336")
+		)
+		(pin "2"
+			(uuid "f0355685-79dc-4a29-ab7b-c1391fc98d2a")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a"
+					(reference "C44")
 					(unit 1)
 				)
 			)
