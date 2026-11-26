@@ -730,33 +730,6 @@
 		(color 0 0 0 0)
 		(uuid "f9689459-cbb3-4f7e-80ba-ed0060965fd2")
 	)
-	(bus_entry
-		(at 149.86 137.16)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "805b02be-1566-477b-ab3b-3dc0edb52aaa")
-	)
-	(bus_entry
-		(at 149.86 139.7)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8180d21a-a8db-4fd7-ae54-1a578cc898e8")
-	)
-	(bus_entry
-		(at 149.86 134.62)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cce00309-f8b0-45ec-b226-4b5073aa6873")
-	)
 	(wire
 		(pts
 			(xy 60.96 101.6) (xy 77.47 101.6)
@@ -809,16 +782,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 142.24) (xy 153.67 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f13997-b039-4571-9fa8-925c70c3304d")
-	)
-	(wire
-		(pts
 			(xy 77.47 101.6) (xy 102.87 101.6)
 		)
 		(stroke
@@ -829,16 +792,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 139.7) (xy 153.67 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "969d8721-c592-47a4-99cc-3ad1c778ec07")
-	)
-	(wire
-		(pts
 			(xy 114.3 116.84) (xy 118.11 116.84)
 		)
 		(stroke
@@ -846,16 +799,6 @@
 			(type default)
 		)
 		(uuid "9ae03fdf-fbde-4445-b51a-356389fdb321")
-	)
-	(wire
-		(pts
-			(xy 152.4 137.16) (xy 153.67 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af4dfc24-c1a0-431d-af38-751b63145c03")
 	)
 	(wire
 		(pts
@@ -887,86 +830,38 @@
 		)
 		(uuid "fdb6c12f-c08b-496c-aeb6-fc878e84b1b0")
 	)
-	(bus
-		(pts
-			(xy 149.86 133.35) (xy 149.86 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff3b5dda-12f4-432e-81bb-96207a55a787")
-	)
-	(label "XCHANNEL.OUT"
-		(at 153.67 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0efe2785-e64c-436d-a4d4-b2954fd306ea")
-	)
-	(label "XCHANNEL.X_N"
-		(at 153.67 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30b11f84-532c-4477-a654-b54223728845")
-	)
-	(label "XCHANNEL.X_P"
+	(hierarchical_label "X_P"
+		(shape input)
 		(at 53.34 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "6c1ad9ec-99c1-4191-a947-f9cf1edd558a")
+		(uuid "9e8b2ade-6a1d-46f8-9f4b-3a5320685626")
 	)
-	(label "XCHANNEL.X_N"
+	(hierarchical_label "X_N"
+		(shape input)
 		(at 95.25 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "6cc4aeee-6adf-40e9-ad53-2404cbde79db")
+		(uuid "9efa2e0f-28ff-400e-b390-6fc96218c6e8")
 	)
-	(label "XCHANNEL.OUT"
-		(at 137.16 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94e538af-27ba-4122-9081-7760b0bbd7b1")
-	)
-	(label "XCHANNEL.X_P"
-		(at 153.67 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa0006f5-1a11-430a-9b42-261e07bdb04f")
-	)
-	(hierarchical_label "XCHANNEL{X_P,X_N,OUT}"
+	(hierarchical_label "OUT"
 		(shape input)
-		(at 149.86 133.35 0)
+		(at 137.16 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "42504ffc-58f3-4544-9a56-8460b5edafb2")
+		(uuid "a80d9822-ffd2-455e-97cd-795aa1246345")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -980,7 +875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ca424bd-7bb6-4a07-8665-7774a17dc977")
-		(property "Reference" "R22"
+		(property "Reference" "R12"
 			(at 135.89 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1058,19 +953,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "859cc001-3779-4baf-b192-ed86cb65fd25")
+			(uuid "a8c9b45b-f9b6-4f33-b6b2-59080c221ae7")
 		)
 		(pin "1"
-			(uuid "f55fbdcf-e934-4b1e-9f6c-6daf068b05c8")
+			(uuid "cbb8a626-a660-41d5-9095-b1825457117a")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "R22")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R52")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "R28")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1088,7 +983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1372bf92-b0a1-49a2-b5c3-849b76fb4ebd")
-		(property "Reference" "R18"
+		(property "Reference" "R8"
 			(at 80.01 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1166,19 +1061,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "e1aa66fb-f1ee-4bfa-b04b-392462250588")
+			(uuid "44ee7acf-566a-470a-8d0b-9b711099e429")
 		)
 		(pin "1"
-			(uuid "57568c2a-2fa2-4802-984a-b483b932b93d")
+			(uuid "dbde470b-a42a-485e-9126-84953d45cfd6")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "R18")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R48")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "R24")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1196,7 +1091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1769169e-12ac-4bd6-985c-4841f14d205e")
-		(property "Reference" "R19"
+		(property "Reference" "R9"
 			(at 99.06 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1272,19 +1167,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "844bc618-262f-4429-83af-ce0342ee8365")
+			(uuid "e9d5f31a-8521-4708-b119-40929dfc2eaf")
 		)
 		(pin "1"
-			(uuid "40825946-4230-4fd8-b12c-49047625c5ea")
+			(uuid "f9c9d8b5-e781-4d99-8d48-5563fe791d7e")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "R19")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R49")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "R25")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1302,7 +1197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e15ba94-7f76-4afb-98b7-8eca3cf428ee")
-		(property "Reference" "R17"
+		(property "Reference" "R7"
 			(at 57.15 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1378,19 +1273,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "37f5163c-afd6-4d0d-a5dc-4a551725ccbf")
+			(uuid "7bb5b0d3-aedd-4629-99a2-d9e996a5a64f")
 		)
 		(pin "1"
-			(uuid "4da12b48-c6e0-4656-b810-236e4a99545e")
+			(uuid "c0035b66-0ef3-4306-a2d4-659cf47fddba")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "R17")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R47")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "R23")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1408,7 +1303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f73ad92-2cf5-4f70-9898-357a3b195734")
-		(property "Reference" "C40"
+		(property "Reference" "C22"
 			(at 121.92 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1486,19 +1381,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "f9d41323-e6af-4458-8f6d-29952004b4df")
+			(uuid "8bacf8bd-3ee9-47bb-9ef8-572b28b6555b")
 		)
 		(pin "1"
-			(uuid "28aa7e48-59d1-48f2-b5f0-a060f0d97d96")
+			(uuid "4d18c573-9330-4c18-a083-75c710983d11")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "C40")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "C48")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "C42")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -1516,7 +1411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e38a48-1f2c-4b67-a657-dc575eab079d")
-		(property "Reference" "C25"
+		(property "Reference" "C19"
 			(at 68.58 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1594,19 +1489,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "ddfb0dfe-fd3d-4699-97b9-760966ec0be7")
+			(uuid "59f187a5-14f6-4a79-b23c-a1a5749d95cd")
 		)
 		(pin "1"
-			(uuid "66321ba2-eb26-4af4-accc-b33154e34a67")
+			(uuid "f4ef8cff-9527-4129-b9c9-ad7e7cdc15dc")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "C25")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "C45")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "C28")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -1624,7 +1519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52ee3b9e-e93a-43f0-acd3-473236f19006")
-		(property "Reference" "R21"
+		(property "Reference" "R11"
 			(at 121.92 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,19 +1595,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "0d623c65-0783-46d9-8047-f047b517395c")
+			(uuid "874421f5-1d01-45d4-98a9-65672851ed5d")
 		)
 		(pin "1"
-			(uuid "ae43da23-3c1e-4803-a2e6-9ef7a6b5e884")
+			(uuid "bc1bdfd3-337a-4fa3-b21c-a5cb5a537747")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "R21")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R51")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "R27")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1730,7 +1625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c1bcb96-94c5-4a50-87c9-5a348358e2b2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 133.35 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1785,16 +1680,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "912973d0-3552-4160-be66-db56331d9c4a")
+			(uuid "53abbd5e-60b6-4169-8d00-82de4b0b9aad")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "#PWR020")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "#PWR031")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "#PWR022")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1812,7 +1707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d55aeb9-826d-4b41-9bf5-c3ef1923cdff")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 77.47 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -1867,16 +1762,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "29d4f16e-e744-456d-bb71-3ce0465f9092")
+			(uuid "bd724a20-ba77-4b5c-ae76-3b60fe129d62")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "#PWR019")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "#PWR030")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "#PWR021")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1894,7 +1789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d76b431-019c-451c-97e8-a9266baadf93")
-		(property "Reference" "R20"
+		(property "Reference" "R10"
 			(at 110.49 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1970,19 +1865,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "8e2d944e-d36f-4364-be1a-0c540fd02cd4")
+			(uuid "ef2ecf24-6e8c-419f-a3e0-6bb79210ff11")
 		)
 		(pin "1"
-			(uuid "cf7d612d-a608-4ce1-af4c-f5e39a19a69b")
+			(uuid "070eb2cf-8552-4c30-8aaf-2e9af572274f")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "R20")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R50")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "R26")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2000,7 +1895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77764bba-2d5f-4e2c-9768-6df9ab02d55c")
-		(property "Reference" "C39"
+		(property "Reference" "C21"
 			(at 106.68 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2078,19 +1973,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "59f32d1b-090d-4fca-8341-54924ebbb906")
+			(uuid "7581b7f9-32a3-4973-8c89-0b921791ff1c")
 		)
 		(pin "1"
-			(uuid "6683305a-4933-47c1-864f-5becd7d3cd04")
+			(uuid "a4b2a07b-681d-47b2-9953-7855ab7eacee")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "C39")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "C47")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "C41")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -2108,7 +2003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "992750df-b284-4595-b177-b237d7929641")
-		(property "Reference" "C27"
+		(property "Reference" "C23"
 			(at 129.54 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,19 +2079,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbf4b7c0-459a-4618-aef1-b7403d592551")
+			(uuid "6cc68f0b-7e0b-4644-ab20-85abc9d54daf")
 		)
 		(pin "2"
-			(uuid "f7eb8803-652e-42f0-904c-091a0ad3c972")
+			(uuid "fb58ef5d-dc98-4349-acfe-6010ded1ce3a")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "C27")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "C49")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "C30")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -2214,7 +2109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d0819fa-0c68-4afd-8a02-2717bff44e9d")
-		(property "Reference" "C37"
+		(property "Reference" "C20"
 			(at 68.58 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,19 +2187,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "51fedb4a-f49f-4cec-b098-e9441fdc051f")
+			(uuid "b6bfd64e-6a48-4c88-ab88-f8e3e4f6ab3a")
 		)
 		(pin "1"
-			(uuid "a6420e7f-e638-4344-acf1-b8c3c9f595b4")
+			(uuid "7604d340-dc0c-4591-948b-dfb555534a54")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "C37")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "C46")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
-					(reference "C38")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -2401,10 +2296,10 @@
 			(uuid "8139c4b5-e2ae-4c7e-892c-73c594b396d6")
 		)
 		(pin "6"
-			(uuid "c6700d17-33c1-4178-9ff1-8192581d0e75")
+			(uuid "e815ce98-1e9e-479e-a068-5efcda28b0e3")
 		)
 		(pin "5"
-			(uuid "b6653845-c881-4673-9b65-9d11510eddfb")
+			(uuid "5552c00c-fd17-41c4-bcab-5946d5fbda41")
 		)
 		(pin "3"
 			(uuid "b763d50c-acb2-40d2-8aab-5370a0516f40")
@@ -2416,20 +2311,20 @@
 			(uuid "208a7e8f-e4a5-4a29-ba6c-baa61ca4d51c")
 		)
 		(pin "7"
-			(uuid "9aa60be6-aa4d-4662-bd40-8ad2b0efb7ab")
+			(uuid "6ae605b5-6da9-4f58-981a-bc63db4ad9bc")
 		)
 		(pin "4"
 			(uuid "b24d0319-2fd1-4daa-b21e-b8e160dacb24")
 		)
 		(instances
 			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/7b285b4c-d8e3-4012-bad7-8e22718d27ed"
-					(reference "U1")
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631/1bfa1734-4e6d-47c3-b424-3be25174e42d"
+					(reference "U4")
 					(unit 1)
 				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/cc975fbf-60a5-41a8-b2fb-1426d7d91343"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f/1bfa1734-4e6d-47c3-b424-3be25174e42d"
 					(reference "U1")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)

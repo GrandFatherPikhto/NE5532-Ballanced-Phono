@@ -1098,7 +1098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "070bffc4-eae9-402f-930e-9eae32f91949")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 71.12 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -1158,7 +1158,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -1242,7 +1242,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "PWR_PN12V"
 			(at 97.79 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1253,7 +1253,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LED_P12V"
 			(at 97.79 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1291,7 +1291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3712b11e-34b6-4e48-bf63-37393dccd359")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1351,7 +1351,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1369,7 +1369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4136d36f-2866-4a22-99a5-4ead32047dcd")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 53.34 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -1429,7 +1429,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1447,7 +1447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48890bde-d43f-4ac1-b854-8522999a1e27")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 63.5 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1507,7 +1507,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1591,7 +1591,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "PWR_PN12V"
 			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1602,7 +1602,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LED_N12V"
 			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1640,7 +1640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d5451b-76e0-4aae-9439-f2d8cec3c8f3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1700,7 +1700,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1718,7 +1718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b74139f1-7f01-42f9-a6b0-5435d0da8946")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 80.01 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1773,7 +1773,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "PWR_PN12V"
 			(at 77.47 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1784,7 +1784,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "CONN"
 			(at 77.47 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1807,7 +1807,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1825,7 +1825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbcbae2f-daa1-4994-a06a-101892236f41")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -1885,7 +1885,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1958,7 +1958,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "PWR_PN12V"
 			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1969,7 +1969,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_LED_N12V"
 			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2007,7 +2007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1dc5945-0ac7-447b-878a-fb68309c011c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 97.79 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2067,7 +2067,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2085,7 +2085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd574203-bbf9-46cd-a653-d9351d13b452")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2145,7 +2145,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2163,7 +2163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5632a33-0e5d-44ba-94a4-4601e1702cc8")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 71.12 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -2223,7 +2223,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2296,7 +2296,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "PWR_PN12V"
 			(at 97.79 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2307,7 +2307,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_P12V_LED"
 			(at 97.79 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2345,7 +2345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fccfebcc-fd1a-4800-942e-4d91537bdf21")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 53.34 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2405,7 +2405,7 @@
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/effc5641-fda8-402e-a139-c70bc5273f4d"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

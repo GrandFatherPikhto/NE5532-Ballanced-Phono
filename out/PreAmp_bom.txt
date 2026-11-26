@@ -2,105 +2,101 @@
 
 Компонент | Номинал                   | Footprint                     
 ----------------------------------------------------------------
-C1   | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C1   | 220 pF                    | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C2   | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C3   | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C3   | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C4   | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-C5   | 4.7 uF                    | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
-C6   | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C5   | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C6   | 220 pF                    | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C7   | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C8   | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C9   | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
 C10  | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-C11  | 4.7 uF                    | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
-C13  | 1000 uF                   | CP_Radial_D10.0mm_P5.00mm     
-C14  | 1000 uF                   | CP_Radial_D10.0mm_P5.00mm     
-C15  | 4.7 uF                    | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
-C16  | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C17  | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C19  | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-C20  | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-C21  | 4.7 uF                    | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
-C23  | 1000 uF                   | CP_Radial_D10.0mm_P5.00mm     
-C24  | 1000 uF                   | CP_Radial_D10.0mm_P5.00mm     
+C11  | 1000 uF                   | CP_Radial_D10.0mm_P5.00mm     
+C12  | 1000 uF                   | CP_Radial_D10.0mm_P5.00mm     
+C13  | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C14  | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C15  | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C16  | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C17  | 1000 uF                   | CP_Radial_D10.0mm_P5.00mm     
+C18  | 1000 uF                   | CP_Radial_D10.0mm_P5.00mm     
+C19  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C20  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C21  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C22  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C23  | 100V475J                  | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
+C24  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C25  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C27  | 100V475J                  | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
-C28  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C30  | 100V475J                  | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
-C31  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C32  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C33  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C34  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C26  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C27  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C28  | 100V475J                  | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
+C29  | 4.7 uF                    | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
+C30  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C31  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C32  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C33  | 4.7 uF                    | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
+C34  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C35  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C36  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C37  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C38  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C39  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C36  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C37  | 4.7 uF                    | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
+C38  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C39  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C40  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C41  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C42  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C43  | 220 pF                    | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-C44  | 220 pF                    | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-C45  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C46  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C47  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C48  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C49  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-C50  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C41  | 4.7 uF                    | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
+C42  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C43  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C44  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 D1   | LED                       | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
 D2   | LED                       | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
 J1   | Signal In                 | IDC-Header_2x04_P2.54mm_Vertical
-J2   | Power PN12V               | JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
-J3   | Signal Out                | JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
-NT1  | NetTie_2                  | NetTie-2_SMD_Pad0.5mm         
-NT2  | NetTie_2                  | NetTie-2_SMD_Pad0.5mm         
-NT3  | NetTie_2                  | NetTie-2_SMD_Pad0.5mm         
-NT4  | NetTie_2                  | NetTie-2_SMD_Pad0.5mm         
+J2   | Signal Out                | JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
+J3   | Power PN12V               | JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
 R1   | 4K7                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R2   | 4K7                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-R3   | 22K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R4   | 47K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R7   | 1K                        | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R3   | 2                         | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R4   | 180                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R5   | 2                         | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R6   | 180                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R7   | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R8   | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R9   | 180                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-R10  | 22K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R11  | 47K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R12  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R9   | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R10  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R11  | 100                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R12  | 100K                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R13  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R14  | 1K                        | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R14  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R15  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R16  | 180                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-R17  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R18  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R19  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R20  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R21  | 100                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R22  | 100K                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R23  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R24  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R16  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R17  | 100                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R18  | 100K                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R19  | 22K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R20  | 1K                        | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R21  | 510                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R22  | 910                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R23  | 43K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R24  | 47K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R25  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R26  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R27  | 100                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R28  | 100K                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R29  | 2                         | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-R30  | 2                         | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-R31  | 43K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R32  | 43K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R33  | 910                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R34  | 910                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R35  | 910                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R36  | 43K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R37  | 47K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R38  | 910                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R39  | 43K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R40  | 47K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R41  | 510                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R26  | 22K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R27  | 1K                        | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R28  | 510                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R29  | 910                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R30  | 43K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R31  | 47K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R32  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R33  | 22K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R34  | 1K                        | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R35  | 510                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R36  | 910                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R37  | 43K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R38  | 47K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R39  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R40  | 22K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R41  | 1K                        | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R42  | 510                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R43  | 22K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R44  | 1K                        | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R45  | 510                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R46  | 22K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R47  | 1K                        | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R48  | 510                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R43  | 910                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R44  | 43K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R45  | 47K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R46  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 U1   | NE5532                    | SOIC-8_3.9x4.9mm_P1.27mm      
 U2   | NE5532                    | SOIC-8_3.9x4.9mm_P1.27mm      
 U3   | NE5532                    | SOIC-8_3.9x4.9mm_P1.27mm      
