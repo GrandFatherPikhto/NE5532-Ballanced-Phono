@@ -1126,7 +1126,13 @@
 		(uuid "08d1dbc9-7e79-455e-a9f0-f6f2fe231674")
 	)
 	(junction
-		(at 110.49 100.33)
+		(at 165.1 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45bc50e8-e1d8-4372-83ab-80229711a5af")
+	)
+	(junction
+		(at 114.3 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "481fdcdf-4ec2-4da8-a4ed-21617bb0b2a4")
@@ -1138,16 +1144,22 @@
 		(uuid "54820a17-5c06-4af5-9e79-bb285a477346")
 	)
 	(junction
-		(at 85.09 83.82)
+		(at 53.34 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f906ca0-6f8f-45d1-b548-cf8cd0ead790")
 	)
 	(junction
-		(at 95.25 100.33)
+		(at 203.2 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66ee3c1a-329a-4451-b574-dc3cf14a04bc")
+		(uuid "6de668f8-8470-4b30-a0be-f313130f46f3")
+	)
+	(junction
+		(at 226.06 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "731649da-f2c6-4a4f-ad4c-4caee4b53e9a")
 	)
 	(junction
 		(at 116.84 50.8)
@@ -1162,31 +1174,19 @@
 		(uuid "930bda49-fb4d-4dbb-8510-e289ae43a5b4")
 	)
 	(junction
-		(at 165.1 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7efda8d-e60e-4bc5-b8c6-3ab473ff4ffc")
-	)
-	(junction
-		(at 139.7 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd7ba42f-f9cd-4b1e-aa72-fdbf3b69ede8")
-	)
-	(junction
-		(at 149.86 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e05d7fe2-2605-4bf0-903a-a039671a5d00")
-	)
-	(junction
 		(at 104.14 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8140753-9c0a-40fb-ad44-e4799b46d64c")
 	)
+	(junction
+		(at 91.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f87a4bba-c05e-42e3-861b-02efc318e772")
+	)
 	(bus_entry
-		(at 96.52 129.54)
+		(at 50.8 129.54)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1195,7 +1195,7 @@
 		(uuid "1ee2f15c-6dfa-4a33-8c3e-4368ac8fcd8c")
 	)
 	(bus_entry
-		(at 96.52 137.16)
+		(at 50.8 137.16)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1204,7 +1204,7 @@
 		(uuid "4991a1e3-dabf-4f7d-bdaa-7183dfb2ee12")
 	)
 	(bus_entry
-		(at 96.52 134.62)
+		(at 50.8 134.62)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1213,7 +1213,7 @@
 		(uuid "721bfdfb-f7a4-4d03-8359-d1189be55899")
 	)
 	(bus_entry
-		(at 96.52 132.08)
+		(at 50.8 132.08)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1223,7 +1223,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 88.9) (xy 95.25 100.33)
+			(xy 177.8 111.76) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01101f0a-d3be-4216-90ad-26d56d4d1caa")
+	)
+	(wire
+		(pts
+			(xy 91.44 87.63) (xy 91.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1233,7 +1243,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 83.82) (xy 95.25 83.82)
+			(xy 53.34 82.55) (xy 99.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1253,7 +1263,27 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 132.08) (xy 100.33 132.08)
+			(xy 165.1 83.82) (xy 210.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179905e4-3546-45f3-b2b6-41b7ffd4491c")
+	)
+	(wire
+		(pts
+			(xy 63.5 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bea2e3-a225-4f50-b2ae-19ab7868aee9")
+	)
+	(wire
+		(pts
+			(xy 53.34 132.08) (xy 54.61 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1293,27 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 134.62) (xy 100.33 134.62)
+			(xy 203.2 88.9) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c0fc9e-6507-4443-8e38-c17638abc249")
+	)
+	(wire
+		(pts
+			(xy 207.01 111.76) (xy 210.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2734e006-0b7c-4595-800b-ecc6a01d0f7a")
+	)
+	(wire
+		(pts
+			(xy 53.34 134.62) (xy 54.61 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1283,7 +1333,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 127) (xy 96.52 137.16)
+			(xy 50.8 127) (xy 50.8 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1293,27 +1343,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 149.86 100.33)
+			(xy 91.44 87.63) (xy 99.06 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4186196c-6b48-4cfc-89ff-618876551c74")
+		(uuid "3803cee1-18ec-49c1-92c3-c6cbd24d1ff8")
 	)
 	(wire
 		(pts
-			(xy 110.49 100.33) (xy 106.68 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a40639-ba4f-4b0c-af92-a79634d1eabe")
-	)
-	(wire
-		(pts
-			(xy 165.1 86.36) (xy 165.1 100.33)
+			(xy 226.06 86.36) (xy 226.06 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1363,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 86.36) (xy 110.49 100.33)
+			(xy 114.3 85.09) (xy 114.3 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1333,33 +1373,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 100.33) (xy 95.25 111.76)
+			(xy 66.04 110.49) (xy 63.5 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55fc3352-0c02-4334-9824-3ba58ad4560f")
+		(uuid "650dddb1-251b-4b75-a1c5-9f5818cb265b")
 	)
 	(wire
 		(pts
-			(xy 165.1 100.33) (xy 165.1 111.76)
+			(xy 185.42 111.76) (xy 189.23 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ee81e3e-d792-4927-a31a-76e434ec67f0")
-	)
-	(wire
-		(pts
-			(xy 149.86 100.33) (xy 149.86 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e34357-100a-4efb-ba71-b768ebdb8be2")
+		(uuid "653f3bbb-147a-4ffe-9403-a5cdca7138ae")
 	)
 	(wire
 		(pts
@@ -1373,6 +1403,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 100.33) (xy 226.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7446e747-cb07-4de2-912a-83e69ec76d88")
+	)
+	(wire
+		(pts
 			(xy 104.14 50.8) (xy 116.84 50.8)
 		)
 		(stroke
@@ -1383,27 +1423,57 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 100.33) (xy 95.25 100.33)
+			(xy 196.85 111.76) (xy 199.39 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9212485d-61aa-4f06-9d9c-8884d5655efb")
+		(uuid "7bfdf817-0e26-4bf7-868a-ce3836477201")
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 149.86 83.82)
+			(xy 73.66 110.49) (xy 77.47 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "986faaec-f086-4f0b-a36b-8d87116ba6cd")
+		(uuid "82437763-904b-4833-a6aa-b9926d8c2f56")
 	)
 	(wire
 		(pts
-			(xy 110.49 100.33) (xy 110.49 111.76)
+			(xy 175.26 111.76) (xy 175.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9bac63-0c06-43db-9fab-c428287617dd")
+	)
+	(wire
+		(pts
+			(xy 95.25 110.49) (xy 99.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944417b6-0ddb-44b5-a314-abb96a33376d")
+	)
+	(wire
+		(pts
+			(xy 175.26 100.33) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c5eecb-3df1-4b2d-a8ab-26a92e9c1e48")
+	)
+	(wire
+		(pts
+			(xy 114.3 99.06) (xy 114.3 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1423,13 +1493,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 100.33) (xy 161.29 100.33)
+			(xy 63.5 110.49) (xy 63.5 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9fcc2a9-1897-492f-8191-104aa6e4008b")
+		(uuid "be932e9d-5b15-4c3d-8e26-5afed15448e9")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24da86b-e6c0-47f0-bf50-0f323934c775")
 	)
 	(wire
 		(pts
@@ -1443,17 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 149.86 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d945d99e-5970-42be-a2d8-3f04a2170d73")
-	)
-	(wire
-		(pts
-			(xy 99.06 137.16) (xy 100.33 137.16)
+			(xy 53.34 137.16) (xy 54.61 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1463,7 +1533,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 139.7) (xy 100.33 139.7)
+			(xy 85.09 110.49) (xy 87.63 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6dd816c-c842-44e6-95f6-18c35c5e8fc0")
+	)
+	(wire
+		(pts
+			(xy 53.34 139.7) (xy 54.61 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1472,7 +1552,7 @@
 		(uuid "e7a00db0-fceb-42ce-ba09-f0cddfa7cabf")
 	)
 	(label "CHANNEL.X_P"
-		(at 110.49 86.36 0)
+		(at 114.3 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1482,7 +1562,7 @@
 		(uuid "061fa9bc-b5c8-4589-a375-89f7a6c353b5")
 	)
 	(label "A_N"
-		(at 95.25 100.33 180)
+		(at 63.5 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1492,7 +1572,7 @@
 		(uuid "11a0d6c9-a6ca-4f26-9b7d-69b93a65ed4f")
 	)
 	(label "CHANNEL.IN_P"
-		(at 100.33 132.08 0)
+		(at 54.61 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1502,7 +1582,7 @@
 		(uuid "16867293-1a3f-45e7-99ab-4252b0b85365")
 	)
 	(label "CHANNEL.X_N"
-		(at 165.1 86.36 0)
+		(at 226.06 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1512,7 +1592,7 @@
 		(uuid "1ce14d47-fc82-4c1e-a761-4986e0a84823")
 	)
 	(label "CHANNEL.IN_N"
-		(at 100.33 134.62 0)
+		(at 54.61 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1522,7 +1602,7 @@
 		(uuid "1eb51eee-45a9-478a-8808-ba6460a74799")
 	)
 	(label "B_N"
-		(at 190.5 99.06 270)
+		(at 185.42 62.23 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1532,7 +1612,7 @@
 		(uuid "40769f20-f929-4411-b840-57304a719319")
 	)
 	(label "B_N"
-		(at 149.86 100.33 180)
+		(at 175.26 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1542,7 +1622,7 @@
 		(uuid "4fa26bed-ea08-4e29-aa1a-e0308a52c377")
 	)
 	(label "CHANNEL.IN_P"
-		(at 77.47 83.82 180)
+		(at 45.72 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1552,7 +1632,7 @@
 		(uuid "529dc643-a45a-4f8d-b1d0-4ffe09f85fcc")
 	)
 	(label "A_N"
-		(at 190.5 76.2 90)
+		(at 185.42 31.75 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1562,7 +1642,7 @@
 		(uuid "5c0a1486-de33-4844-9383-42b459533c05")
 	)
 	(label "CHANNEL.IN_N"
-		(at 132.08 83.82 180)
+		(at 157.48 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1572,7 +1652,7 @@
 		(uuid "732ab9a2-8d14-4010-a929-32b6f76b7c33")
 	)
 	(label "CHANNEL.X_P"
-		(at 100.33 137.16 0)
+		(at 54.61 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1582,7 +1662,7 @@
 		(uuid "af4849cd-fe29-4889-8591-8b77307189ca")
 	)
 	(label "CHANNEL.X_N"
-		(at 100.33 139.7 0)
+		(at 54.61 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1593,7 +1673,7 @@
 	)
 	(hierarchical_label "CHANNEL{IN_P,IN_N,X_P,X_N}"
 		(shape input)
-		(at 96.52 127 0)
+		(at 50.8 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1603,8 +1683,8 @@
 		(uuid "289af248-1055-45da-bcc1-03c1332f5c7b")
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 190.5 87.63 0)
+		(lib_id "Device:C")
+		(at 203.2 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1613,31 +1693,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "047b10c7-d14e-4a61-9396-12c2a331d4a7")
-		(property "Reference" "C13"
-			(at 194.31 85.4709 0)
+		(uuid "002bfb15-fe6e-47b7-adad-508dc07475e8")
+		(property "Reference" "C41"
+			(at 203.2 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1000 uF"
-			(at 194.31 88.0109 0)
+		(property "Value" "100V103JP"
+			(at 203.2 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 191.4652 91.44 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(at 207.01 110.7948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1648,7 +1726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 87.63 0)
+			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1658,8 +1736,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 190.5 87.63 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1670,7 +1748,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 190.5 87.63 0)
+			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1681,7 +1759,115 @@
 			)
 		)
 		(property "Role" ""
-			(at 190.5 87.63 0)
+			(at 203.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb82dd80-16e3-4dbd-991f-5d146dd35e19")
+		)
+		(pin "1"
+			(uuid "a3e20469-0252-4db2-a11d-8a6a592c4a7d")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 185.42 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "047b10c7-d14e-4a61-9396-12c2a331d4a7")
+		(property "Reference" "C13"
+			(at 189.23 48.6409 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000 uF"
+			(at 189.23 51.1809 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 186.3852 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 185.42 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 185.42 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 185.42 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1705,112 +1891,6 @@
 				)
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 153.67 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "072b31e1-64d6-4121-b1cf-7d09867f8ca2")
-		(property "Reference" "C12"
-			(at 153.67 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "31.5 nF"
-			(at 153.67 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 157.48 110.7948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cluster" ""
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Role" ""
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71e559a8-16cc-42a5-8e84-fac63e0be215")
-		)
-		(pin "2"
-			(uuid "8b422a3e-d4c9-44cc-b647-0f5a97dd0543")
-		)
-		(instances
-			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
-					(reference "C22")
-					(unit 1)
-				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2115,8 +2195,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 102.87 100.33 270)
+		(lib_id "Device:C")
+		(at 193.04 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2125,9 +2205,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "156aa40c-4af4-4c50-b9c6-09f378d5fe4e")
-		(property "Reference" "R4"
-			(at 102.87 93.98 90)
+		(uuid "113d68de-a6fc-430e-a02f-48f2a4ee3f8a")
+		(property "Reference" "C40"
+			(at 193.04 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2136,8 +2216,8 @@
 				)
 			)
 		)
-		(property "Value" "90K9"
-			(at 102.87 96.52 90)
+		(property "Value" "100V103JP"
+			(at 193.04 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2146,8 +2226,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 102.87 98.552 90)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(at 196.85 110.7948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2158,7 +2238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 100.33 0)
+			(at 193.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2168,8 +2248,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 102.87 100.33 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2180,7 +2260,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 102.87 100.33 0)
+			(at 193.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2191,7 +2271,113 @@
 			)
 		)
 		(property "Role" ""
-			(at 102.87 100.33 0)
+			(at 193.04 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7f176902-2253-45bc-b3c8-01b10b0723f3")
+		)
+		(pin "1"
+			(uuid "51cba189-2b4e-4d0d-af40-22019c41937a")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "156aa40c-4af4-4c50-b9c6-09f378d5fe4e")
+		(property "Reference" "R4"
+			(at 110.49 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 110.49 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 110.49 97.282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 110.49 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 110.49 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2222,7 +2408,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 87.63 0)
+		(at 95.25 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2231,31 +2417,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "18e08fd8-acbd-44ea-89e3-86f0b507c36d")
-		(property "Reference" "R3"
-			(at 87.63 86.3599 0)
+		(uuid "17e6f4a8-a69d-48e7-91e3-6b1a380b621f")
+		(property "Reference" "R33"
+			(at 95.25 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "23K5"
-			(at 87.63 88.8999 0)
+		(property "Value" "910"
+			(at 95.25 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 83.312 87.63 90)
+			(at 95.25 97.282 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2266,7 +2450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 87.63 0)
+			(at 95.25 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2277,7 +2461,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 87.63 0)
+			(at 95.25 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2288,7 +2472,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 85.09 87.63 0)
+			(at 95.25 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,7 +2483,115 @@
 			)
 		)
 		(property "Role" ""
-			(at 85.09 87.63 0)
+			(at 95.25 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "891a24aa-a3f7-4ecc-b5bb-07e3b5d8bf8d")
+		)
+		(pin "1"
+			(uuid "f3e8fd5c-85f3-44d7-acdd-20543c04510d")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 53.34 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18e08fd8-acbd-44ea-89e3-86f0b507c36d")
+		(property "Reference" "R3"
+			(at 55.88 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22K"
+			(at 55.88 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 51.562 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 53.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 53.34 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2330,7 +2622,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 80.01 180)
+		(at 185.42 43.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2341,7 +2633,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b42d487-06f8-48be-bdd6-d5889393745c")
 		(property "Reference" "R9"
-			(at 193.04 78.7399 0)
+			(at 187.96 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2351,8 +2643,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "182"
-			(at 193.04 81.2799 0)
+		(property "Value" "180"
+			(at 187.96 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2362,8 +2654,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 192.278 80.01 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 187.198 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2374,7 +2666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 80.01 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2677,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 190.5 80.01 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,7 +2688,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 190.5 80.01 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2407,7 +2699,7 @@
 			)
 		)
 		(property "Role" ""
-			(at 190.5 80.01 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,7 +2730,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 83.82 90)
+		(at 81.28 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2447,9 +2739,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5063e5e9-2c60-4f2b-a8ed-2b9c062b0b25")
-		(property "Reference" "C5"
-			(at 81.28 76.2 90)
+		(uuid "4c268ade-cfe4-43d0-b3d7-dcfdc9aba254")
+		(property "Reference" "C33"
+			(at 81.28 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2458,8 +2750,8 @@
 				)
 			)
 		)
-		(property "Value" "4.7 uF"
-			(at 81.28 78.74 90)
+		(property "Value" "100V103JP"
+			(at 81.28 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2468,8 +2760,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 85.09 82.8548 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(at 85.09 109.5248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2480,7 +2772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 83.82 0)
+			(at 81.28 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2491,7 +2783,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 81.28 83.82 0)
+			(at 81.28 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2502,7 +2794,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 81.28 83.82 0)
+			(at 81.28 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2513,7 +2805,219 @@
 			)
 		)
 		(property "Role" ""
-			(at 81.28 83.82 0)
+			(at 81.28 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79fefef2-13fa-4ae0-9421-7bee70f6524c")
+		)
+		(pin "1"
+			(uuid "14ddddb0-3b0b-4bab-b1cf-8477673bba43")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e9dd0c7-2bde-43e0-beaf-a17cb4439ab7")
+		(property "Reference" "C39"
+			(at 181.61 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100V103JP"
+			(at 181.61 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(at 185.42 110.7948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "38df5b65-a6cd-4ea0-b98f-bd473544c808")
+		)
+		(pin "1"
+			(uuid "15bc3f79-5c97-4939-92b1-2dd31d9c0d8d")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5063e5e9-2c60-4f2b-a8ed-2b9c062b0b25")
+		(property "Reference" "C5"
+			(at 49.53 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7 uF"
+			(at 49.53 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3"
+			(at 53.34 81.5848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 49.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 49.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 49.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2544,7 +3048,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 135.89 83.82 90)
+		(at 161.29 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2555,7 +3059,7 @@
 		(fields_autoplaced yes)
 		(uuid "54c32408-012b-4405-9aae-301d9285b630")
 		(property "Reference" "C11"
-			(at 135.89 76.2 90)
+			(at 161.29 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2565,7 +3069,7 @@
 			)
 		)
 		(property "Value" "4.7 uF"
-			(at 135.89 78.74 90)
+			(at 161.29 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2574,8 +3078,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 139.7 82.8548 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3"
+			(at 165.1 82.8548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2586,7 +3090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 83.82 0)
+			(at 161.29 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2597,7 +3101,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 135.89 83.82 0)
+			(at 161.29 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2608,7 +3112,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 135.89 83.82 0)
+			(at 161.29 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2619,7 +3123,7 @@
 			)
 		)
 		(property "Role" ""
-			(at 135.89 83.82 0)
+			(at 161.29 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2649,8 +3153,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 99.06 111.76 90)
+		(lib_id "Device:R")
+		(at 165.1 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2659,29 +3163,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "66b86c6a-70fb-4f07-b240-43b8de6f2b5e")
-		(property "Reference" "C8"
-			(at 99.06 104.14 90)
+		(uuid "5545d37a-d885-490c-9c96-0b2b9c1eafe6")
+		(property "Reference" "R44"
+			(at 167.64 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "31.5 nF"
-			(at 99.06 106.68 90)
+		(property "Value" "1K"
+			(at 167.64 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 102.87 110.7948 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 163.322 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2692,7 +3198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 111.76 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2702,8 +3208,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 111.76 0)
+		(property "Description" "Resistor"
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2714,7 +3220,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 99.06 111.76 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2725,7 +3231,7 @@
 			)
 		)
 		(property "Role" ""
-			(at 99.06 111.76 0)
+			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2735,20 +3241,338 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "f1780bf0-ee6f-4d78-bc87-37c3df8c5811")
-		)
 		(pin "2"
-			(uuid "5e35beb1-e837-4661-b75a-486eba46eb8f")
+			(uuid "d4141e6b-a2ef-43aa-b359-c9bce41b0392")
+		)
+		(pin "1"
+			(uuid "fef71745-1d4d-4c19-aed6-fdda7b3a4b29")
 		)
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
-					(reference "C18")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
-					(reference "C8")
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55f1a29a-aa02-47ad-847e-d4da77c4f6b9")
+		(property "Reference" "R36"
+			(at 214.63 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "43K"
+			(at 214.63 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 214.63 98.552 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 214.63 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 214.63 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "89e265fa-ff4f-4635-8d4b-bb8c0624eb4f")
+		)
+		(pin "1"
+			(uuid "ace0f57f-96af-41bd-a298-af6e9dff6285")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 91.44 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bdb856f-de3a-4435-babf-09eecab4e467")
+		(property "Reference" "C31"
+			(at 91.44 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100V103JP"
+			(at 91.44 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(at 95.25 109.5248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 91.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 91.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 91.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f618d955-5cc5-40ab-bc99-0e3c8343290f")
+		)
+		(pin "1"
+			(uuid "7128ed19-30cd-4be2-8c9f-3fbb6a2c4ea6")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6eb68184-1023-4897-814a-3a86b67062b2")
+		(property "Reference" "C35"
+			(at 69.85 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100V103JP"
+			(at 69.85 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(at 73.66 109.5248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 69.85 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 69.85 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7ae5714-7f3d-4b29-b768-b1e45bdfd4d9")
+		)
+		(pin "1"
+			(uuid "d7f4c2a4-998e-4932-9eb9-3e4647ff929c")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2756,7 +3580,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 157.48 86.36 0)
+		(at 218.44 86.36 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2767,7 +3591,7 @@
 		(fields_autoplaced yes)
 		(uuid "71d80dd1-1c30-4b25-b5de-3a911cd04d2e")
 		(property "Reference" "U2"
-			(at 157.48 76.2 0)
+			(at 218.44 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2777,7 +3601,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 157.48 78.74 0)
+			(at 218.44 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2787,7 +3611,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 157.48 86.36 0)
+			(at 218.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2798,7 +3622,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 157.48 86.36 0)
+			(at 218.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +3633,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 157.48 86.36 0)
+			(at 218.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2939,114 +3763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 139.7 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f032504-0c9a-4b42-992e-969a0a02df96")
-		(property "Reference" "R6"
-			(at 142.24 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "23K5"
-			(at 142.24 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 137.922 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cluster" ""
-			(at 139.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Role" ""
-			(at 139.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4b1b61a1-97e4-4cf7-bd44-af549f9bad66")
-		)
-		(pin "1"
-			(uuid "98569047-96b8-41fc-9f5f-931021bbb623")
-		)
-		(instances
-			(project "PreAmp"
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 104.14 35.56 0)
 		(unit 1)
@@ -3130,7 +3846,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 111.76 90)
+		(at 165.1 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3139,29 +3855,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "941aeb62-72b4-4d3c-b340-0c3a3d75afc3")
-		(property "Reference" "R8"
-			(at 161.29 105.41 90)
+		(uuid "8683db2a-5351-4952-b21e-bf4feade3b65")
+		(property "Reference" "R45"
+			(at 167.64 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 161.29 107.95 90)
+		(property "Value" "510"
+			(at 167.64 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 161.29 113.538 90)
+			(at 163.322 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3172,7 +3890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 111.76 0)
+			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3183,7 +3901,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 111.76 0)
+			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3194,7 +3912,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 161.29 111.76 0)
+			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3205,7 +3923,303 @@
 			)
 		)
 		(property "Role" ""
-			(at 161.29 111.76 0)
+			(at 165.1 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f9918f9d-956b-4f13-a457-d5c238db720a")
+		)
+		(pin "1"
+			(uuid "84e86867-3a8f-4586-b53b-f7c4b0500599")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "876bde18-4e64-40e5-9bed-5cb168615d58")
+		(property "Reference" "R29"
+			(at 187.96 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2"
+			(at 187.96 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 187.198 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 185.42 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 185.42 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f385b45f-9ebe-4ff3-b63a-75d33c919169")
+		)
+		(pin "1"
+			(uuid "d3e8f4cc-6692-4bd5-ae3d-99bc21f57bfb")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90ad6694-fc17-4bac-8610-9e4a41397ce2")
+		(property "Reference" "#PWR014"
+			(at 165.1 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0306ed87-5a62-4052-a1b1-32d9668a4a37")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 222.25 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "941aeb62-72b4-4d3c-b340-0c3a3d75afc3")
+		(property "Reference" "R8"
+			(at 222.25 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 222.25 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 222.25 113.538 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 222.25 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 222.25 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3317,8 +4331,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 190.5 95.25 180)
+		(lib_id "Device:R")
+		(at 222.25 100.33 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3327,31 +4341,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b034f109-8421-4693-a51d-b37f869b624e")
-		(property "Reference" "C14"
-			(at 194.31 94.8689 0)
+		(uuid "a7b2abf5-cd97-41f5-a17a-e5e96ba73215")
+		(property "Reference" "R37"
+			(at 222.25 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1000 uF"
-			(at 194.31 97.4089 0)
+		(property "Value" "47K"
+			(at 222.25 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 189.5348 91.44 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 222.25 98.552 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3362,7 +4374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 95.25 0)
+			(at 222.25 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3372,8 +4384,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 190.5 95.25 0)
+		(property "Description" "Resistor"
+			(at 222.25 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3384,7 +4396,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 190.5 95.25 0)
+			(at 222.25 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3395,7 +4407,115 @@
 			)
 		)
 		(property "Role" ""
-			(at 190.5 95.25 0)
+			(at 222.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "84e1800d-4965-47b8-b2b1-2dc6d2201568")
+		)
+		(pin "1"
+			(uuid "a43c276c-d74e-4578-9a5b-5558c3f9aa07")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 185.42 58.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b034f109-8421-4693-a51d-b37f869b624e")
+		(property "Reference" "C14"
+			(at 189.23 58.0389 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1000 uF"
+			(at 189.23 60.5789 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 184.4548 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 185.42 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 185.42 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 185.42 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3419,6 +4539,220 @@
 				)
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1e94463-c2c5-455c-a287-5c24ab024fe9")
+		(property "Reference" "C42"
+			(at 214.63 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100V152JP"
+			(at 214.63 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(at 218.44 110.7948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 214.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 214.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba8385a8-3205-4627-90b1-5a020f34382d")
+		)
+		(pin "1"
+			(uuid "7297addc-1897-4a4d-b2a0-a382909bdebb")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b367d074-c5d1-4d09-bfee-668995492095")
+		(property "Reference" "R43"
+			(at 167.64 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22K"
+			(at 167.64 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 163.322 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b69ca5fb-0432-4127-86d7-aed040b82b4e")
+		)
+		(pin "1"
+			(uuid "38507942-df88-4bfd-b066-561887c20a1f")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3511,8 +4845,114 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 102.87 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd6d4c7e-615b-4e61-a621-2f4e262af8a8")
+		(property "Reference" "C37"
+			(at 102.87 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100V152JP"
+			(at 102.87 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(at 106.68 109.5248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 102.87 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 102.87 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eda17671-33bc-4500-857d-881f5fbfce62")
+		)
+		(pin "1"
+			(uuid "ec226a42-84bf-405a-8d74-d6f9e53116e2")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 102.87 86.36 0)
+		(at 106.68 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3523,7 +4963,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9458074-a2e5-4b67-83aa-79ea9d9523ac")
 		(property "Reference" "U2"
-			(at 102.87 76.2 0)
+			(at 106.68 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3533,7 +4973,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 102.87 78.74 0)
+			(at 106.68 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3543,7 +4983,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 102.87 86.36 0)
+			(at 106.68 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3554,7 +4994,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 102.87 86.36 0)
+			(at 106.68 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3565,7 +5005,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 102.87 86.36 0)
+			(at 106.68 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +5054,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 100.33 270)
+		(at 102.87 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3623,9 +5063,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d3f21fc1-f776-44be-98b5-769b9d09353f")
-		(property "Reference" "R7"
-			(at 157.48 93.98 90)
+		(uuid "cd692b60-bf94-4f11-97f4-bb5361a93bc4")
+		(property "Reference" "R31"
+			(at 102.87 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3634,8 +5074,8 @@
 				)
 			)
 		)
-		(property "Value" "90K9"
-			(at 157.48 96.52 90)
+		(property "Value" "43K"
+			(at 102.87 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3645,7 +5085,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 157.48 98.552 90)
+			(at 102.87 97.282 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3656,7 +5096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 100.33 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3667,7 +5107,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 100.33 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3678,7 +5118,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 157.48 100.33 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,7 +5129,7 @@
 			)
 		)
 		(property "Role" ""
-			(at 157.48 100.33 0)
+			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3700,19 +5140,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "d7878bee-22f7-4afb-bdcb-6a74ad7eadf6")
+			(uuid "cfba94a7-3ea3-4ed5-806e-21a69bb38dcf")
 		)
 		(pin "1"
-			(uuid "85b6e485-becc-4dcc-80ca-985cf1993ca1")
+			(uuid "d2a69570-e5fb-41c6-bca7-3f3f55f06937")
 		)
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
-					(reference "R14")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
-					(reference "R7")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3720,7 +5160,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 91.44 0)
+		(at 53.34 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3731,7 +5171,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4df9601-d432-4f35-8a5e-b945f1f25aa7")
 		(property "Reference" "#PWR011"
-			(at 85.09 97.79 0)
+			(at 53.34 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3742,7 +5182,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 96.52 0)
+			(at 53.34 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3752,7 +5192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 91.44 0)
+			(at 53.34 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3763,7 +5203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 91.44 0)
+			(at 53.34 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3774,7 +5214,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 91.44 0)
+			(at 53.34 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3795,6 +5235,112 @@
 				)
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 207.01 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6414095-5102-47dd-a6e6-88a05871072a")
+		(property "Reference" "R35"
+			(at 207.01 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910"
+			(at 207.01 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 207.01 98.552 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.01 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 207.01 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 207.01 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "acd5ec50-d59f-4f61-b897-02bb812ea528")
+		)
+		(pin "1"
+			(uuid "4161a823-02fe-40de-a314-6f7ba365ebea")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -3992,7 +5538,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 111.76 90)
+		(at 110.49 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4003,7 +5549,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec65568c-b708-42c3-91c1-32dcc3d9f622")
 		(property "Reference" "R5"
-			(at 106.68 105.41 90)
+			(at 110.49 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4013,7 +5559,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 106.68 107.95 90)
+			(at 110.49 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4023,7 +5569,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 106.68 113.538 90)
+			(at 110.49 112.268 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +5580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 111.76 0)
+			(at 110.49 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4045,7 +5591,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 111.76 0)
+			(at 110.49 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4056,7 +5602,7 @@
 			)
 		)
 		(property "Cluster" ""
-			(at 106.68 111.76 0)
+			(at 110.49 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4067,7 +5613,7 @@
 			)
 		)
 		(property "Role" ""
-			(at 106.68 111.76 0)
+			(at 110.49 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4097,8 +5643,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.7 91.44 0)
+		(lib_id "Device:R")
+		(at 53.34 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4107,30 +5653,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f352d3c5-a18a-4fc1-b98c-cf2a312a40b1")
-		(property "Reference" "#PWR014"
-			(at 139.7 97.79 0)
-			(hide yes)
+		(uuid "ed083f9a-8507-4624-81bc-5d57babfc2cc")
+		(property "Reference" "R7"
+			(at 55.88 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 139.7 96.52 0)
+		(property "Value" "1K"
+			(at 55.88 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 91.44 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 51.562 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4141,7 +5688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 91.44 0)
+			(at 53.34 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,8 +5698,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 91.44 0)
+		(property "Description" "Resistor"
+			(at 53.34 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4161,18 +5708,151 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Cluster" ""
+			(at 53.34 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 53.34 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ecc8f89-ba9d-43d5-a9bc-586c409cfc61")
 		)
 		(pin "1"
-			(uuid "87667e3d-8974-41b5-bc78-a85d0e6e4a5b")
+			(uuid "7c9baed4-d482-44af-b27f-f7e25c579bfe")
 		)
 		(instances
 			(project "PreAmp"
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
-					(reference "#PWR018")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
-					(reference "#PWR014")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 53.34 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee0f93ea-91e3-423c-8d1f-698f8105f2ee")
+		(property "Reference" "R41"
+			(at 55.88 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510"
+			(at 55.88 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 51.562 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" ""
+			(at 53.34 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" ""
+			(at 53.34 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c330918-aa33-4724-bc04-2a914df43fc9")
+		)
+		(pin "1"
+			(uuid "c4e9ff96-3f4e-4ca5-8cc8-9b392a91ec7b")
+		)
+		(instances
+			(project "PreAmp"
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/2eb76137-3def-43f1-8031-fa4efdeb3631"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/c0d2d2be-77c3-4043-a4c7-30340514132a/6b5bf80e-0583-4bb8-b31e-69a321db1d7f"
+					(reference "R41")
 					(unit 1)
 				)
 			)

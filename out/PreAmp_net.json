@@ -1,7 +1,7 @@
 {
   "source_file": "PreAmp.net",
-  "total_nets": 43,
-  "connected_nets": 43,
+  "total_nets": 77,
+  "connected_nets": 77,
   "nets": [
     {
       "name": "+12V",
@@ -253,8 +253,8 @@
           ]
         },
         {
-          "ref": "R7",
-          "value": "90K9",
+          "ref": "R37",
+          "value": "47K",
           "missing_footprint": false,
           "pins": [
             "1"
@@ -293,7 +293,7 @@
         },
         {
           "ref": "R4",
-          "value": "90K9",
+          "value": "47K",
           "missing_footprint": false,
           "pins": [
             "1"
@@ -377,19 +377,19 @@
           ]
         },
         {
-          "ref": "R14",
-          "value": "90K9",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
           "ref": "R15",
           "value": "10K",
           "missing_footprint": false,
           "pins": [
             "2"
+          ]
+        },
+        {
+          "ref": "R40",
+          "value": "47K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
           ]
         },
         {
@@ -417,7 +417,7 @@
         },
         {
           "ref": "R11",
-          "value": "90K9",
+          "value": "47K",
           "missing_footprint": false,
           "pins": [
             "1"
@@ -449,24 +449,24 @@
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "C8",
-          "value": "31.5 nF",
+          "ref": "C35",
+          "value": "100V103JP",
           "missing_footprint": false,
           "pins": [
             "1"
           ]
         },
         {
-          "ref": "R4",
-          "value": "90K9",
+          "ref": "R29",
+          "value": "2",
           "missing_footprint": false,
           "pins": [
             "2"
           ]
         },
         {
-          "ref": "R9",
-          "value": "182",
+          "ref": "R33",
+          "value": "910",
           "missing_footprint": false,
           "pins": [
             "2"
@@ -490,14 +490,6 @@
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "C12",
-          "value": "31.5 nF",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
           "ref": "C14",
           "value": "1000 uF",
           "missing_footprint": false,
@@ -506,8 +498,16 @@
           ]
         },
         {
-          "ref": "R7",
-          "value": "90K9",
+          "ref": "C39",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R35",
+          "value": "910",
           "missing_footprint": false,
           "pins": [
             "2"
@@ -531,24 +531,24 @@
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "C18",
-          "value": "31.5 nF",
+          "ref": "C36",
+          "value": "100V103JP",
           "missing_footprint": false,
           "pins": [
             "1"
           ]
         },
         {
-          "ref": "R11",
-          "value": "90K9",
+          "ref": "R30",
+          "value": "2",
           "missing_footprint": false,
           "pins": [
             "2"
           ]
         },
         {
-          "ref": "R16",
-          "value": "182",
+          "ref": "R34",
+          "value": "910",
           "missing_footprint": false,
           "pins": [
             "2"
@@ -572,14 +572,6 @@
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "C22",
-          "value": "31.5 nF",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
           "ref": "C24",
           "value": "1000 uF",
           "missing_footprint": false,
@@ -588,8 +580,16 @@
           ]
         },
         {
-          "ref": "R14",
-          "value": "90K9",
+          "ref": "C43",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R38",
+          "value": "910",
           "missing_footprint": false,
           "pins": [
             "2"
@@ -612,7 +612,7 @@
       "nodes": [
         {
           "ref": "C27",
-          "value": "4.7 uF",
+          "value": "100V475J",
           "missing_footprint": false,
           "pins": [
             "2"
@@ -689,7 +689,7 @@
       "nodes": [
         {
           "ref": "C30",
-          "value": "4.7 uF",
+          "value": "100V475J",
           "missing_footprint": false,
           "pins": [
             "2"
@@ -821,22 +821,6 @@
           ]
         },
         {
-          "ref": "C25",
-          "value": "7.5 nF",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
-          "ref": "C28",
-          "value": "7.5 nF",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
           "ref": "C3",
           "value": "100 nF",
           "missing_footprint": false,
@@ -850,6 +834,22 @@
           "missing_footprint": false,
           "pins": [
             "2"
+          ]
+        },
+        {
+          "ref": "C47",
+          "value": "100V683J",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C48",
+          "value": "100V683J",
+          "missing_footprint": false,
+          "pins": [
+            "1"
           ]
         },
         {
@@ -921,22 +921,6 @@
           ]
         },
         {
-          "ref": "R10",
-          "value": "23K5",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "R13",
-          "value": "23K5",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
           "ref": "R18",
           "value": "10K",
           "missing_footprint": false,
@@ -969,42 +953,35 @@
           ]
         },
         {
-          "ref": "R3",
-          "value": "23K5",
+          "ref": "R41",
+          "value": "510",
           "missing_footprint": false,
           "pins": [
             "2"
           ]
         },
         {
-          "ref": "R6",
-          "value": "23K5",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Net-(C12-Pad2)",
-      "sheet_path": [],
-      "netclass": "Default",
-      "nodes": [
-        {
-          "ref": "C12",
-          "value": "31.5 nF",
+          "ref": "R42",
+          "value": "510",
           "missing_footprint": false,
           "pins": [
             "2"
           ]
         },
         {
-          "ref": "R8",
-          "value": "10K",
+          "ref": "R45",
+          "value": "510",
           "missing_footprint": false,
           "pins": [
-            "1"
+            "2"
+          ]
+        },
+        {
+          "ref": "R48",
+          "value": "510",
+          "missing_footprint": false,
+          "pins": [
+            "2"
           ]
         }
       ]
@@ -1024,7 +1001,7 @@
         },
         {
           "ref": "R9",
-          "value": "182",
+          "value": "180",
           "missing_footprint": false,
           "pins": [
             "1"
@@ -1056,52 +1033,6 @@
       ]
     },
     {
-      "name": "Net-(C18-Pad2)",
-      "sheet_path": [],
-      "netclass": "Default",
-      "nodes": [
-        {
-          "ref": "C18",
-          "value": "31.5 nF",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "R12",
-          "value": "10K",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Net-(C22-Pad2)",
-      "sheet_path": [],
-      "netclass": "Default",
-      "nodes": [
-        {
-          "ref": "C22",
-          "value": "31.5 nF",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "R15",
-          "value": "10K",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Net-(C23-Pad1)",
       "sheet_path": [],
       "netclass": "Default",
@@ -1116,7 +1047,7 @@
         },
         {
           "ref": "R16",
-          "value": "182",
+          "value": "180",
           "missing_footprint": false,
           "pins": [
             "1"
@@ -1148,16 +1079,499 @@
       ]
     },
     {
-      "name": "Net-(C26-Pad2)",
+      "name": "Net-(C25-Pad1)",
       "sheet_path": [],
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "C26",
-          "value": "7.5 nF",
+          "ref": "C25",
+          "value": "100V682J",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C47",
+          "value": "100V683J",
           "missing_footprint": false,
           "pins": [
             "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C27-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C27",
+          "value": "100V475J",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R21",
+          "value": "100",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C28-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C28",
+          "value": "100V682J",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C48",
+          "value": "100V683J",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C30-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C30",
+          "value": "100V475J",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R27",
+          "value": "100",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C31-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C31",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C33",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C31-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C31",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C37",
+          "value": "100V152JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C32-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C32",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C34",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C32-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C32",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C38",
+          "value": "100V152JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C33-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C33",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C35",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C34-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C34",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C36",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C37-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C37",
+          "value": "100V152JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R5",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C38-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C38",
+          "value": "100V152JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R12",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C39-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C39",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C40",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C40-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C40",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C41",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C41-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C41",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C42",
+          "value": "100V152JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C42-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C42",
+          "value": "100V152JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R8",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C43-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C43",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C44",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C44-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C44",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C45",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C45-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C45",
+          "value": "100V103JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C46",
+          "value": "100V152JP",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C46-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C46",
+          "value": "100V152JP",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R15",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C49-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C49",
+          "value": "100V682J",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C50",
+          "value": "100V683J",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C50-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C50",
+          "value": "100V683J",
+          "missing_footprint": false,
+          "pins": [
+            "1"
           ]
         },
         {
@@ -1187,21 +1601,21 @@
       ]
     },
     {
-      "name": "Net-(C27-Pad1)",
+      "name": "Net-(C51-Pad1)",
       "sheet_path": [],
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "C27",
-          "value": "4.7 uF",
+          "ref": "C51",
+          "value": "100V682J",
           "missing_footprint": false,
           "pins": [
             "1"
           ]
         },
         {
-          "ref": "R21",
-          "value": "100",
+          "ref": "C52",
+          "value": "100V683J",
           "missing_footprint": false,
           "pins": [
             "2"
@@ -1210,16 +1624,16 @@
       ]
     },
     {
-      "name": "Net-(C29-Pad2)",
+      "name": "Net-(C52-Pad1)",
       "sheet_path": [],
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "C29",
-          "value": "7.5 nF",
+          "ref": "C52",
+          "value": "100V683J",
           "missing_footprint": false,
           "pins": [
-            "2"
+            "1"
           ]
         },
         {
@@ -1244,52 +1658,6 @@
           "missing_footprint": false,
           "pins": [
             "7"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Net-(C30-Pad1)",
-      "sheet_path": [],
-      "netclass": "Default",
-      "nodes": [
-        {
-          "ref": "C30",
-          "value": "4.7 uF",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
-          "ref": "R27",
-          "value": "100",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Net-(C8-Pad2)",
-      "sheet_path": [],
-      "netclass": "Default",
-      "nodes": [
-        {
-          "ref": "C8",
-          "value": "31.5 nF",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "R5",
-          "value": "10K",
-          "missing_footprint": false,
-          "pins": [
-            "1"
           ]
         }
       ]
@@ -1341,13 +1709,427 @@
       ]
     },
     {
+      "name": "Net-(R10-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R10",
+          "value": "22K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R14",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R11-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R11",
+          "value": "47K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R32",
+          "value": "43K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R14-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R14",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R42",
+          "value": "510",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R16-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R16",
+          "value": "180",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R30",
+          "value": "2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R29-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R29",
+          "value": "2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R9",
+          "value": "180",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R3-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R3",
+          "value": "22K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R7",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R31-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R31",
+          "value": "43K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R4",
+          "value": "47K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R31-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R31",
+          "value": "43K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R33",
+          "value": "910",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R32-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R32",
+          "value": "43K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R34",
+          "value": "910",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R35-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R35",
+          "value": "910",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R36",
+          "value": "43K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R36-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R36",
+          "value": "43K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R37",
+          "value": "47K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R38-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R38",
+          "value": "910",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R39",
+          "value": "43K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R39-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R39",
+          "value": "43K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R40",
+          "value": "47K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R41-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R41",
+          "value": "510",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R7",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R43-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R43",
+          "value": "22K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R44",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R44-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R44",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R45",
+          "value": "510",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R46-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R46",
+          "value": "22K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R47",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R47-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R47",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R48",
+          "value": "510",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Net-(U1A-+)",
       "sheet_path": [],
       "netclass": "Default",
       "nodes": [
         {
           "ref": "C25",
-          "value": "7.5 nF",
+          "value": "100V682J",
           "missing_footprint": false,
           "pins": [
             "2"
@@ -1385,11 +2167,11 @@
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "C26",
-          "value": "7.5 nF",
+          "ref": "C49",
+          "value": "100V682J",
           "missing_footprint": false,
           "pins": [
-            "1"
+            "2"
           ]
         },
         {
@@ -1425,7 +2207,7 @@
       "nodes": [
         {
           "ref": "C28",
-          "value": "7.5 nF",
+          "value": "100V682J",
           "missing_footprint": false,
           "pins": [
             "2"
@@ -1463,11 +2245,11 @@
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "C29",
-          "value": "7.5 nF",
+          "ref": "C51",
+          "value": "100V682J",
           "missing_footprint": false,
           "pins": [
-            "1"
+            "2"
           ]
         },
         {
@@ -1511,7 +2293,7 @@
         },
         {
           "ref": "R3",
-          "value": "23K5",
+          "value": "22K",
           "missing_footprint": false,
           "pins": [
             "1"
@@ -1541,8 +2323,8 @@
           ]
         },
         {
-          "ref": "R6",
-          "value": "23K5",
+          "ref": "R43",
+          "value": "22K",
           "missing_footprint": false,
           "pins": [
             "1"
@@ -1573,7 +2355,7 @@
         },
         {
           "ref": "R10",
-          "value": "23K5",
+          "value": "22K",
           "missing_footprint": false,
           "pins": [
             "1"
@@ -1603,8 +2385,8 @@
           ]
         },
         {
-          "ref": "R13",
-          "value": "23K5",
+          "ref": "R46",
+          "value": "22K",
           "missing_footprint": false,
           "pins": [
             "1"
