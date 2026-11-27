@@ -1156,7 +1156,7 @@
 		(uuid "54820a17-5c06-4af5-9e79-bb285a477346")
 	)
 	(junction
-		(at 143.51 121.92)
+		(at 149.86 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "660b2882-1de7-400c-a677-af18d2554ad1")
@@ -1320,23 +1320,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 121.92) (xy 147.32 121.92)
+			(xy 125.73 121.92) (xy 134.62 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c4486b-baa3-41e3-86e4-b1c07f68f501")
+	)
+	(wire
+		(pts
+			(xy 149.86 121.92) (xy 153.67 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "421d4b8c-b7c6-4f8c-acb8-653c11e59107")
-	)
-	(wire
-		(pts
-			(xy 128.27 121.92) (xy 125.73 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43a31844-ccd5-4ab5-8f8b-03ed08a92631")
 	)
 	(wire
 		(pts
@@ -1357,6 +1357,16 @@
 			(type default)
 		)
 		(uuid "5b551493-4bc6-4bf9-b20e-a11d2db3a1e4")
+	)
+	(wire
+		(pts
+			(xy 91.44 123.19) (xy 91.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693571cd-97bc-4424-9c2e-f52f2cb71c1e")
 	)
 	(wire
 		(pts
@@ -1390,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 127) (xy 91.44 134.62)
+			(xy 91.44 130.81) (xy 91.44 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1608,6 +1618,16 @@
 		)
 		(uuid "6fa5feb4-1fe0-44eb-86ea-49512e098332")
 	)
+	(label "DIFF_IN_P"
+		(at 91.44 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a19074d9-abcf-40e3-a950-4795fb14a87b")
+	)
 	(label "CHANNEL.OUT"
 		(at 204.47 49.53 0)
 		(effects
@@ -1628,8 +1648,28 @@
 		)
 		(uuid "c3d28bfa-a381-4b10-8e20-97f027e9aeb0")
 	)
+	(label "DIFF_OUT"
+		(at 125.73 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8329ec1-767e-450f-87b0-16bc17f2dc64")
+	)
+	(label "DIFF_IN_N"
+		(at 110.49 133.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb820cdd-962e-43b5-906c-ae559faed370")
+	)
 	(label "CHANNEL.OUT"
-		(at 147.32 121.92 0)
+		(at 153.67 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1824,7 +1864,7 @@
 				)
 			)
 		)
-		(property "Cluster" "SPOKE_BI_L_P12V"
+		(property "Cluster" "SPOKE_ARM_P12V"
 			(at 90.17 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -1867,7 +1907,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 125.73 180)
+		(at 149.86 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1878,7 +1918,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f13d600-56eb-4eaa-bc0e-a5027ebfb8fb")
 		(property "Reference" "R12"
-			(at 146.05 124.4599 0)
+			(at 152.4 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1889,7 +1929,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 146.05 126.9999 0)
+			(at 152.4 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1900,7 +1940,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 145.288 125.73 90)
+			(at 151.638 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1911,7 +1951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 125.73 0)
+			(at 149.86 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,7 +1962,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 125.73 0)
+			(at 149.86 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1932,8 +1972,8 @@
 				)
 			)
 		)
-		(property "Cluster" ""
-			(at 143.51 125.73 0)
+		(property "Cluster" "DIFF_OUT"
+			(at 149.86 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,8 +1983,8 @@
 				)
 			)
 		)
-		(property "Role" ""
-			(at 143.51 125.73 0)
+		(property "Role" "R_BLEED"
+			(at 149.86 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2030,6 +2070,28 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 106.68 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cluster" "OPAMP_CHANNEL"
+			(at 106.68 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" "OPAMP"
 			(at 106.68 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2144,7 +2206,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "DIFF_FB"
 			(at 125.73 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2155,7 +2217,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "C_FB_2"
 			(at 125.73 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2252,7 +2314,7 @@
 				)
 			)
 		)
-		(property "Cluster" "SPOKE_BI_L_N12V"
+		(property "Cluster" "SPOKE_ARM_N12V"
 			(at 77.47 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2442,7 +2504,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "DIFF_IN"
 			(at 78.74 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2453,7 +2515,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "C_LPF_2"
 			(at 78.74 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2548,7 +2610,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "DIFF_FB"
 			(at 118.11 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2559,7 +2621,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_FB"
 			(at 118.11 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2591,7 +2653,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 129.54 0)
+		(at 149.86 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2602,7 +2664,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a0956c2-4c48-48f7-b820-3c04b871777b")
 		(property "Reference" "#PWR023"
-			(at 143.51 135.89 0)
+			(at 149.86 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2613,7 +2675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 134.62 0)
+			(at 149.86 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2623,7 +2685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 129.54 0)
+			(at 149.86 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2634,7 +2696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 129.54 0)
+			(at 149.86 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2645,7 +2707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 129.54 0)
+			(at 149.86 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +2735,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 121.92 90)
+		(at 146.05 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2684,7 +2746,7 @@
 		(fields_autoplaced yes)
 		(uuid "37992d3f-e3f0-4b92-a78c-884f73eaacb5")
 		(property "Reference" "C23"
-			(at 139.7 114.3 90)
+			(at 146.05 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2694,7 +2756,7 @@
 			)
 		)
 		(property "Value" "100V475J"
-			(at 139.7 116.84 90)
+			(at 146.05 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2704,7 +2766,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3"
-			(at 143.51 120.9548 0)
+			(at 149.86 120.9548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2715,7 +2777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 121.92 0)
+			(at 146.05 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,7 +2788,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 121.92 0)
+			(at 146.05 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2736,8 +2798,8 @@
 				)
 			)
 		)
-		(property "Cluster" ""
-			(at 139.7 121.92 0)
+		(property "Cluster" "DIFF_OUT"
+			(at 146.05 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,8 +2809,8 @@
 				)
 			)
 		)
-		(property "Role" ""
-			(at 139.7 121.92 0)
+		(property "Role" "C_COUPLING"
+			(at 146.05 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2842,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "DIFF_IN"
 			(at 71.12 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2853,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_IN"
 			(at 71.12 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3056,7 +3118,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "DIFF_FB"
 			(at 104.14 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3067,7 +3129,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_DIFF_IN"
 			(at 104.14 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3099,7 +3161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 123.19 180)
+		(at 91.44 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3110,7 +3172,7 @@
 		(fields_autoplaced yes)
 		(uuid "5173330a-4412-4d30-acfc-1fa1fb1b4c9e")
 		(property "Reference" "R8"
-			(at 93.98 121.9199 0)
+			(at 93.98 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3121,7 +3183,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 93.98 124.4599 0)
+			(at 93.98 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3132,7 +3194,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 93.218 123.19 90)
+			(at 93.218 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 123.19 0)
+			(at 91.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3154,7 +3216,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 123.19 0)
+			(at 91.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3164,8 +3226,8 @@
 				)
 			)
 		)
-		(property "Cluster" ""
-			(at 91.44 123.19 0)
+		(property "Cluster" "DIFF_IN"
+			(at 91.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3175,8 +3237,8 @@
 				)
 			)
 		)
-		(property "Role" ""
-			(at 91.44 123.19 0)
+		(property "Role" "R_DIVIDER"
+			(at 91.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3269,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 121.92 90)
+		(at 138.43 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3218,7 +3280,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a4957c3-575f-4e7a-ad1e-d0d1bd082b91")
 		(property "Reference" "R11"
-			(at 132.08 115.57 90)
+			(at 138.43 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3228,7 +3290,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 132.08 118.11 90)
+			(at 138.43 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3238,7 +3300,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 132.08 123.698 90)
+			(at 138.43 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,7 +3311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 121.92 0)
+			(at 138.43 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3260,7 +3322,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 121.92 0)
+			(at 138.43 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3270,8 +3332,8 @@
 				)
 			)
 		)
-		(property "Cluster" ""
-			(at 132.08 121.92 0)
+		(property "Cluster" "DIFF_OUT"
+			(at 138.43 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3281,8 +3343,8 @@
 				)
 			)
 		)
-		(property "Role" ""
-			(at 132.08 121.92 0)
+		(property "Role" "R_SERIES"
+			(at 138.43 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +3794,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "DIFF_IN"
 			(at 78.74 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3743,7 +3805,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "C_LPF_1"
 			(at 78.74 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3838,7 +3900,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "OPAMP_DIFF"
 			(at 118.11 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3849,7 +3911,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "OPAMP"
 			(at 118.11 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4072,7 +4134,7 @@
 				)
 			)
 		)
-		(property "Cluster" "SPOKE_BI_L_P12V"
+		(property "Cluster" "SPOKE_ARM_P12V"
 			(at 77.47 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4180,7 +4242,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "DIFF_FB"
 			(at 110.49 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4191,7 +4253,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "C_FB_1"
 			(at 110.49 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4288,7 +4350,7 @@
 				)
 			)
 		)
-		(property "Cluster" "SPOKE_BI_L_N12V"
+		(property "Cluster" "SPOKE_ARM_N12V"
 			(at 90.17 53.34 0)
 			(hide yes)
 			(show_name no)

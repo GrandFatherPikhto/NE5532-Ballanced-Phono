@@ -94,6 +94,42 @@ scripts/.venv/bin/python scripts/calculate_balanced_riaa.py \
   --config scripts/config.toml --output-dir build/check
 ```
 
+## Run the QSPICE simulation on Windows
+
+Install Python 3.11 or later, KiCad with `kicad-cli.exe`, and QSPICE with
+`QSPICE64.exe`. Open PowerShell in the project root and run:
+
+```powershell
+python -m pip install -e scripts
+python scripts/simulate_qspice.py
+```
+
+Install the Python dependencies once per environment. Save your changes in
+KiCad before each run. The script exports the saved hierarchical schematic
+`PreAmp.kicad_sch` to fresh XML and builds the SPICE netlists from that export.
+Component values and connections come from this XML, so there is no need to
+regenerate `PreAmp.net`.
+
+The [`[qspice]` section of the TOML file](scripts/config.toml) controls the
+output directory, report and plot generation, and optional overrides for
+frequency range, point count, RIAA reference frequency, and external load.
+Set `kicad_cli` and `qspice64` there if automatic detection misses your
+installation, or pass `--kicad-cli` and `--qspice64` on the command line.
+Use `--config path/to/config.toml` for a separate set of settings. Setting
+`write_plots = false` allows running without Matplotlib.
+
+Each run prints the path to its results directory (by default,
+`build/qspice/run-*/`). Open `report.md` for gain at the reference frequency
+and the RIAA error extrema and their frequencies. Open `response.png` or
+`response.svg` for both channels' gain, phase, and RIAA error. The directory
+also contains per-channel CSV, CIR and QRAW files and the KiCad XML export.
+
+The script generates a linear, single-pole NE5532 approximation from the
+existing `[opamp]` settings (default open-loop gain 100,000 and GBW 12 MHz).
+It estimates gain and phase with an ideal differential source. Cartridge
+impedance, cable capacitance, noise, and output clipping are outside this
+model.
+
 ## Build the documents
 
 Install XeLaTeX, latexmk and the TeX packages used by the documents, including

@@ -770,13 +770,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 120.65) (xy 156.21 120.65)
+			(xy 148.59 120.65) (xy 152.4 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "55e88b84-e964-4b40-9653-c1ec3744a444")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 163.83 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c86af3a-c186-4900-b857-946de0f738cb")
 	)
 	(wire
 		(pts
@@ -790,6 +800,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 120.65) (xy 163.83 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ae24f4-1c99-4bd1-a489-ec140d069fd5")
+	)
+	(wire
+		(pts
 			(xy 132.08 81.28) (xy 135.89 81.28)
 		)
 		(stroke
@@ -797,16 +817,6 @@
 			(type default)
 		)
 		(uuid "e179cbc7-7c96-42f1-a5c6-8e28d23dab6c")
-	)
-	(wire
-		(pts
-			(xy 163.83 109.22) (xy 163.83 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3eeede8-fdb9-4061-b63d-e1ea85ecee99")
 	)
 	(wire
 		(pts
@@ -916,7 +926,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "ARM_FB"
 			(at 152.4 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -927,7 +937,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_FB_1"
 			(at 152.4 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1030,7 +1040,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "ARM_FB"
 			(at 152.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1041,7 +1051,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "C_EQ_1"
 			(at 152.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1146,7 +1156,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "ARM_IN"
 			(at 135.89 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1157,7 +1167,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_LOAD_2"
 			(at 135.89 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1197,7 +1207,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 120.65 90)
+		(at 156.21 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1208,7 +1218,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e403f61-24b2-4fc2-bf7c-771a4c9ea396")
 		(property "Reference" "C32"
-			(at 160.02 113.03 90)
+			(at 156.21 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1218,7 +1228,7 @@
 			)
 		)
 		(property "Value" "15 nF"
-			(at 160.02 115.57 90)
+			(at 156.21 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1228,7 +1238,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 163.83 119.6848 0)
+			(at 160.02 119.6848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1239,7 +1249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 120.65 0)
+			(at 156.21 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,7 +1260,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 160.02 120.65 0)
+			(at 156.21 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1260,8 +1270,8 @@
 				)
 			)
 		)
-		(property "Cluster" ""
-			(at 160.02 120.65 0)
+		(property "Cluster" "ARM_FB"
+			(at 156.21 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1271,8 +1281,8 @@
 				)
 			)
 		)
-		(property "Role" ""
-			(at 160.02 120.65 0)
+		(property "Role" "C_EQ_3"
+			(at 156.21 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1464,6 +1474,28 @@
 				)
 			)
 		)
+		(property "Cluster" "OPAMP_CHANNEL"
+			(at 163.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Role" "OPAMP"
+			(at 163.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "8139c4b5-e2ae-4c7e-892c-73c594b396d6")
 		)
@@ -1574,7 +1606,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "ARM_FB"
 			(at 167.64 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1585,7 +1617,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_EQ"
 			(at 167.64 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1688,7 +1720,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "ARM_FB"
 			(at 160.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1699,7 +1731,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_FB_2"
 			(at 160.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1802,7 +1834,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "ARM_FB"
 			(at 160.02 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1813,7 +1845,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "C_EQ2"
 			(at 160.02 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1916,7 +1948,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "ARM_IN"
 			(at 128.27 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1927,7 +1959,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "C_COUPLING"
 			(at 128.27 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2032,7 +2064,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "ARM_IN"
 			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2043,7 +2075,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_LOAD_3"
 			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2146,7 +2178,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "ARM_FB"
 			(at 167.64 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2157,7 +2189,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_FB_3"
 			(at 167.64 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2262,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "ARM_IN"
 			(at 135.89 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2273,7 +2305,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_LOAD_1"
 			(at 135.89 85.09 0)
 			(hide yes)
 			(show_name no)

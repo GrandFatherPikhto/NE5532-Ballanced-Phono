@@ -13,6 +13,20 @@ input_rms_v = 0.004              # Дифференциальное напряж
 external_load_ohm = 47000.0      # Вход AUX/LINE, отдельно от выходного 100 кОм.
 output_directory = "build/balanced_riaa"
 
+[qspice]
+output_directory = "build/qspice"
+write_report = true              # report.md
+write_plots = true               # response.png и response.svg
+# Пути можно указать, если автообнаружение не подходит.
+# qspice64 = 'C:\Users\grand\QSPICE\QSPICE64.exe'
+# kicad_cli = 'C:\Users\grand\AppData\Local\Programs\KiCad\10.99\bin\kicad-cli.exe'
+# Здесь можно переопределить параметры из [analysis] для QSPICE.
+# external_load_ohm = 47000.0
+# frequency_min_hz = 20.0
+# frequency_max_hz = 20000.0
+# reference_frequency_hz = 1000.0
+# points = 1001
+
 [opamp]
 # Учебная однополюсная модель: A(s) = A0 / (1 + s*A0/(2*pi*GBW)).
 # Типовые значения TI NE5532; это НЕ макромодель производителя.
