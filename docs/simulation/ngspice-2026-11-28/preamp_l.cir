@@ -1,0 +1,129 @@
+PreAmp stereo small-signal AC
+VCC vcc 0 12
+VEE vee 0 -12
+Vinp_l n4 0 DC 0 AC 0.5
+Vinn_l n3 0 DC 0 AC 0.5 180
+Vsense_l n5 line_l 0
+Rload_l line_l 0 47000.0
+Vinp_r n8 0 DC 0 AC 0
+Vinn_r n7 0 DC 0 AC 0 180
+Vsense_r n9 line_r 0
+Rload_r line_r 0 47000.0
+C1 n4 n3 2.2e-10
+C2 vcc 0 1e-05
+C3 vee 0 1e-05
+C4 vcc 0 1e-07
+C5 vee 0 1e-07
+C6 n8 n7 2.2e-10
+XU1a n14 n13 n15 opamp_one_pole
+XU1b n23 n22 n24 opamp_one_pole
+C45 vcc 0 0.0001
+C46 vcc 0 1e-07
+C47 0 vee 0.0001
+C48 0 vee 1e-07
+R1 vcc n48 4700
+R2 vee n49 4700
+C7 vcc 0 1e-05
+C8 vee 0 1e-05
+C9 vcc 0 1e-07
+C10 vee 0 1e-07
+C11 n30 n31 0.001
+C12 n16 n31 0.001
+C19 n14 n34 1.5e-08
+C20 n34 0 1.5e-08
+C21 n35 n13 1.5e-08
+C22 n15 n35 1.5e-08
+C23 n36 n5 4.7e-06
+R3 n50 n17 2
+R4 n30 n50 180
+R7 n19 n14 10000
+R8 0 n14 10000
+R9 n18 n13 10000
+R10 n13 n15 10000
+R11 n15 n36 100
+R12 0 n5 100000
+XU2a n12 n17 n19 opamp_one_pole
+XU2b n11 n16 n18 opamp_one_pole
+C29 n4 n12 4.7e-06
+C30 n17 n40 3.3e-08
+C31 n40 n41 3.3e-08
+C32 n17 n41 1.5e-08
+R19 n12 n52 22000
+R20 n52 n53 1000
+R21 n53 0 510
+R22 n54 n17 910
+R23 n55 n54 43000
+R24 n19 n55 47000
+R25 n41 n19 10000
+C33 n3 n11 4.7e-06
+C34 n16 n42 3.3e-08
+C35 n42 n43 3.3e-08
+C36 n16 n43 1.5e-08
+R26 n11 n56 22000
+R27 n56 n57 1000
+R28 n57 0 510
+R29 n58 n16 910
+R30 n59 n58 43000
+R31 n18 n59 47000
+R32 n43 n18 10000
+C13 vcc 0 1e-05
+C14 vee 0 1e-05
+C15 vcc 0 1e-07
+C16 vee 0 1e-07
+C17 n32 n33 0.001
+C18 n25 n33 0.001
+C24 n23 n37 1.5e-08
+C25 n37 0 1.5e-08
+C26 n38 n22 1.5e-08
+C27 n24 n38 1.5e-08
+C28 n39 n9 4.7e-06
+R5 n51 n26 2
+R6 n32 n51 180
+R13 n28 n23 10000
+R14 0 n23 10000
+R15 n27 n22 10000
+R16 n22 n24 10000
+R17 n24 n39 100
+R18 0 n9 100000
+XU3a n21 n26 n28 opamp_one_pole
+XU3b n20 n25 n27 opamp_one_pole
+C37 n8 n21 4.7e-06
+C38 n26 n44 3.3e-08
+C39 n44 n45 3.3e-08
+C40 n26 n45 1.5e-08
+R33 n21 n60 22000
+R34 n60 n61 1000
+R35 n61 0 510
+R36 n62 n26 910
+R37 n63 n62 43000
+R38 n28 n63 47000
+R39 n45 n28 10000
+C41 n7 n20 4.7e-06
+C42 n25 n46 3.3e-08
+C43 n46 n47 3.3e-08
+C44 n25 n47 1.5e-08
+R40 n20 n64 22000
+R41 n64 n65 1000
+R42 n65 0 510
+R43 n66 n25 910
+R44 n67 n66 43000
+R45 n27 n67 47000
+R46 n47 n27 10000
+* Linear teaching model, independent of supply rails.
+.subckt opamp_one_pole vp vn out
+Eopen drive 0 vp vn 100000.0
+Rpole drive pole 1k
+Cpole pole 0 1.32629119243246e-06
+Eout out 0 pole 0 1
+.ends
+.save V(line_l) V(line_r)
+.ac dec 334 20.0 20000.0
+* DC path for otherwise floating capacitor junctions.
+.options rshunt=1e+12
+.control
+run
+option numdgt=15
+wrdata preamp_l.dat v(line_l)
+quit
+.endc
+.end

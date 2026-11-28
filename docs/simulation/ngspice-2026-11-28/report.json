@@ -1,0 +1,18 @@
+{
+  "l": {
+    "points": 1003,
+    "gain_at_reference_v_per_v": 100.23888106880054,
+    "riaa_min_db": -0.11941728131290574,
+    "riaa_min_frequency_hz": 20000.00000000083,
+    "riaa_max_db": 0.0013104998035835536,
+    "riaa_max_frequency_hz": 382.3553060688945
+  },
+  "r": {
+    "points": 1003,
+    "gain_at_reference_v_per_v": 100.23888106876292,
+    "riaa_min_db": -0.1194172813093175,
+    "riaa_min_frequency_hz": 20000.00000000083,
+    "riaa_max_db": 0.0013104997973520938,
+    "riaa_max_frequency_hz": 382.3553060688945
+  }
+}

@@ -23,7 +23,7 @@ design uses three dual NE5532 packages and a ±12 V supply.
 | Gain bridge | 182 Ω in series with two back-to-back 1000 µF capacitors |
 | Differential amplifier | Four 10 kΩ resistors and two matched 7.5 nF capacitors per channel |
 | Line output | 100 Ω, series 4.7 µF, 100 kΩ to GND |
-| Power | ±12 V, supplied through J2 |
+| Power | ±12 V, supplied through J3 |
 
 The bridge capacitors have their negative terminals joined at a floating
 midpoint. Their linear series equivalent is 500 µF. The L− and R− cartridge
@@ -38,9 +38,9 @@ over 20 Hz–20 kHz.
 
 ## Project status and model limits
 
-The schematic is under development, with component selection and footprints
-still being finalized before PCB layout. `PreAmp.kicad_pcb` is an empty
-board placeholder. The separate LM317/LM337 power supply is documented in
+PCB routing is complete; hardware measurements are still pending. Component
+ratings and purchased parts must be checked before assembly.
+The separate LM317/LM337 power supply is documented in
 LaTeX; the KiCad preamplifier schematic receives regulated ±12 V and does
 not include that regulator circuit.
 
@@ -55,11 +55,13 @@ capacitor leakage and nonlinearity, and PCB parasitics.
 | Path | Contents |
 | --- | --- |
 | `PreAmp.kicad_pro`, `PreAmp.kicad_sch` | Main KiCad project and schematic |
-| `channel.kicad_sch`, `ballanced_in.kicad_sch`, `diffamp.kicad_sch`, `power.kicad_sch` | Hierarchical schematic sheets |
+| `channel.kicad_sch`, `arm.kicad_sch`, `power.kicad_sch` | Active hierarchical sheets; earlier variants are kept separately |
 | `PreAmp.net` | Exported netlist snapshot; may lag behind the schematic |
 | `out/` | Condensed netlists, BOM and audit snapshots for quick inspection |
 | `scripts/` | Python models, plotting tools, dependencies and `config.toml` |
 | `docs/latex/` | Circuit documents, shared LaTeX support files and PDF snapshots |
+| `docs/images/` | Published simulation plots in PNG, SVG and PDF |
+| [docs/simulation/ngspice-2026-11-28/](docs/simulation/ngspice-2026-11-28/) | Archived ngspice results, source netlists and run parameters |
 | [docs/PHONO_GUIDE.pdf](docs/PHONO_GUIDE.pdf) | Detailed design guide in Russian; source: [PHONO_GUIDE.tex](docs/PHONO_GUIDE.tex) |
 | [docs/POWER.md](docs/POWER.md) | Preliminary transformer notes; actual voltages and phasing require verification |
 | `docs/scheme/` | Reference scans for the Melodiya-103 player |
@@ -171,6 +173,44 @@ and uses the same ngspice backend settings without modifying the QSPICE decks.
 Both simulators use the same linear one-pole op-amp approximation described
 above. These plots do not predict noise, distortion, overload or real-device
 stability.
+
+## Published ngspice results — 28 November 2026
+
+The snapshot below comes from `build/ngspice/run-_ttt3q4u`, using ngspice
+45.2 with the KiCad-exported component values and connections. The input is
+an ideal differential source; the external load is 47 kΩ per channel.
+The sweep covers 20 Hz–20 kHz with 1003 samples per channel. RIAA deviation
+is normalized at 1 kHz. The one-pole op-amp model uses A₀ = 100,000 and
+GBW = 12 MHz.
+
+| Quantity | Left | Right |
+| --- | ---: | ---: |
+| Gain at 1 kHz, V/V | 100.23888 | 100.23888 |
+| Gain at 1 kHz, dB | 40.02072 | 40.02072 |
+| Minimum RIAA deviation, dB | −0.11942 at 20 kHz | −0.11942 at 20 kHz |
+| Maximum RIAA deviation, dB | +0.00131 at 382.36 Hz | +0.00131 at 382.36 Hz |
+
+![ngspice gain, phase and normalized RIAA deviation for both channels](docs/images/ngspice-2026-11-28-response-en.png)
+
+The top panel shows the intended RIAA playback response; the falling gain
+with frequency is part of the equalization. The middle panel shows signal
+phase, and the bottom panel shows deviation from the RIAA reference after
+removing the gain difference at 1 kHz. For a 4 mV RMS differential input,
+the modeled output at 1 kHz is approximately 0.401 V RMS.
+
+The L/R curves overlap because the simulation uses matched nominal parts
+and identical op-amp parameters, without component tolerances. This does
+not establish real channel matching or CMRR. The finite open-loop gain
+makes this result slightly different from the ideal-op-amp calculation
+above. The KiCad snapshot also uses 23.51 kΩ and 90.91 kΩ resistor sums,
+where the analytical configuration uses rounded 23.5 kΩ and 90.9 kΩ values.
+Cartridge/cable impedance, PCB parasitics, noise, distortion, clipping and
+real-device stability are outside this model.
+
+The [archived data and reproduction notes](docs/simulation/ngspice-2026-11-28/README.md)
+include CSV/DAT results, SPICE decks, the KiCad XML, configuration and run
+metadata. The [balanced circuit PDF](docs/latex/ne5532_ad3600l_ballanced.pdf)
+and [design guide](docs/PHONO_GUIDE.pdf) include the same results and comments.
 
 ## Build the documents
 

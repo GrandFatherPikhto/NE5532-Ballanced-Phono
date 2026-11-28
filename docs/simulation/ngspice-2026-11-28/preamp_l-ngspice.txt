@@ -1,0 +1,14 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: preamp stereo small-signal ac
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1003
+ngspice-45.2 done
+
+--- stderr ---

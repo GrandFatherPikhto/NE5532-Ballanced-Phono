@@ -1,0 +1,102 @@
+{
+  "source_run": "build/ngspice/run-_ttt3q4u",
+  "published_on": "2026-11-28",
+  "files": [
+    {
+      "source": "PreAmp.xml",
+      "published": "PreAmp.xml",
+      "sha256": "981db912334f15719ca26d39af9c3b9883747c921c2b046f61e7452275e7f595"
+    },
+    {
+      "source": "config.toml",
+      "published": "config.toml",
+      "sha256": "ebebc7f4e35d9d708cfd049e617125a927ad175ed131a891487504857a1e20ff"
+    },
+    {
+      "source": "run_info.json",
+      "published": "run_info.json",
+      "sha256": "f53163e852ca95948b6a490ba9da76b4ca0cb235a41e46d0e56fcd9c0455fec6"
+    },
+    {
+      "source": "report.json",
+      "published": "report.json",
+      "sha256": "267cfc9122ee97162e1c4ad0db2260976a15bdeb75bd51ba09001b58f3c0ae28"
+    },
+    {
+      "source": "preamp_l.csv",
+      "published": "preamp_l.csv",
+      "sha256": "a32e2965fb7f9e78ede6e402f1b4488700dc8ecaf6cbfa4e356ad8ff2f41e99b"
+    },
+    {
+      "source": "preamp_r.csv",
+      "published": "preamp_r.csv",
+      "sha256": "fe5d5e18df923a136a6bc6d9188eddcc0d9e64ec4e84b580e5477d6dd68bb46e"
+    },
+    {
+      "source": "preamp_l.cir",
+      "published": "preamp_l.cir",
+      "sha256": "44480de10287f8b7698d48fe789aced72a877d4d2901ee4d2683d887555fd6e6"
+    },
+    {
+      "source": "preamp_r.cir",
+      "published": "preamp_r.cir",
+      "sha256": "6d159d5ad8577c95dc44bcc64002589e13532fd9469374ef641b60817ad7dcec"
+    },
+    {
+      "source": "preamp_l.dat",
+      "published": "preamp_l.dat",
+      "sha256": "292db8f4604ce5b7fc649c6a1398a25f88941cedd4e73bcc936887d84856e76f"
+    },
+    {
+      "source": "preamp_r.dat",
+      "published": "preamp_r.dat",
+      "sha256": "1987c062d26841c7901e699f9828d670bc626f3133f98819a7da170f1f5e7d43"
+    },
+    {
+      "source": "preamp_l.log",
+      "published": "preamp_l-ngspice.txt",
+      "sha256": "bdaf6a4e202e96a4386130239d0ba624d48f5bd47dc710f07bd735e7027ea8a7"
+    },
+    {
+      "source": "preamp_r.log",
+      "published": "preamp_r-ngspice.txt",
+      "sha256": "bdaf6a4e202e96a4386130239d0ba624d48f5bd47dc710f07bd735e7027ea8a7"
+    },
+    {
+      "source": "response.png",
+      "published": "../../images/ngspice-2026-11-28-response-ru.png",
+      "sha256": "c7037fe2cc6cb49b85c55a0ee8a908b7e2252267c4773ba467128f6c94ea275e"
+    },
+    {
+      "source": "response.svg",
+      "published": "../../images/ngspice-2026-11-28-response-ru.svg",
+      "sha256": "9ff2001bb90aa84f9ddc391f5c35a70cef040449cfea3ecd2df5eb236674d618"
+    }
+  ],
+  "derived_files": [
+    {
+      "published": "../../images/ngspice-2026-11-28-response-en.png",
+      "sha256": "56c8e7662f131f04a1ceb7ca00b1b94d0e9790a7ca16b72baf7747ee2a06aef5",
+      "source": [
+        "preamp_l.csv",
+        "preamp_r.csv"
+      ],
+      "conversion": "plot_english.py (Matplotlib)"
+    },
+    {
+      "published": "../../images/ngspice-2026-11-28-response-en.svg",
+      "sha256": "ad5b24e34dd68e37908a992a63ddadbe5c9874cab54ad2ab302a5ba48e0aa10a",
+      "source": [
+        "preamp_l.csv",
+        "preamp_r.csv"
+      ],
+      "conversion": "plot_english.py (Matplotlib)"
+    },
+    {
+      "published": "../../images/ngspice-2026-11-28-response-ru.pdf",
+      "sha256": "9da1e812467f9daf3363c25df048144cac21b8f587b5b94ade9efd98796c518f",
+      "source": "response.svg",
+      "conversion": "librsvg/Cairo SVG to vector PDF"
+    }
+  ]
+}

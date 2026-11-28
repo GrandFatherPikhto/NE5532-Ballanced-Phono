@@ -1,0 +1,30 @@
+{
+  "simulator": "ngspice",
+  "backend": "native",
+  "command": [
+    "/usr/bin/ngspice",
+    "-n",
+    "-b"
+  ],
+  "rshunt_ohm": 1000000000000.0,
+  "analysis": {
+    "frequency_min_hz": 20.0,
+    "frequency_max_hz": 20000.0,
+    "points": 1001,
+    "reference_frequency_hz": 1000.0,
+    "input_rms_v": 0.004,
+    "external_load_ohm": 47000.0,
+    "output_directory": "build/balanced_riaa"
+  },
+  "opamp": {
+    "open_loop_gain": 100000.0,
+    "gain_bandwidth_hz": 12000000.0
+  },
+  "riaa": {
+    "low_frequency_pole_s": 0.00318,
+    "zero_s": 0.000318,
+    "high_frequency_pole_s": 7.5e-05
+  },
+  "xml_sha256": "981db912334f15719ca26d39af9c3b9883747c921c2b046f61e7452275e7f595",
+  "model": "Linear one-pole op amp; ideal output and supplies; no cartridge/cable, noise, distortion, clipping, or real-device stability validation."
+}
