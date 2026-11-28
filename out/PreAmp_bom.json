@@ -264,6 +264,30 @@
     "missing_footprint": false
   },
   {
+    "ref": "C45",
+    "value": "100 uF 25V",
+    "footprint": "CP_Radial_D5.0mm_P2.50mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C46",
+    "value": "100 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C47",
+    "value": "100 uF 25V",
+    "footprint": "CP_Radial_D5.0mm_P2.50mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C48",
+    "value": "100 nF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
     "ref": "D1",
     "value": "LED",
     "footprint": "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
@@ -273,6 +297,30 @@
     "ref": "D2",
     "value": "LED",
     "footprint": "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "H1",
+    "value": "MountingHole_Pad",
+    "footprint": "MountingHole_3.2mm_M3_DIN965_Pad",
+    "missing_footprint": false
+  },
+  {
+    "ref": "H2",
+    "value": "MountingHole_Pad",
+    "footprint": "MountingHole_3.2mm_M3_DIN965_Pad",
+    "missing_footprint": false
+  },
+  {
+    "ref": "H3",
+    "value": "MountingHole_Pad",
+    "footprint": "MountingHole_3.2mm_M3_DIN965_Pad",
+    "missing_footprint": false
+  },
+  {
+    "ref": "H4",
+    "value": "MountingHole_Pad",
+    "footprint": "MountingHole_3.2mm_M3_DIN965_Pad",
     "missing_footprint": false
   },
   {

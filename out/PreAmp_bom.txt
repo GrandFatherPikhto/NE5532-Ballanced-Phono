@@ -46,8 +46,16 @@ C41  | 4.7 uF                    | C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3
 C42  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C43  | 33 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C44  | 15 nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C45  | 100 uF 25V                | CP_Radial_D5.0mm_P2.50mm      
+C46  | 100 nF                    | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C47  | 100 uF 25V                | CP_Radial_D5.0mm_P2.50mm      
+C48  | 100 nF                    | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 D1   | LED                       | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
 D2   | LED                       | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+H1   | MountingHole_Pad          | MountingHole_3.2mm_M3_DIN965_Pad
+H2   | MountingHole_Pad          | MountingHole_3.2mm_M3_DIN965_Pad
+H3   | MountingHole_Pad          | MountingHole_3.2mm_M3_DIN965_Pad
+H4   | MountingHole_Pad          | MountingHole_3.2mm_M3_DIN965_Pad
 J1   | Signal In                 | IDC-Header_2x04_P2.54mm_Vertical
 J2   | Signal Out                | JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
 J3   | Power PN12V               | JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical

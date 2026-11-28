@@ -1,6 +1,6 @@
 Цепей (без unconnected): 65
 
-[Default ] prio=2147483647 track=0.20 clr=0.20 via=0.60/0.30 diffpair=0.20/0.25mm   65: +12V, -12V, /CH_L.IN_N, /CH_L.IN_P, /CH_L.OUT, /CH_R.IN_N, /CH_R.IN_P, /CH_R.OUT, /ChannelL/FB_N, /ChannelL/FB_P, /ChannelL/X_N, /ChannelL/X_P, /ChannelR/FB_N, /ChannelR/FB_P, /ChannelR/X_N, /ChannelR/X_P, GND, Net-(C11-Pad1), Net-(C11-Pad2), Net-(C17-Pad1), Net-(C17-Pad2), Net-(C19-Pad2), Net-(C21-Pad1), Net-(C22-Pad1), Net-(C23-Pad1), Net-(C24-Pad2), Net-(C26-Pad1), Net-(C27-Pad1), Net-(C28-Pad1), Net-(C30-Pad2), Net-(C31-Pad2), Net-(C34-Pad2), Net-(C35-Pad2), Net-(C38-Pad2), Net-(C39-Pad2), Net-(C42-Pad2), Net-(C43-Pad2), Net-(D1-A), Net-(D2-K), Net-(R19-Pad2), Net-(R20-Pad2), Net-(R22-Pad1), Net-(R23-Pad1), Net-(R26-Pad2), Net-(R27-Pad2), Net-(R29-Pad1), Net-(R3-Pad1), Net-(R30-Pad1), Net-(R33-Pad2), Net-(R34-Pad2), Net-(R36-Pad1), Net-(R37-Pad1), Net-(R40-Pad2), Net-(R41-Pad2), Net-(R43-Pad1), Net-(R44-Pad1), Net-(R5-Pad1), Net-(U1A-+), Net-(U1A--), Net-(U1B-+), Net-(U1B--), Net-(U2A-+), Net-(U2B-+), Net-(U3A-+), Net-(U3B-+)
+[Default ] prio=2147483647 track=0.20 clr=0.20 via=0.60/0.30 diffpair=0.20/0.25mm   65: +12V, -12V, /CH_L.IN_N, /CH_L.IN_P, /CH_L.OUT, /CH_R.IN_N, /CH_R.IN_P, /CH_R.OUT, /ChannelL/ArmN/IN_AC, /ChannelL/ArmP/IN_AC, /ChannelL/DIFF_IN_N, /ChannelL/DIFF_IN_P, /ChannelL/DIFF_OUT, /ChannelL/FB_N, /ChannelL/FB_P, /ChannelL/X_N, /ChannelL/X_P, /ChannelR/ArmN/IN_AC, /ChannelR/ArmP/IN_AC, /ChannelR/DIFF_IN_N, /ChannelR/DIFF_IN_P, /ChannelR/DIFF_OUT, /ChannelR/FB_N, /ChannelR/FB_P, /ChannelR/X_N, /ChannelR/X_P, GND, Net-(C11-Pad1), Net-(C11-Pad2), Net-(C17-Pad1), Net-(C17-Pad2), Net-(C19-Pad2), Net-(C21-Pad1), Net-(C23-Pad1), Net-(C24-Pad2), Net-(C26-Pad1), Net-(C28-Pad1), Net-(C30-Pad2), Net-(C31-Pad2), Net-(C34-Pad2), Net-(C35-Pad2), Net-(C38-Pad2), Net-(C39-Pad2), Net-(C42-Pad2), Net-(C43-Pad2), Net-(D1-A), Net-(D2-K), Net-(R19-Pad2), Net-(R20-Pad2), Net-(R22-Pad1), Net-(R23-Pad1), Net-(R26-Pad2), Net-(R27-Pad2), Net-(R29-Pad1), Net-(R3-Pad1), Net-(R30-Pad1), Net-(R33-Pad2), Net-(R34-Pad2), Net-(R36-Pad1), Net-(R37-Pad1), Net-(R40-Pad2), Net-(R41-Pad2), Net-(R43-Pad1), Net-(R44-Pad1), Net-(R5-Pad1)
 
 [Default] 65 цепей — мимо всех паттернов:
     +12V
@@ -11,10 +11,20 @@
     /CH_R.IN_N
     /CH_R.IN_P
     /CH_R.OUT
+    /ChannelL/ArmN/IN_AC
+    /ChannelL/ArmP/IN_AC
+    /ChannelL/DIFF_IN_N
+    /ChannelL/DIFF_IN_P
+    /ChannelL/DIFF_OUT
     /ChannelL/FB_N
     /ChannelL/FB_P
     /ChannelL/X_N
     /ChannelL/X_P
+    /ChannelR/ArmN/IN_AC
+    /ChannelR/ArmP/IN_AC
+    /ChannelR/DIFF_IN_N
+    /ChannelR/DIFF_IN_P
+    /ChannelR/DIFF_OUT
     /ChannelR/FB_N
     /ChannelR/FB_P
     /ChannelR/X_N
@@ -26,11 +36,9 @@
     Net-(C17-Pad2)
     Net-(C19-Pad2)
     Net-(C21-Pad1)
-    Net-(C22-Pad1)
     Net-(C23-Pad1)
     Net-(C24-Pad2)
     Net-(C26-Pad1)
-    Net-(C27-Pad1)
     Net-(C28-Pad1)
     Net-(C30-Pad2)
     Net-(C31-Pad2)
@@ -60,16 +68,8 @@
     Net-(R43-Pad1)
     Net-(R44-Pad1)
     Net-(R5-Pad1)
-    Net-(U1A-+)
-    Net-(U1A--)
-    Net-(U1B-+)
-    Net-(U1B--)
-    Net-(U2A-+)
-    Net-(U2B-+)
-    Net-(U3A-+)
-    Net-(U3B-+)
 
-!! Подозрительные в Default (50) — проверь руками:
+!! Подозрительные в Default (40) — проверь руками:
     +12V
     -12V
     Net-(C11-Pad1)
@@ -78,11 +78,9 @@
     Net-(C17-Pad2)
     Net-(C19-Pad2)
     Net-(C21-Pad1)
-    Net-(C22-Pad1)
     Net-(C23-Pad1)
     Net-(C24-Pad2)
     Net-(C26-Pad1)
-    Net-(C27-Pad1)
     Net-(C28-Pad1)
     Net-(C30-Pad2)
     Net-(C31-Pad2)
@@ -112,11 +110,3 @@
     Net-(R41-Pad2)
     Net-(R43-Pad1)
     Net-(R44-Pad1)
-    Net-(U1A-+)
-    Net-(U1A--)
-    Net-(U1B-+)
-    Net-(U1B--)
-    Net-(U2A-+)
-    Net-(U2B-+)
-    Net-(U3A-+)
-    Net-(U3B-+)

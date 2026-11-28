@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/denis/Projects/KiCad/Player/PreAmp/PreAmp.kicad_sch")
-		(date "2026-11-26T19:02:48")
+		(date "2026-11-28T12:25:50")
 		(tool "Eeschema 10.0.8-10.0.8~ubuntu26.04.1")
 		(sheet
 			(number "1")
@@ -463,9 +463,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "DIFFAMP_SPOKE_P12V")
+					(name "Cluster") "DIFF_SPOKE_P12V")
 				(field
-					(name "Role") "C_BLUK")
+					(name "Role") "C_BULK")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -481,11 +481,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "DIFFAMP_SPOKE_P12V")
+				(value "DIFF_SPOKE_P12V")
 			)
 			(property
 				(name "Role")
-				(value "C_BLUK")
+				(value "C_BULK")
 			)
 			(property
 				(name "Sheetname")
@@ -529,7 +529,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "DIFFAMP_SPOKE_N12V")
+					(name "Cluster") "DIFF_SPOKE_N12V")
 				(field
 					(name "Role") "C_BULK")
 				(field
@@ -547,7 +547,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "DIFFAMP_SPOKE_N12V")
+				(value "DIFF_SPOKE_N12V")
 			)
 			(property
 				(name "Role")
@@ -595,7 +595,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "DIFFAMP_SPOKE_P12V")
+					(name "Cluster") "DIFF_SPOKE_P12V")
 				(field
 					(name "Role") "C_BYPASS")
 				(field
@@ -613,7 +613,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "DIFFAMP_SPOKE_P12V")
+				(value "DIFF_SPOKE_P12V")
 			)
 			(property
 				(name "Role")
@@ -661,7 +661,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "DIFFAMP_SPOKE_N12V")
+					(name "Cluster") "DIFF_SPOKE_N12V")
 				(field
 					(name "Role") "C_BYPASS")
 				(field
@@ -679,7 +679,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "DIFFAMP_SPOKE_N12V")
+				(value "DIFF_SPOKE_N12V")
 			)
 			(property
 				(name "Role")
@@ -781,6 +781,270 @@
 						)
 						(pin
 							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "MountingHole_Pad")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+			(description "Mounting Hole with connection")
+			(fields
+				(field
+					(name "Cluster") "MOUNTING_HOLES")
+				(field
+					(name "Role") "MH_01")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
+			)
+			(property
+				(name "Cluster")
+				(value "MOUNTING_HOLES")
+			)
+			(property
+				(name "Role")
+				(value "MH_01")
+			)
+			(property
+				(name "Sheetname")
+				(value "PreAmp")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PreAmp.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae506a2f-370e-4ea2-bbc2-46ed399b83b1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "MountingHole_Pad")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+			(description "Mounting Hole with connection")
+			(fields
+				(field
+					(name "Cluster") "MOUNTING_HOLES")
+				(field
+					(name "Role") "MH_02")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
+			)
+			(property
+				(name "Cluster")
+				(value "MOUNTING_HOLES")
+			)
+			(property
+				(name "Role")
+				(value "MH_02")
+			)
+			(property
+				(name "Sheetname")
+				(value "PreAmp")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PreAmp.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "38062be7-6f02-4a77-8a01-03e4a555ffd2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "MountingHole_Pad")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+			(description "Mounting Hole with connection")
+			(fields
+				(field
+					(name "Cluster") "MOUNTING_HOLES")
+				(field
+					(name "Role") "MH_03")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
+			)
+			(property
+				(name "Cluster")
+				(value "MOUNTING_HOLES")
+			)
+			(property
+				(name "Role")
+				(value "MH_03")
+			)
+			(property
+				(name "Sheetname")
+				(value "PreAmp")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PreAmp.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cb60e1dd-e40b-4675-93ca-10d05f6049a4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "MountingHole_Pad")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+			(description "Mounting Hole with connection")
+			(fields
+				(field
+					(name "Cluster") "MOUNTING_HOLES")
+				(field
+					(name "Role") "MH_04")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
+			)
+			(property
+				(name "Cluster")
+				(value "MOUNTING_HOLES")
+			)
+			(property
+				(name "Role")
+				(value "MH_04")
+			)
+			(property
+				(name "Sheetname")
+				(value "PreAmp")
+			)
+			(property
+				(name "Sheetfile")
+				(value "PreAmp.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "130aeea8-afa5-4700-8b1b-c84d871aeb43")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
 						)
 					)
 				)
@@ -950,11 +1214,9 @@
 			(description "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "OPAMP_DIFF")
 				(field
-					(name "Role")
-				)
+					(name "Role") "OPAMP")
 				(field
 					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
@@ -969,11 +1231,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "OPAMP_DIFF")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "OPAMP")
 			)
 			(property
 				(name "Sheetname")
@@ -1039,6 +1301,270 @@
 			)
 		)
 		(comp
+			(ref "C45")
+			(value "100 uF 25V")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_P12V")
+				(field
+					(name "Role") "C_BULK")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_P12V")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/effc5641-fda8-402e-a139-c70bc5273f4d/")
+			)
+			(tstamps "bbaa0d0a-9271-4aa4-93b4-fe9a8d2fbe97")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C46")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_P12V")
+				(field
+					(name "Role") "C_BYPASS")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_P12V")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/effc5641-fda8-402e-a139-c70bc5273f4d/")
+			)
+			(tstamps "74b385cd-0f19-4800-beb4-079e46c0189c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C47")
+			(value "100 uF 25V")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_N12V")
+				(field
+					(name "Role") "C_BULK")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_N12V")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/effc5641-fda8-402e-a139-c70bc5273f4d/")
+			)
+			(tstamps "fd69c19a-e4f3-4da9-9c23-fd6f67658711")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C48")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_N12V")
+				(field
+					(name "Role") "C_BYPASS")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_N12V")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/effc5641-fda8-402e-a139-c70bc5273f4d/")
+			)
+			(tstamps "03309484-cc25-4678-ada5-62661b55ec83")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "D1")
 			(value "LED")
 			(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -1047,9 +1573,9 @@
 				(field
 					(name "Sim.Pins") "1=K 2=A")
 				(field
-					(name "Cluster") "PWR_PN12V")
+					(name "Cluster") "SPOKE_P12V")
 				(field
-					(name "Role") "LED_P12V")
+					(name "Role") "LED")
 				(field
 					(name "Footprint") "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
 				(field
@@ -1069,11 +1595,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "PWR_PN12V")
+				(value "SPOKE_P12V")
 			)
 			(property
 				(name "Role")
-				(value "LED_P12V")
+				(value "LED")
 			)
 			(property
 				(name "Sheetname")
@@ -1119,9 +1645,9 @@
 				(field
 					(name "Sim.Pins") "1=K 2=A")
 				(field
-					(name "Cluster") "PWR_PN12V")
+					(name "Cluster") "SPOKE_N12V")
 				(field
-					(name "Role") "LED_N12V")
+					(name "Role") "LED")
 				(field
 					(name "Footprint") "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
 				(field
@@ -1141,11 +1667,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "PWR_PN12V")
+				(value "SPOKE_N12V")
 			)
 			(property
 				(name "Role")
-				(value "LED_N12V")
+				(value "LED")
 			)
 			(property
 				(name "Sheetname")
@@ -1258,9 +1784,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster") "PWR_PN12V")
+					(name "Cluster") "SPOKE_P12V")
 				(field
-					(name "Role") "R_P12V_LED")
+					(name "Role") "R_LED")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 				(field
@@ -1276,11 +1802,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "PWR_PN12V")
+				(value "SPOKE_P12V")
 			)
 			(property
 				(name "Role")
-				(value "R_P12V_LED")
+				(value "R_LED")
 			)
 			(property
 				(name "Sheetname")
@@ -1324,9 +1850,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster") "PWR_PN12V")
+					(name "Cluster") "SPOKE_N12V")
 				(field
-					(name "Role") "R_LED_N12V")
+					(name "Role") "R_LED")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 				(field
@@ -1342,11 +1868,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "PWR_PN12V")
+				(value "SPOKE_N12V")
 			)
 			(property
 				(name "Role")
-				(value "R_LED_N12V")
+				(value "R_LED")
 			)
 			(property
 				(name "Sheetname")
@@ -1390,7 +1916,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "SPOKE_BI_L_P12V")
+					(name "Cluster") "SPOKE_ARM_P12V")
 				(field
 					(name "Role") "C_BULK")
 				(field
@@ -1408,7 +1934,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "SPOKE_BI_L_P12V")
+				(value "SPOKE_ARM_P12V")
 			)
 			(property
 				(name "Role")
@@ -1456,7 +1982,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "SPOKE_BI_L_N12V")
+					(name "Cluster") "SPOKE_ARM_N12V")
 				(field
 					(name "Role") "C_BULK")
 				(field
@@ -1474,7 +2000,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "SPOKE_BI_L_N12V")
+				(value "SPOKE_ARM_N12V")
 			)
 			(property
 				(name "Role")
@@ -1522,7 +2048,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "SPOKE_BI_L_P12V")
+					(name "Cluster") "SPOKE_ARM_P12V")
 				(field
 					(name "Role") "C_BYPASS")
 				(field
@@ -1540,7 +2066,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "SPOKE_BI_L_P12V")
+				(value "SPOKE_ARM_P12V")
 			)
 			(property
 				(name "Role")
@@ -1588,7 +2114,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "SPOKE_BI_L_N12V")
+					(name "Cluster") "SPOKE_ARM_N12V")
 				(field
 					(name "Role") "C_BYPASS")
 				(field
@@ -1606,7 +2132,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "SPOKE_BI_L_N12V")
+				(value "SPOKE_ARM_N12V")
 			)
 			(property
 				(name "Role")
@@ -1654,11 +2180,9 @@
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "GAIN_BRIDGE")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_BLOCK_P")
 				(field
 					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 				(field
@@ -1674,11 +2198,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "GAIN_BRIDGE")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_BLOCK_P")
 			)
 			(property
 				(name "Sheetname")
@@ -1722,11 +2246,9 @@
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "GAIN_BRIDGE")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_BLOCK_N")
 				(field
 					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 				(field
@@ -1742,11 +2264,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "GAIN_BRIDGE")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_BLOCK_N")
 			)
 			(property
 				(name "Sheetname")
@@ -1790,11 +2312,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_LPF_1")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -1810,11 +2330,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_LPF_1")
 			)
 			(property
 				(name "Sheetname")
@@ -1858,11 +2378,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_LPF_2")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -1878,11 +2396,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_LPF_2")
 			)
 			(property
 				(name "Sheetname")
@@ -1926,11 +2444,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_FB_1")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -1946,11 +2462,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_FB_1")
 			)
 			(property
 				(name "Sheetname")
@@ -1994,11 +2510,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_FB_2")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -2014,11 +2528,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_FB_2")
 			)
 			(property
 				(name "Sheetname")
@@ -2062,11 +2576,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_OUT")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_COUPLING")
 				(field
 					(name "Footprint") "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3")
 				(field
@@ -2082,11 +2594,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_OUT")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_COUPLING")
 			)
 			(property
 				(name "Sheetname")
@@ -2130,11 +2642,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "GAIN_BRIDGE")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_GAIN_1")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 				(field
@@ -2150,11 +2660,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "GAIN_BRIDGE")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_GAIN_1")
 			)
 			(property
 				(name "Sheetname")
@@ -2198,11 +2708,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "GAIN_BRIDGE")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_GAIN_2")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 				(field
@@ -2218,11 +2726,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "GAIN_BRIDGE")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_GAIN_2")
 			)
 			(property
 				(name "Sheetname")
@@ -2266,11 +2774,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_IN")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -2286,11 +2792,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_IN")
 			)
 			(property
 				(name "Sheetname")
@@ -2334,11 +2840,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_DIVIDER")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -2354,11 +2858,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_DIVIDER")
 			)
 			(property
 				(name "Sheetname")
@@ -2402,11 +2906,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_DIFF_IN")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -2422,11 +2924,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_DIFF_IN")
 			)
 			(property
 				(name "Sheetname")
@@ -2470,11 +2972,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -2490,11 +2990,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB")
 			)
 			(property
 				(name "Sheetname")
@@ -2538,11 +3038,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_OUT")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_SERIES")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -2558,11 +3056,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_OUT")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_SERIES")
 			)
 			(property
 				(name "Sheetname")
@@ -2606,11 +3104,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_OUT")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_BLEED")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -2626,11 +3122,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_OUT")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_BLEED")
 			)
 			(property
 				(name "Sheetname")
@@ -2675,6 +3171,10 @@
 			(description "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8")
 			(fields
 				(field
+					(name "Cluster") "OPAMP_CHANNEL")
+				(field
+					(name "Role") "OPAMP")
+				(field
 					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ne5532.pdf")
@@ -2685,6 +3185,14 @@
 				(lib "Amplifier_Operational")
 				(part "NE5532")
 				(description "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8")
+			)
+			(property
+				(name "Cluster")
+				(value "OPAMP_CHANNEL")
+			)
+			(property
+				(name "Role")
+				(value "OPAMP")
 			)
 			(property
 				(name "Sheetname")
@@ -2756,11 +3264,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_COUPLING")
 				(field
 					(name "Footprint") "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3")
 				(field
@@ -2776,11 +3282,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_COUPLING")
 			)
 			(property
 				(name "Sheetname")
@@ -2824,11 +3330,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ_1")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -2844,11 +3348,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ_1")
 			)
 			(property
 				(name "Sheetname")
@@ -2892,11 +3396,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ2")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -2912,11 +3414,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ2")
 			)
 			(property
 				(name "Sheetname")
@@ -2960,11 +3462,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ_3")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -2980,11 +3480,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ_3")
 			)
 			(property
 				(name "Sheetname")
@@ -3028,11 +3528,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_1")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -3048,11 +3546,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_1")
 			)
 			(property
 				(name "Sheetname")
@@ -3096,11 +3594,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_2")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -3116,11 +3612,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_2")
 			)
 			(property
 				(name "Sheetname")
@@ -3164,11 +3660,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_3")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -3184,11 +3678,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_3")
 			)
 			(property
 				(name "Sheetname")
@@ -3232,11 +3726,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_1")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -3252,11 +3744,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_1")
 			)
 			(property
 				(name "Sheetname")
@@ -3300,11 +3792,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_2")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -3320,11 +3810,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_2")
 			)
 			(property
 				(name "Sheetname")
@@ -3368,11 +3858,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_3")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -3388,11 +3876,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_3")
 			)
 			(property
 				(name "Sheetname")
@@ -3436,11 +3924,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_EQ")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -3456,11 +3942,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_EQ")
 			)
 			(property
 				(name "Sheetname")
@@ -3504,11 +3990,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_COUPLING")
 				(field
 					(name "Footprint") "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3")
 				(field
@@ -3524,11 +4008,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_COUPLING")
 			)
 			(property
 				(name "Sheetname")
@@ -3572,11 +4056,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ_1")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -3592,11 +4074,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ_1")
 			)
 			(property
 				(name "Sheetname")
@@ -3640,11 +4122,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ2")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -3660,11 +4140,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ2")
 			)
 			(property
 				(name "Sheetname")
@@ -3708,11 +4188,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ_3")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -3728,11 +4206,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ_3")
 			)
 			(property
 				(name "Sheetname")
@@ -3776,11 +4254,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_1")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -3796,11 +4272,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_1")
 			)
 			(property
 				(name "Sheetname")
@@ -3844,11 +4320,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_2")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -3864,11 +4338,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_2")
 			)
 			(property
 				(name "Sheetname")
@@ -3912,11 +4386,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_3")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -3932,11 +4404,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_3")
 			)
 			(property
 				(name "Sheetname")
@@ -3980,11 +4452,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_1")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -4000,11 +4470,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_1")
 			)
 			(property
 				(name "Sheetname")
@@ -4048,11 +4518,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_2")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -4068,11 +4536,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_2")
 			)
 			(property
 				(name "Sheetname")
@@ -4116,11 +4584,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_3")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -4136,11 +4602,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_3")
 			)
 			(property
 				(name "Sheetname")
@@ -4184,11 +4650,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_EQ")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -4204,11 +4668,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_EQ")
 			)
 			(property
 				(name "Sheetname")
@@ -4252,7 +4716,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "SPOKE_BI_L_P12V")
+					(name "Cluster") "SPOKE_ARM_P12V")
 				(field
 					(name "Role") "C_BULK")
 				(field
@@ -4270,7 +4734,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "SPOKE_BI_L_P12V")
+				(value "SPOKE_ARM_P12V")
 			)
 			(property
 				(name "Role")
@@ -4318,7 +4782,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "SPOKE_BI_L_N12V")
+					(name "Cluster") "SPOKE_ARM_N12V")
 				(field
 					(name "Role") "C_BULK")
 				(field
@@ -4336,7 +4800,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "SPOKE_BI_L_N12V")
+				(value "SPOKE_ARM_N12V")
 			)
 			(property
 				(name "Role")
@@ -4384,7 +4848,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "SPOKE_BI_L_P12V")
+					(name "Cluster") "SPOKE_ARM_P12V")
 				(field
 					(name "Role") "C_BYPASS")
 				(field
@@ -4402,7 +4866,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "SPOKE_BI_L_P12V")
+				(value "SPOKE_ARM_P12V")
 			)
 			(property
 				(name "Role")
@@ -4450,7 +4914,7 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster") "SPOKE_BI_L_N12V")
+					(name "Cluster") "SPOKE_ARM_N12V")
 				(field
 					(name "Role") "C_BYPASS")
 				(field
@@ -4468,7 +4932,7 @@
 			)
 			(property
 				(name "Cluster")
-				(value "SPOKE_BI_L_N12V")
+				(value "SPOKE_ARM_N12V")
 			)
 			(property
 				(name "Role")
@@ -4516,11 +4980,9 @@
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "GAIN_BRIDGE")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_BLOCK_P")
 				(field
 					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 				(field
@@ -4536,11 +4998,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "GAIN_BRIDGE")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_BLOCK_P")
 			)
 			(property
 				(name "Sheetname")
@@ -4584,11 +5046,9 @@
 			(description "Polarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "GAIN_BRIDGE")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_BLOCK_N")
 				(field
 					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 				(field
@@ -4604,11 +5064,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "GAIN_BRIDGE")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_BLOCK_N")
 			)
 			(property
 				(name "Sheetname")
@@ -4652,11 +5112,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_LPF_1")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -4672,11 +5130,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_LPF_1")
 			)
 			(property
 				(name "Sheetname")
@@ -4720,11 +5178,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_LPF_2")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -4740,11 +5196,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_LPF_2")
 			)
 			(property
 				(name "Sheetname")
@@ -4788,11 +5244,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_FB_1")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -4808,11 +5262,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_FB_1")
 			)
 			(property
 				(name "Sheetname")
@@ -4856,11 +5310,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_FB_2")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -4876,11 +5328,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_FB_2")
 			)
 			(property
 				(name "Sheetname")
@@ -4924,11 +5376,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_OUT")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_COUPLING")
 				(field
 					(name "Footprint") "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3")
 				(field
@@ -4944,11 +5394,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_OUT")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_COUPLING")
 			)
 			(property
 				(name "Sheetname")
@@ -4992,11 +5442,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "GAIN_BRIDGE")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_GAIN_1")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 				(field
@@ -5012,11 +5460,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "GAIN_BRIDGE")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_GAIN_1")
 			)
 			(property
 				(name "Sheetname")
@@ -5060,11 +5508,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "GAIN_BRIDGE")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_GAIN_2")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 				(field
@@ -5080,11 +5526,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "GAIN_BRIDGE")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_GAIN_2")
 			)
 			(property
 				(name "Sheetname")
@@ -5128,11 +5574,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_IN")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -5148,11 +5592,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_IN")
 			)
 			(property
 				(name "Sheetname")
@@ -5196,11 +5640,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_DIVIDER")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -5216,11 +5658,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_DIVIDER")
 			)
 			(property
 				(name "Sheetname")
@@ -5264,11 +5706,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_DIFF_IN")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -5284,11 +5724,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_DIFF_IN")
 			)
 			(property
 				(name "Sheetname")
@@ -5332,11 +5772,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -5352,11 +5790,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB")
 			)
 			(property
 				(name "Sheetname")
@@ -5400,11 +5838,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_OUT")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_SERIES")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -5420,11 +5856,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_OUT")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_SERIES")
 			)
 			(property
 				(name "Sheetname")
@@ -5468,11 +5904,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "DIFF_OUT")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_BLEED")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -5488,11 +5922,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "DIFF_OUT")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_BLEED")
 			)
 			(property
 				(name "Sheetname")
@@ -5537,6 +5971,10 @@
 			(description "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8")
 			(fields
 				(field
+					(name "Cluster") "OPAMP_CHANNEL")
+				(field
+					(name "Role") "OPAMP")
+				(field
 					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ne5532.pdf")
@@ -5547,6 +5985,14 @@
 				(lib "Amplifier_Operational")
 				(part "NE5532")
 				(description "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8")
+			)
+			(property
+				(name "Cluster")
+				(value "OPAMP_CHANNEL")
+			)
+			(property
+				(name "Role")
+				(value "OPAMP")
 			)
 			(property
 				(name "Sheetname")
@@ -5618,11 +6064,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_COUPLING")
 				(field
 					(name "Footprint") "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3")
 				(field
@@ -5638,11 +6082,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_COUPLING")
 			)
 			(property
 				(name "Sheetname")
@@ -5686,11 +6130,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ_1")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -5706,11 +6148,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ_1")
 			)
 			(property
 				(name "Sheetname")
@@ -5754,11 +6196,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ2")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -5774,11 +6214,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ2")
 			)
 			(property
 				(name "Sheetname")
@@ -5822,11 +6262,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ_3")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -5842,11 +6280,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ_3")
 			)
 			(property
 				(name "Sheetname")
@@ -5890,11 +6328,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_1")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -5910,11 +6346,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_1")
 			)
 			(property
 				(name "Sheetname")
@@ -5958,11 +6394,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_2")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -5978,11 +6412,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_2")
 			)
 			(property
 				(name "Sheetname")
@@ -6026,11 +6460,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_3")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6046,11 +6478,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_3")
 			)
 			(property
 				(name "Sheetname")
@@ -6094,11 +6526,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_1")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6114,11 +6544,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_1")
 			)
 			(property
 				(name "Sheetname")
@@ -6162,11 +6592,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_2")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6182,11 +6610,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_2")
 			)
 			(property
 				(name "Sheetname")
@@ -6230,11 +6658,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_3")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6250,11 +6676,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_3")
 			)
 			(property
 				(name "Sheetname")
@@ -6298,11 +6724,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_EQ")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6318,11 +6742,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_EQ")
 			)
 			(property
 				(name "Sheetname")
@@ -6366,11 +6790,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_COUPLING")
 				(field
 					(name "Footprint") "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3")
 				(field
@@ -6386,11 +6808,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_COUPLING")
 			)
 			(property
 				(name "Sheetname")
@@ -6434,11 +6856,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ_1")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -6454,11 +6874,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ_1")
 			)
 			(property
 				(name "Sheetname")
@@ -6502,11 +6922,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ2")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -6522,11 +6940,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ2")
 			)
 			(property
 				(name "Sheetname")
@@ -6570,11 +6988,9 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "C_EQ_3")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
@@ -6590,11 +7006,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "C_EQ_3")
 			)
 			(property
 				(name "Sheetname")
@@ -6638,11 +7054,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_1")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6658,11 +7072,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_1")
 			)
 			(property
 				(name "Sheetname")
@@ -6706,11 +7120,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_2")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6726,11 +7138,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_2")
 			)
 			(property
 				(name "Sheetname")
@@ -6774,11 +7186,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_IN")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_LOAD_3")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6794,11 +7204,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_IN")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_LOAD_3")
 			)
 			(property
 				(name "Sheetname")
@@ -6842,11 +7252,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_1")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6862,11 +7270,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_1")
 			)
 			(property
 				(name "Sheetname")
@@ -6910,11 +7318,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_2")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6930,11 +7336,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_2")
 			)
 			(property
 				(name "Sheetname")
@@ -6978,11 +7384,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_FB_3")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -6998,11 +7402,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_FB_3")
 			)
 			(property
 				(name "Sheetname")
@@ -7046,11 +7450,9 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "Cluster")
-				)
+					(name "Cluster") "ARM_FB")
 				(field
-					(name "Role")
-				)
+					(name "Role") "R_EQ")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
@@ -7066,11 +7468,11 @@
 			)
 			(property
 				(name "Cluster")
-				(value "")
+				(value "ARM_FB")
 			)
 			(property
 				(name "Role")
-				(value "")
+				(value "R_EQ")
 			)
 			(property
 				(name "Sheetname")
@@ -7472,6 +7874,35 @@
 				)
 			)
 		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole_Pad")
+			(description "Mounting Hole with connection")
+			(footprints
+				(fp "MountingHole*Pad*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole_Pad")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "input")
+				)
+			)
+		)
 	)
 	(libraries
 		(library
@@ -7485,6 +7916,10 @@
 		(library
 			(logical "Device")
 			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
 		)
 	)
 	(nets
@@ -7509,6 +7944,16 @@
 			)
 			(node
 				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C45")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C46")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -7574,6 +8019,16 @@
 			(node
 				(ref "C3")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C47")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C48")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -7744,6 +8199,125 @@
 		)
 		(net
 			(code "11")
+			(name "/ChannelL/ArmN/IN_AC")
+			(class "Default")
+			(node
+				(ref "C33")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "+_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "/ChannelL/ArmP/IN_AC")
+			(class "Default")
+			(node
+				(ref "C29")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "/ChannelL/DIFF_IN_N")
+			(class "Default")
+			(node
+				(ref "C21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "/ChannelL/DIFF_IN_P")
+			(class "Default")
+			(node
+				(ref "C19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "/ChannelL/DIFF_OUT")
+			(class "Default")
+			(node
+				(ref "C22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "16")
 			(name "/ChannelL/FB_N")
 			(class "Default")
 			(node
@@ -7774,7 +8348,7 @@
 			)
 		)
 		(net
-			(code "12")
+			(code "17")
 			(name "/ChannelL/FB_P")
 			(class "Default")
 			(node
@@ -7805,7 +8379,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "18")
 			(name "/ChannelL/X_N")
 			(class "Default")
 			(node
@@ -7830,7 +8404,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "19")
 			(name "/ChannelL/X_P")
 			(class "Default")
 			(node
@@ -7855,7 +8429,126 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "20")
+			(name "/ChannelR/ArmN/IN_AC")
+			(class "Default")
+			(node
+				(ref "C41")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R40")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "+_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "21")
+			(name "/ChannelR/ArmP/IN_AC")
+			(class "Default")
+			(node
+				(ref "C37")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R33")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "22")
+			(name "/ChannelR/DIFF_IN_N")
+			(class "Default")
+			(node
+				(ref "C26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "-_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "23")
+			(name "/ChannelR/DIFF_IN_P")
+			(class "Default")
+			(node
+				(ref "C24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "+_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "24")
+			(name "/ChannelR/DIFF_OUT")
+			(class "Default")
+			(node
+				(ref "C27")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "25")
 			(name "/ChannelR/FB_N")
 			(class "Default")
 			(node
@@ -7886,7 +8579,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "26")
 			(name "/ChannelR/FB_P")
 			(class "Default")
 			(node
@@ -7917,7 +8610,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "27")
 			(name "/ChannelR/X_N")
 			(class "Default")
 			(node
@@ -7942,7 +8635,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "28")
 			(name "/ChannelR/X_P")
 			(class "Default")
 			(node
@@ -7967,7 +8660,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "29")
 			(name "GND")
 			(class "Default")
 			(node
@@ -8021,6 +8714,26 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C45")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C46")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C47")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C48")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "C5")
 				(pin "2")
 				(pintype "passive")
@@ -8051,6 +8764,30 @@
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "passive")
+			)
+			(node
+				(ref "H1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "H2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "H3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "H4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
 			)
 			(node
 				(ref "J1")
@@ -8136,7 +8873,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "30")
 			(name "Net-(C11-Pad1)")
 			(class "Default")
 			(node
@@ -8151,7 +8888,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "31")
 			(name "Net-(C11-Pad2)")
 			(class "Default")
 			(node
@@ -8166,7 +8903,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "32")
 			(name "Net-(C17-Pad1)")
 			(class "Default")
 			(node
@@ -8181,7 +8918,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "33")
 			(name "Net-(C17-Pad2)")
 			(class "Default")
 			(node
@@ -8196,7 +8933,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "34")
 			(name "Net-(C19-Pad2)")
 			(class "Default")
 			(node
@@ -8211,7 +8948,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "35")
 			(name "Net-(C21-Pad1)")
 			(class "Default")
 			(node
@@ -8226,32 +8963,7 @@
 			)
 		)
 		(net
-			(code "26")
-			(name "Net-(C22-Pad1)")
-			(class "Default")
-			(node
-				(ref "C22")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R10")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R11")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "1")
-				(pintype "output")
-			)
-		)
-		(net
-			(code "27")
+			(code "36")
 			(name "Net-(C23-Pad1)")
 			(class "Default")
 			(node
@@ -8266,7 +8978,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "37")
 			(name "Net-(C24-Pad2)")
 			(class "Default")
 			(node
@@ -8281,7 +8993,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "38")
 			(name "Net-(C26-Pad1)")
 			(class "Default")
 			(node
@@ -8296,32 +9008,7 @@
 			)
 		)
 		(net
-			(code "30")
-			(name "Net-(C27-Pad1)")
-			(class "Default")
-			(node
-				(ref "C27")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R16")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R17")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "7")
-				(pintype "output")
-			)
-		)
-		(net
-			(code "31")
+			(code "39")
 			(name "Net-(C28-Pad1)")
 			(class "Default")
 			(node
@@ -8336,7 +9023,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "40")
 			(name "Net-(C30-Pad2)")
 			(class "Default")
 			(node
@@ -8351,7 +9038,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "41")
 			(name "Net-(C31-Pad2)")
 			(class "Default")
 			(node
@@ -8371,7 +9058,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "42")
 			(name "Net-(C34-Pad2)")
 			(class "Default")
 			(node
@@ -8386,7 +9073,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "43")
 			(name "Net-(C35-Pad2)")
 			(class "Default")
 			(node
@@ -8406,7 +9093,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "44")
 			(name "Net-(C38-Pad2)")
 			(class "Default")
 			(node
@@ -8421,7 +9108,7 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "45")
 			(name "Net-(C39-Pad2)")
 			(class "Default")
 			(node
@@ -8441,7 +9128,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "46")
 			(name "Net-(C42-Pad2)")
 			(class "Default")
 			(node
@@ -8456,7 +9143,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "47")
 			(name "Net-(C43-Pad2)")
 			(class "Default")
 			(node
@@ -8476,7 +9163,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "48")
 			(name "Net-(D1-A)")
 			(class "Default")
 			(node
@@ -8492,7 +9179,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "49")
 			(name "Net-(D2-K)")
 			(class "Default")
 			(node
@@ -8508,7 +9195,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "50")
 			(name "Net-(R3-Pad1)")
 			(class "Default")
 			(node
@@ -8523,7 +9210,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "51")
 			(name "Net-(R5-Pad1)")
 			(class "Default")
 			(node
@@ -8538,7 +9225,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "52")
 			(name "Net-(R19-Pad2)")
 			(class "Default")
 			(node
@@ -8553,7 +9240,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "53")
 			(name "Net-(R20-Pad2)")
 			(class "Default")
 			(node
@@ -8568,7 +9255,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "54")
 			(name "Net-(R22-Pad1)")
 			(class "Default")
 			(node
@@ -8583,7 +9270,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "55")
 			(name "Net-(R23-Pad1)")
 			(class "Default")
 			(node
@@ -8598,7 +9285,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "56")
 			(name "Net-(R26-Pad2)")
 			(class "Default")
 			(node
@@ -8613,7 +9300,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "57")
 			(name "Net-(R27-Pad2)")
 			(class "Default")
 			(node
@@ -8628,7 +9315,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "58")
 			(name "Net-(R29-Pad1)")
 			(class "Default")
 			(node
@@ -8643,7 +9330,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "59")
 			(name "Net-(R30-Pad1)")
 			(class "Default")
 			(node
@@ -8658,7 +9345,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "60")
 			(name "Net-(R33-Pad2)")
 			(class "Default")
 			(node
@@ -8673,7 +9360,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "61")
 			(name "Net-(R34-Pad2)")
 			(class "Default")
 			(node
@@ -8688,7 +9375,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "62")
 			(name "Net-(R36-Pad1)")
 			(class "Default")
 			(node
@@ -8703,7 +9390,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "63")
 			(name "Net-(R37-Pad1)")
 			(class "Default")
 			(node
@@ -8718,7 +9405,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "64")
 			(name "Net-(R40-Pad2)")
 			(class "Default")
 			(node
@@ -8733,7 +9420,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "65")
 			(name "Net-(R41-Pad2)")
 			(class "Default")
 			(node
@@ -8748,7 +9435,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "66")
 			(name "Net-(R43-Pad1)")
 			(class "Default")
 			(node
@@ -8763,7 +9450,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "67")
 			(name "Net-(R44-Pad1)")
 			(class "Default")
 			(node
@@ -8775,194 +9462,6 @@
 				(ref "R45")
 				(pin "2")
 				(pintype "passive")
-			)
-		)
-		(net
-			(code "60")
-			(name "Net-(U1A-+)")
-			(class "Default")
-			(node
-				(ref "C19")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R7")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R8")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "3")
-				(pinfunction "+_3")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "61")
-			(name "Net-(U1A--)")
-			(class "Default")
-			(node
-				(ref "C21")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R10")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R9")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "2")
-				(pinfunction "-_2")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "62")
-			(name "Net-(U1B-+)")
-			(class "Default")
-			(node
-				(ref "C24")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R13")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R14")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "5")
-				(pinfunction "+_5")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "63")
-			(name "Net-(U1B--)")
-			(class "Default")
-			(node
-				(ref "C26")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R15")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R16")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "6")
-				(pinfunction "-_6")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "64")
-			(name "Net-(U2A-+)")
-			(class "Default")
-			(node
-				(ref "C29")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R19")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "3")
-				(pinfunction "+_3")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "65")
-			(name "Net-(U2B-+)")
-			(class "Default")
-			(node
-				(ref "C33")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R26")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "5")
-				(pinfunction "+_5")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "66")
-			(name "Net-(U3A-+)")
-			(class "Default")
-			(node
-				(ref "C37")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R33")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U3")
-				(pin "3")
-				(pinfunction "+_3")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "67")
-			(name "Net-(U3B-+)")
-			(class "Default")
-			(node
-				(ref "C41")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R40")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U3")
-				(pin "5")
-				(pinfunction "+_5")
-				(pintype "input")
 			)
 		)
 	)
