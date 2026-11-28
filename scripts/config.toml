@@ -27,6 +27,23 @@ write_plots = true               # response.png и response.svg
 # reference_frequency_hz = 1000.0
 # points = 1001
 
+[ngspice]
+output_directory = "build/ngspice"
+write_report = true              # report.md и report.json
+write_plots = true               # response.png и response.svg
+backend = "auto"                # auto: native, затем WSL; также native или wsl
+wsl_distro = "Ubuntu-24.04"      # используется только для WSL
+timeout_s = 90                  # таймаут одной внешней команды
+rshunt_ohm = 1e12                # DC-путь для плавающих узлов между конденсаторами
+# ngspice = "/usr/bin/ngspice"   # путь/команда native; Linux-команда при backend=wsl
+# kicad_cli = "/usr/bin/kicad-cli"
+# Независимые переопределения [analysis] для ngspice:
+# external_load_ohm = 47000.0
+# frequency_min_hz = 20.0
+# frequency_max_hz = 20000.0
+# reference_frequency_hz = 1000.0
+# points = 1001                  # целевая плотность логарифмической AC-сетки
+
 [opamp]
 # Учебная однополюсная модель: A(s) = A0 / (1 + s*A0/(2*pi*GBW)).
 # Типовые значения TI NE5532; это НЕ макромодель производителя.

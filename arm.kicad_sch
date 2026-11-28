@@ -828,6 +828,16 @@
 		)
 		(uuid "f2fda712-9510-4847-88ca-79dbcc2dad2a")
 	)
+	(label "IN_AC"
+		(at 135.89 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "232d0a6f-d075-4a8a-8bdc-61cdd2f58f4f")
+	)
 	(hierarchical_label "FB"
 		(shape input)
 		(at 148.59 120.65 180)

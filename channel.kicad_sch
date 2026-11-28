@@ -1756,7 +1756,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "GAIN_BRIDGE"
 			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -1767,7 +1767,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "C_BLOCK_P"
 			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3012,7 +3012,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "GAIN_BRIDGE"
 			(at 138.43 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3023,7 +3023,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_GAIN_2"
 			(at 138.43 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3604,7 +3604,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "GAIN_BRIDGE"
 			(at 138.43 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3615,7 +3615,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "R_GAIN_1"
 			(at 138.43 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4026,7 +4026,7 @@
 				)
 			)
 		)
-		(property "Cluster" ""
+		(property "Cluster" "GAIN_BRIDGE"
 			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4037,7 +4037,7 @@
 				)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "C_BLOCK_N"
 			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)

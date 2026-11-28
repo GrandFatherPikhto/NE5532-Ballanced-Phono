@@ -130,6 +130,48 @@ It estimates gain and phase with an ideal differential source. Cartridge
 impedance, cable capacitance, noise, and output clipping are outside this
 model.
 
+## Run ngspice independently
+
+Install ngspice and KiCad CLI, then run from the project root:
+
+```sh
+python scripts/simulate_ngspice.py
+```
+
+This exports the saved KiCad schematic and runs both channels without a
+previous QSPICE run. On Linux and Windows, native ngspice is used when found
+on `PATH`. On Windows, `backend = "auto"` falls back to ngspice inside WSL;
+KiCad CLI still runs on the host. Use `--backend native` or `--backend wsl`
+to select explicitly.
+
+The [`[ngspice]` section](scripts/config.toml) controls the backend, output
+directory, report/plot switches, timeout and optional overrides of the
+`[analysis]` frequency range, reference frequency, load and point count.
+`points` controls the target logarithmic sweep density; the exact sample
+count can differ because SPICE uses an integer number of points per decade.
+Executable paths can be set with `ngspice`/`kicad_cli` or the CLI options
+`--ngspice`/`--kicad-cli`. `wsl_distro` or `--distro` selects the WSL distribution.
+CLI options take priority. Paths in TOML are relative to the project root;
+an executable's bare name is looked up on `PATH`.
+
+```sh
+python scripts/simulate_ngspice.py --config scripts/config.toml --backend native
+python scripts/compare_ngspice.py build/qspice/run-example --backend native
+```
+
+Results go to a new `build/ngspice/run-*/` directory: per-channel CSV
+(gain, phase and RIAA error), DAT (frequency and complex voltage), CIR and
+logs, plus the KiCad XML, original configuration and effective run metadata.
+With `write_report = true`, `report.md` and `report.json` contain the gain
+and RIAA extrema; with `write_plots = true`, `response.png` and `response.svg`
+show gain, phase and RIAA error for both channels. Disable plots to run
+without Matplotlib. Comparison mode retains its per-channel comparison CSV
+and uses the same ngspice backend settings without modifying the QSPICE decks.
+
+Both simulators use the same linear one-pole op-amp approximation described
+above. These plots do not predict noise, distortion, overload or real-device
+stability.
+
 ## Build the documents
 
 Install XeLaTeX, latexmk and the TeX packages used by the documents, including

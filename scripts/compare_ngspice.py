@@ -1,4 +1,4 @@
-"""Compare a saved QSPICE AC run with ngspice in WSL using the same netlists."""
+"""Compare a saved QSPICE AC run with native ngspice or ngspice in WSL."""
 
 import argparse
 from bisect import bisect_left
@@ -7,41 +7,11 @@ import math
 from pathlib import Path
 import subprocess
 
+from ngspice_common import make_runner, ngspice_deck, read_ngspice_table
+from spice_common import load_config
+
 
 ROOT = Path(__file__).resolve().parents[1]
-
-
-def ngspice_deck(deck, channel, output="/dev/stdout"):
-    body, end = deck.read_text(encoding="ascii").rstrip().rsplit("\n", 1)
-    if end.strip().lower() != ".end":
-        raise ValueError(f"{deck}: missing final .end")
-    # Purely capacitive internal nodes have no DC path in the KiCad deck.
-    return (
-        f"{body}\n.options rshunt=1e12\n.control\nrun\noption numdgt=15\n"
-        f"wrdata {output} v(line_{channel})\nquit\n.endc\n.end\n"
-    )
-
-
-def read_ngspice_table(output):
-    points = []
-    for line in output.splitlines():
-        fields = line.split()
-        if len(fields) != 3:
-            continue
-        try:
-            frequency, real, imaginary = map(float, fields)
-        except ValueError:
-            continue
-        voltage = complex(real, imaginary)
-        if frequency <= 0 or not math.isfinite(frequency) or not 0 < abs(voltage) < math.inf:
-            raise ValueError("Invalid ngspice AC sample")
-        if points and frequency <= points[-1][0]:
-            raise ValueError("ngspice AC frequencies must be strictly increasing")
-        points.append((frequency, 20 * math.log10(abs(voltage)),
-                       math.degrees(math.atan2(imaginary, real))))
-    if len(points) < 2:
-        raise ValueError(f"No ngspice AC table received:\n{output[-1500:]}")
-    return points
 
 
 def interpolate(points, frequencies, frequency):
@@ -74,9 +44,9 @@ def compare(qspice_csv, points):
     return rows
 
 
-def latest_run():
+def latest_run(directory=None):
     runs = []
-    for path in (ROOT / "build/qspice").glob("run-*"):
+    for path in (directory or ROOT / "build/qspice").glob("run-*"):
         try:
             if all((path / f"preamp_{ch}.{ext}").is_file()
                    for ch in ("l", "r") for ext in ("cir", "csv")):
@@ -89,28 +59,27 @@ def latest_run():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("run", nargs="?", type=Path, help="QSPICE run directory (default: latest)")
-    parser.add_argument("--distro", default="Ubuntu-24.04")
+    parser.add_argument("--config", type=Path, default=ROOT / "scripts/config.toml")
+    parser.add_argument("--backend", choices=("auto", "native", "wsl"))
+    parser.add_argument("--ngspice", help="Native executable, or Linux command with --backend wsl")
+    parser.add_argument("--distro", help="WSL distribution")
     args = parser.parse_args()
-    run = args.run or latest_run()
-    if run is None:
-        parser.error("No QSPICE run found. Run scripts/simulate_qspice.py first.")
-
     comparisons = {}
     try:
+        cfg = load_config(args.config, "ngspice")
+        runner = make_runner(cfg["ngspice"], backend=args.backend,
+                             ngspice=args.ngspice, distro=args.distro)
+        directory = ROOT / cfg.get("qspice", {}).get("output_directory", "build/qspice")
+        run = args.run or latest_run(directory)
+        if run is None:
+            parser.error("No QSPICE run found. Run scripts/simulate_qspice.py first.")
         for channel in ("l", "r"):
-            process = subprocess.run(
-                ["wsl.exe", "-d", args.distro, "--exec", "ngspice", "-n", "-b"],
-                input=ngspice_deck(run / f"preamp_{channel}.cir", channel).encode("ascii"),
-                capture_output=True, timeout=60,
-            )
-            if process.returncode:
-                message = process.stderr or process.stdout
-                encoding = "utf-16-le" if b"\0" in message else "utf-8"
-                parser.exit(1, f"ngspice/WSL exited with {process.returncode}: "
-                            f"{message.decode(encoding, errors='replace').strip(chr(0xfeff)).strip()}\n")
-            points = read_ngspice_table(process.stdout.decode("utf-8", errors="replace"))
+            samples = runner.run(run / f"preamp_{channel}.cir", channel, run,
+                                 stem=f"ngspice_compare_{channel}")
+            points = [(f, 20 * math.log10(abs(v)), math.degrees(math.atan2(v.imag, v.real)))
+                      for f, v in samples]
             comparisons[channel] = compare(run / f"preamp_{channel}.csv", points)
-    except (OSError, ValueError, subprocess.TimeoutExpired) as error:
+    except (OSError, ValueError, KeyError, RuntimeError, subprocess.TimeoutExpired) as error:
         parser.exit(1, f"{error}\n")
 
     for channel, rows in comparisons.items():
