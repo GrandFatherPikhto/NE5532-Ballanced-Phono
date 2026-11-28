@@ -1,38 +1,7 @@
 {
-  "added_nets": [
-    "/ChannelL/ArmN/IN_AC",
-    "/ChannelL/ArmP/IN_AC",
-    "/ChannelL/DIFF_IN_N",
-    "/ChannelL/DIFF_IN_P",
-    "/ChannelL/DIFF_OUT",
-    "/ChannelR/ArmN/IN_AC",
-    "/ChannelR/ArmP/IN_AC",
-    "/ChannelR/DIFF_IN_N",
-    "/ChannelR/DIFF_IN_P",
-    "/ChannelR/DIFF_OUT"
-  ],
-  "removed_nets": [
-    "Net-(C22-Pad1)",
-    "Net-(C27-Pad1)",
-    "Net-(U1A-+)",
-    "Net-(U1A--)",
-    "Net-(U1B-+)",
-    "Net-(U1B--)",
-    "Net-(U2A-+)",
-    "Net-(U2B-+)",
-    "Net-(U3A-+)",
-    "Net-(U3B-+)"
-  ],
+  "added_nets": [],
+  "removed_nets": [],
   "reclassified": [],
-  "added_components": [
-    "C45",
-    "C46",
-    "C47",
-    "C48",
-    "H1",
-    "H2",
-    "H3",
-    "H4"
-  ],
+  "added_components": [],
   "removed_components": []
 }
